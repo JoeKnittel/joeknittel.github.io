@@ -1,4 +1,4 @@
-# Blog
+# My Blog
 
 This repository contains all of my blog entries, which pertain primarily (but not necessarily entirely) to actuarial science and data science. 
 
