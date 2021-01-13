@@ -1,5 +1,9 @@
-# Actuarial Blog
+# Blog
 
-This repository will contain all the files composing my blog, which will contain entries pertaining primarily to actuarial science and data science. 
+This repository contains all of my blog entries, which pertaining primarily (but not necessarily entirely) to actuarial science and data science. 
 
-The blog will be hosted on GitHub Pages and can be accessed at: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
+The blog is powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). 
+
+<hr>
+
+You can access the blog here: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
