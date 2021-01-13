@@ -1,1 +1,1 @@
-# JoeKnittel.github.io
+# My Actuarial Blog
