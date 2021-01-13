@@ -7,3 +7,5 @@ The blog is powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pag
 <hr>
 
 You can access the blog here: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
+
+[Test](https://github.com/JoeKnittel/LaTeX/blob/main/Notes/Exam%20STAM/Loss%20Models/Loss-Models-Notes.md)
