@@ -5,8 +5,6 @@ date:   2021-01-13 20:30:30
 author: "Joe"
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 This is just a test post to make sure everything's set up properly.
 
 **A bit of Python code**:
@@ -22,7 +20,7 @@ while(x):
 
 **Some LaTeX**:
 
-<div>$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$</div>
+$$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$$
 
 **To-do List**:
 
