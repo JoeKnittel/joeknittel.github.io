@@ -42,7 +42,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](https://github.com/JoeKnittel/joeknittel.github.io/tree/main/_posts/2021-01-13-R-Markdown_files/figure-gfm/pressure-1.png)<!-- -->
+![](raw.githubusercontent.com/JoeKnittel/joeknittel.github.io/main/_posts/2021-01-13-R-Markdown_files/figure-gfm/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
