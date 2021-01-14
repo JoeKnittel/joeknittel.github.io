@@ -21,7 +21,7 @@
 title: Actuarial Investigations
 email: joe.knittel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog pertaining to actuarial science and data science, in general. Look out for new posts... rarely.
+  A blog about actuarial science and data science, in general. Look out for new posts... rarely.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "joeknittel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
