@@ -3,6 +3,7 @@ layout: post
 title:  "Hello, World!"
 date:   2021-01-13 20:30:30
 author: "Joe"
+use_math: true
 ---
 
 This is just a test post to make sure everything's set up properly.
