@@ -29,5 +29,5 @@ $$x^2=1$$
 
 - Get images to display (Jekyll issue) ✔️
 - Configure YAML for direct .rmd -> blog post conversion ✔️
-- Get MathJax to render LaTeX (works locally, but not online) ❌
+- Get MathJax to render LaTeX (works locally, but not online -- so annoying) ❌
 - Probably a bunch of other things that I'll notice later ❓
