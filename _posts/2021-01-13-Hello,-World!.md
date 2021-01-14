@@ -22,6 +22,8 @@ while(x):
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
+$$x^2=1$$
+
 **To-do List**:
 
 - Get images to display (Jekyll issue) ✔️
