@@ -13,7 +13,7 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
-*x* = 1
+*Γ*(*α*) = ∫<sub>0</sub><sup>∞</sup>*t*<sup>*α* − 1</sup>*e*<sup> − *t*</sup> *d**t*,  *α* &gt; 0
 
 ## R Markdown
 

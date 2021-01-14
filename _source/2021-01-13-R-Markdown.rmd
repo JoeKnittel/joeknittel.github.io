@@ -28,7 +28,7 @@ knitr::opts_chunk$set(fig.path = fig_path,
 ```
 
 $$
-  x = 1
+  \Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0
 $$
 
 
