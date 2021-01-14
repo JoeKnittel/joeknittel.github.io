@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Joe, a 30-something who, after meandering hither and thither for a while after graduating college, finds himself as an up-and-coming actuarial student.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This blog will serve primarily as a tool to document what I've learned throughout my studies and while completing various projects for work and for fun.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Just as the field is evolving quickly to keep up with changes in the technological landscape, I, too, hope to keep this site relevant with fresh ideas spanning various fields.
 
+   
 
-[jekyll-organization]: https://github.com/jekyll
