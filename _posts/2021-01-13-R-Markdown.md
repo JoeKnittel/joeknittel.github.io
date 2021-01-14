@@ -15,8 +15,9 @@ image: brent-rambo.jpg # for open graph protocol
 
 ## Test LaTeX
 
-*x*<sup>2</sup> = 1
-*β* = 2
+$$x^2=1$$
+
+$\beta=2$
 
 ## R Markdown
 

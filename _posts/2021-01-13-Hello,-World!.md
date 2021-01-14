@@ -27,7 +27,7 @@ $$x^2=1$$
 
 **To-do List**:
 
-- Get images to display (Jekyll issue) ✔️
-- Configure YAML for direct .rmd -> blog post conversion ✔️
-- Get MathJax to render LaTeX (works locally, but not online -- so annoying) ❌
-- Probably a bunch of other things that I'll notice later ❓
+- Get images to display (Jekyll issue) [fixed!]✔️
+- Configure YAML for direct .rmd -> blog post conversion [fixed!]✔️
+- Get MathJax to render LaTeX (works locally, but not online -- so annoying) [fixed! had to convert gemfile theme to regular theme] ✔️
+- Probably a bunch of other things that I'll notice later ❔
