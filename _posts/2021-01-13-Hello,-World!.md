@@ -4,6 +4,7 @@ title:  "Hello, World!"
 date:   2021-01-13 20:30:30
 author: "Joe"
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 This is just a test post to make sure everything's set up properly.
 
@@ -20,7 +21,7 @@ while(x):
 
 **Some LaTeX**:
 
-$$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$$
+$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 **To-do List**:
 
