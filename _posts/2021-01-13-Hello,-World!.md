@@ -18,7 +18,7 @@ while(x):
 
 {% endhighlight %}
 
-**Some LaTeX: 
+**Some LaTeX**: 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 **To-do List**:
