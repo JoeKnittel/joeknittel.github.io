@@ -12,4 +12,4 @@ Just as the field is evolving quickly to keep up with changes in the technologic
 
 <hr style = "color:#CCCCCC; background-color:#CCCCCC">
 
-**Note**: Blog built with <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> and <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a>
+<p><b>Note</b>: Blog built with <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> and <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a></p>
