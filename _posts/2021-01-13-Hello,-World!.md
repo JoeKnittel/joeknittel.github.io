@@ -8,6 +8,10 @@ use_math: true
 
 This is just a test post to make sure everything's set up properly.
 
+**Gif-Check**:
+
+![](https://media.giphy.com/media/bAplZhiLAsNnG/source.gif)
+
 **A bit of Python code**:
 
 {% highlight python %}
