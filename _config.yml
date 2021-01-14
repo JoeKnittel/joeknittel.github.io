@@ -29,9 +29,11 @@ twitter_username:
 github_username: JoeKnittel
 
 # Build settings
-theme: minima
+#theme: minima     <-- gemfile theme
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 #markdown: kramdown
 
