@@ -11,9 +11,9 @@ This is just a test post to make sure everything's set up properly.
 
 {% highlight python %}
 
-x = 1
-if x == 1:
-
-print("x is 1.")
+x = 10
+while(x):
+    print("TRUE")
+    x-=1
 
 {% endhighlight %}
