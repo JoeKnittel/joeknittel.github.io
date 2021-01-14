@@ -12,7 +12,7 @@ This is just a test post to make sure everything's set up properly.
 
 ![](https://media.giphy.com/media/bAplZhiLAsNnG/source.gif)
 
-**A bit of Python code**:
+**A Bit of Python Code**:
 
 {% highlight python %}
 
