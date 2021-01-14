@@ -7,10 +7,13 @@ categories: first post
 
 This is just a test post to make sure everything's set up properly.
 
-`highlight`
+### A Bit of Code:
 
 {% highlight python %}
 
-print("Testing: 1,2,3")
+x = 1
+if x == 1:
+
+print("x is 1.")
 
 {% endhighlight %}
