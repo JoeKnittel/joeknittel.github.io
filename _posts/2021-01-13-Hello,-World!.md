@@ -8,6 +8,10 @@ use_math: true
 
 This is just a test post to make sure everything's set up properly.
 
+**Locally-Stored Static Image**:
+
+![](/images/soa.jpg)
+
 **GIF Functionality**:
 
 ![](https://media.giphy.com/media/bAplZhiLAsNnG/source.gif)
