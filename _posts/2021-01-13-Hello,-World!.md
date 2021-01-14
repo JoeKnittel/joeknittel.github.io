@@ -7,7 +7,6 @@ author: "Joe"
 
 This is just a test post to make sure everything's set up properly.
 
-<hr>
 **A bit of Python code**:
 
 {% highlight python %}
@@ -19,8 +18,9 @@ while(x):
 
 {% endhighlight %}
 
-<hr>
 **To-do List**:
 
-- Images not displaying (Jekyll issue)
-- Configuration for direct .rmd -> blog post  
+- Get images to display (Jekyll re-direct issue)
+- Configure .yml for direct .rmd -> blog post  
+- Improve lexer for code hightlighting
+- Probably a bunch of other things that I'll notice later
