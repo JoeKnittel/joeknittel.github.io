@@ -10,4 +10,6 @@ This blog will serve primarily as a tool to document what I've learned throughou
 
 Just as the field is evolving quickly to keep up with changes in the technological landscape, I, too, hope to keep this site relevant with fresh ideas spanning various fields.
 
-**Note**: Blog built with <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> and [GitHub Pages](https://pages.github.com/)
+<hr style = color:#CCCCCC>
+
+**Note**: Blog built with <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> and <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a>
