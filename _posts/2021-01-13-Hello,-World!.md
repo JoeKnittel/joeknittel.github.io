@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello, World!"
-date:   2021-01-13 20:30:30 -0500
+date:   2021-01-13 20:30:30
 categories: first post
 ---
 

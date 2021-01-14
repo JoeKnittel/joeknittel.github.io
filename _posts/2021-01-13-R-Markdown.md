@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-13 21:30:30 -0500'
+date: '2021-01-13 21:30:30'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 categories:
@@ -42,7 +42,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](../_posts/2021-01-13-R-Markdown_files/figure-gfm/pressure-1.png)<!-- -->
+![](2021-01-13-R-Markdown_files/figure-gfm/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
