@@ -4,7 +4,6 @@ title:  "Hello, World!"
 date:   2021-01-13 20:30:30
 author: "Joe"
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 This is just a test post to make sure everything's set up properly.
 
