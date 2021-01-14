@@ -27,7 +27,9 @@ knitr::opts_chunk$set(fig.path = fig_path,
 
 ```
 
-
+$$
+  x = 1
+$$
 
 
 ## R Markdown

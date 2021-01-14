@@ -13,6 +13,8 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
+*x* = 1
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
