@@ -15,8 +15,6 @@ image: brent-rambo.jpg # for open graph protocol
 
 ## Test LaTeX
 
-$$x^2=1$$
-
 $\beta =2$
 
 ## R Markdown
