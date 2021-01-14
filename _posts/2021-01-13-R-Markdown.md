@@ -17,7 +17,7 @@ image: brent-rambo.jpg # for open graph protocol
 
 $$x^2=1$$
 
-$\beta=2$
+$\beta =2$
 
 ## R Markdown
 
