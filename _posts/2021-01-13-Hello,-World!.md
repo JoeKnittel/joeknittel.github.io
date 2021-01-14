@@ -23,7 +23,15 @@ while(x):
 
 {% endhighlight %}
 
-**Some $\LaTeX$**:
+**Some R Code**:
+
+{% highlight r %}
+n <- floor(rnorm(10000, 500, 100))
+t <- table(n)
+barplot(t)
+{% endhighlight %}
+
+**Even $\LaTeX$?**:
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
