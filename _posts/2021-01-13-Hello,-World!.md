@@ -27,5 +27,5 @@ $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 - Get images to display (Jekyll issue) ✔️
 - Configure .yml for direct .rmd -> blog post conversion ✔️
-- Get MathJax to render LaTeX ❌
+- Get MathJax to render LaTeX (GitHub Pages issue) ❌
 - Probably a bunch of other things that I'll notice later ❓
