@@ -20,7 +20,7 @@ while(x):
 
 **To-do List**:
 
-- Get images to display (Jekyll re-direct issue)
-- Configure .yml for direct .rmd -> blog post  
+- Get images to display (Jekyll issue)
+- Configure .yml for direct .rmd -> blog post conversion
 - Improve lexer for code hightlighting
 - Probably a bunch of other things that I'll notice later
