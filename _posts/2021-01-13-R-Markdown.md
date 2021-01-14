@@ -13,8 +13,6 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
-*Γ*(*α*) = ∫<sub>0</sub><sup>∞</sup>*t*<sup>*α* − 1</sup>*e*<sup> − *t*</sup> *d**t*,  *α* &gt; 0
-
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
