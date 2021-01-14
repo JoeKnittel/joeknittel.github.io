@@ -5,7 +5,7 @@ date:   2021-01-13 20:30:30
 author: "Joe"
 ---
 
-<!DOCTYPE html><script src="https://cdn.jsdelivr.net/npm/texme@0.9.0"></script><textarea>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 This is just a test post to make sure everything's set up properly.
 
@@ -22,7 +22,7 @@ while(x):
 
 **Some LaTeX**:
 
-$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
+<div>$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$</div>
 
 **To-do List**:
 
