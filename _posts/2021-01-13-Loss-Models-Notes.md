@@ -1,15 +1,9 @@
 ---
-title: Loss Models Notes
-header-includes:
-   - \usepackage{actuarialangle}
-   - \usepackage{placeins}
-   - \usepackage{bm}
-output: 
-  html_document:
-    keep_md: true
+layout: post
+title:  "Test Post"
+date:   2021-01-13 20:30:30 -0500
+categories: jekyll update
 ---
-
-
 
 <style>
   div.blue {background-color:#bbdced; border-radius: 10px; padding: 10px;}
@@ -62,7 +56,7 @@ $$
 $$
 
 $$
-  \textbf{Mean: } \mu_1' = \mu 
+  \textbf{Mean: } \mu_1' = \mu
 $$
 </div>
 
@@ -71,11 +65,11 @@ $$
 <div class = "blue">
 
 $$
-  \mu_k = \text{E}[(X-\mu)^k] = \int_{-\infty}^{\infty} (x-\mu)^k f(x) \ dx = \sum_j (x_j-\mu)^k p(x_j) 
+  \mu_k = \text{E}[(X-\mu)^k] = \int_{-\infty}^{\infty} (x-\mu)^k f(x) \ dx = \sum_j (x_j-\mu)^k p(x_j)
 $$
 
 $$
-  \mu_2 = \text{Var}(X) = \sigma^2 
+  \mu_2 = \text{Var}(X) = \sigma^2
 $$
 
 $$
@@ -132,7 +126,7 @@ $$
 <div class = "purple">
 
 $$
-  \textbf{Left-Censored and Shifted Variable: } Y^L = (X-d)_+= 
+  \textbf{Left-Censored and Shifted Variable: } Y^L = (X-d)_+=
       \begin{cases}
       0, & X\leq d \\
       X-d, & X>d
@@ -140,7 +134,7 @@ $$
 $$
 
 $$
-  \text{E}[(X-d)^k_+] = \int_d^{\infty} (x-d)^k f(x) \ dx = \sum_{x_j>d} (x_j-d)^k p(x_j) 
+  \text{E}[(X-d)^k_+] = \int_d^{\infty} (x-d)^k f(x) \ dx = \sum_{x_j>d} (x_j-d)^k p(x_j)
 $$
 $$
   \text{E}[(X-d)^k_+] = e^k(d)[1-F(d)]
@@ -159,7 +153,7 @@ $$
 <div class = "blue">
 
 $$
-  \textbf{Limited Loss Variable: }  X \wedge u = 
+  \textbf{Limited Loss Variable: }  X \wedge u =
   \begin{cases}
     X, & X<u \\
     u, & X\geq u
@@ -168,9 +162,9 @@ $$
 
 $$
   \begin{split}
-  \text{E}[(X \wedge u)^k] 
+  \text{E}[(X \wedge u)^k]
     = & \int_{-\infty}^u x^k f(x) \ dx + u^k[1-F(u)]\\
-    = & \int_{-\infty}^0 x^k f(x) \ dx + \int_0^u x^k f(x) \ dx + u^k[1-F(u)] \\ 
+    = & \int_{-\infty}^0 x^k f(x) \ dx + \int_0^u x^k f(x) \ dx + u^k[1-F(u)] \\
     = & - \int_{-\infty}^0 kx^{k-1}F(x) \ dx + \int_0^u kx^{k-1} S(x) \ dx
   \end{split}
 $$
@@ -186,7 +180,7 @@ $$
 - $E(X \wedge u)$ is called the ***limited expected value***
 
 <center>
-![](Figures/2.png) 
+![](Figures/2.png)
 
 </center>
 
@@ -199,7 +193,7 @@ $$
 <div class = "purple">
 
 $$
-  \text{The }\textbf{100p}\textit{th percentile}\text{ of a random variable is any value $\pi_p$ s.t. $F(\pi_p-\leq p \leq F(\pi_p))$} 
+  \text{The }\textbf{100p}\textit{th percentile}\text{ of a random variable is any value $\pi_p$ s.t. $F(\pi_p-\leq p \leq F(\pi_p))$}
 $$
 
 </div>
@@ -227,7 +221,7 @@ Let $X_i$ be a collection of payments made by the insurer and $S_k = \sum_{i}^k 
 $$
   \begin{align}   
     \textbf{Moment Generating Function (mgf): } M_X(z) &= \text{E}(e^{zX}) \\
-    \textbf{Probability Generating Function (pgf): } P_X(z) &= \text{E}(z^X) 
+    \textbf{Probability Generating Function (pgf): } P_X(z) &= \text{E}(z^X)
   \end{align}
 $$
 
@@ -253,11 +247,11 @@ $$
 
 <div class = "green">
 
-If $S_k = X_1 + \dots + X_k$ and $X_i$ are independent, then the following are true: 
+If $S_k = X_1 + \dots + X_k$ and $X_i$ are independent, then the following are true:
 
 $$
   M_{S_k}(z) = \prod_{j=1}^k M_{X_j}(z)       
-$$ 
+$$
 
 $$
   P_{S_k}(z) = \prod_{j=1}^k P_{X_j}(z)
@@ -314,9 +308,9 @@ $$
 
 <div class = "green">
 
-- If the mean excess loss function is increasing in $d$, the distribution is considered to have a heavy tail 
+- If the mean excess loss function is increasing in $d$, the distribution is considered to have a heavy tail
 
-- If the mean excess loss function is decreasing in $d$, the distribution is considered to have a light tail 
+- If the mean excess loss function is decreasing in $d$, the distribution is considered to have a light tail
 
 - The statements from 3.4.3 imply the statements from 3.4.4, but not necessarily the other way around (e.g., a distribution with a decreasing mean excess loss function does not have to have an increasing hazard rate function)
 
@@ -345,7 +339,7 @@ $$
 
 - The equilibrium distribution is also called the ***integrated tail distribution***
 
-- Coefficient of variation $\geq 1 \rightarrow$ heavy tail (p.39 - review) 
+- Coefficient of variation $\geq 1 \rightarrow$ heavy tail (p.39 - review)
 
 ## 3.5: Measures of Risk
 
@@ -365,7 +359,7 @@ $$
 
 - Risk measures are denoted by $\rho(X)$ (thought of as the amount of assets required to protect against adverse outcomes of risk $X$)
 
-- $X+Y$ could represent the loss variable composed of loss variables from different departments (e.g., individual life, health, group life, etc.) 
+- $X+Y$ could represent the loss variable composed of loss variables from different departments (e.g., individual life, health, group life, etc.)
 
 <div class = "red">
 
@@ -456,7 +450,7 @@ Let $c \in \mathbb{R}^+$
 
 A ***scale parameter***, $\alpha$, is a parameter for a scale distribution that satisfies the following:
 
-- $cX \sim d(c\alpha, \beta, \gamma, \dots)$ 
+- $cX \sim d(c\alpha, \beta, \gamma, \dots)$
 
 - (e.g., multiplying a scale distribution multiplies the scale parameter(s), but not other parameters)
 
@@ -464,7 +458,7 @@ A ***scale parameter***, $\alpha$, is a parameter for a scale distribution that 
 
 ### 4.2.2: Parametric Distribution Families
 
-- A ***parametric distribution family*** is a set of parametric distributions that are related in some meaningful way 
+- A ***parametric distribution family*** is a set of parametric distributions that are related in some meaningful way
 - (e.g., the transformed beta family: Pareto($\gamma=\tau=1$), Paralogistic($\tau=1, \gamma=\alpha$))
 
 ### 4.2.3: Finite Mixture Distributions
@@ -627,7 +621,7 @@ $$
 
 <div class = "red">
 
-Let $A(x) = \int_0^x a(t) \ dt$. 
+Let $A(x) = \int_0^x a(t) \ dt$.
 
 $$
   \begin{align*}
@@ -651,7 +645,7 @@ $$
 - One model governs the behavior of losses in some interval of possible losses while other models cover the other intervals
 
 $$
-  \textbf{k-component spliced distribution:} \quad f_X(x) = 
+  \textbf{k-component spliced distribution:} \quad f_X(x) =
   \begin{cases}
     a_1f_1(x), & c_0<x<c_1, \\
     a_2f_2(x), & c_1<x<c_2, \\
@@ -702,13 +696,13 @@ $$
   \begin{align}
   f(x;\theta) &= \frac{p(x)e^{r(\theta)x}}{q(\theta)} \\
   \text{E}(X) &= \mu(\theta) = \frac{q'(\theta)}{r'(\theta) q(\theta)} \\
-  \text{Var}(X) &= \nu(\theta) = \frac{\mu'(\theta)}{r'(\theta)} 
+  \text{Var}(X) &= \nu(\theta) = \frac{\mu'(\theta)}{r'(\theta)}
   \end{align}
 $$
 
 
 
-- The function $p(x)$ depends on $x$ (not on $\theta$), and the function $q(\theta$) is a normalizing constant. 
+- The function $p(x)$ depends on $x$ (not on $\theta$), and the function $q(\theta$) is a normalizing constant.
 
 - The support of the random variable must not depend on $\theta$
 
@@ -808,7 +802,7 @@ $$
 
 </div> <br>
 
-- $Var > E(N)$; hence, if the observed variance is larger than observed mean, negative binomial would be a better candidate than the Poisson distribution $\left(Var = E(N)\right)$ 
+- $Var > E(N)$; hence, if the observed variance is larger than observed mean, negative binomial would be a better candidate than the Poisson distribution $\left(Var = E(N)\right)$
 
 - The ***geometric distribution*** is the special case of the negative binomial distribution when $r=1$
 
@@ -899,8 +893,8 @@ $$
   p_k^M &= \frac{1-p_0^M}{1-p_0} p_k, \quad k = 1,2,\dots \\
   P^T(z) &= \frac{P(z) - p_0}{1-p_0} \\
   p_k^T &= \frac{p_k}{1-p_0}, \quad k = 1,2,\dots \\
-  p_k^M &= (1-p_0^M) \ p_k^T, \quad k = 1,2, \dots \\ 
-  P^M(z) &= p_0^M(1) + (1-p_0^M) \ P^T(z) 
+  p_k^M &= (1-p_0^M) \ p_k^T, \quad k = 1,2, \dots \\
+  P^M(z) &= p_0^M(1) + (1-p_0^M) \ P^T(z)
   \end{align}
 $$
 
@@ -934,7 +928,7 @@ $$
 
 # 8: Frequency and Severity with Coverage Modifications
 
-- $Y^L$ is a ***per-loss*** variable (can be zero) 
+- $Y^L$ is a ***per-loss*** variable (can be zero)
 
 - $Y^P$ is a ***per-payment*** variable (cannot be zero)
 
@@ -985,7 +979,7 @@ $$
 
 </div> <br>
 
-<div class = "green"> 
+<div class = "green">
 
 $$
   \begin{align}
@@ -1011,7 +1005,7 @@ $$
           Y^P &= \begin{cases}
           \text{undefined}, & X \leq d, \\
           X, & X>d
-        \end{cases} 
+        \end{cases}
   \end{align}
 $$
 
@@ -1042,7 +1036,7 @@ $$
 
 <div class = "purple">
 
-$$ 
+$$
   \begin{align}
     f_{Y^P}(y) &=  \frac{f_X(y)}{S_X(d)}, \quad y>d  \\
     S_{Y^P}(y) &= \begin{cases}
@@ -1062,7 +1056,7 @@ $$
 
 </div><br>
 
-<div class = "purple"> 
+<div class = "purple">
 
 $$
   \begin{align}
@@ -1161,8 +1155,8 @@ $$
   \text{E}(Y^L) &= \alpha(1+r) \left[ \text{E}\left(X \wedge \frac{u}{1+r}\right) - \text{E}\left(X \wedge \frac{d}{1+r}\right)   \right] \\
   \text{E}(Y^P) &= \frac{\text{E}\left(Y^L\right)}{1-F_X \left( \dfrac{d}{1+r} \right)} \\ \\
   \text{E}\left[ (Y^L)^2 \right] &= \alpha^2(1+r)^2 \{ \text{E}\left[(X \wedge u^*)^2\right] - \text{E}\left[(X \wedge d^*)\right]\ - 2d^* \text{E}(X \wedge u^*) + 2d^* \text{E}(X \wedge d^*) \} \\ \\
-  &\textit{where } u^* = u/(1+r) \textit{ and } d^* = d/(1+r) 
-  \end{align} 
+  &\textit{where } u^* = u/(1+r) \textit{ and } d^* = d/(1+r)
+  \end{align}
 $$
 
 - These formulas can be used if some or all of the insurance items are employed (e.g., if there's no inflation, $r=0$; no coinsurance means $\alpha=1$)
@@ -1180,7 +1174,7 @@ $$
 
 - Let $I_j$ be an indicator variable: $I_j = 1$ if the $j^{th}$ loss results in a payment, and $I_j =0$ otherwise
 
-- Then, $I_j$ has a Bernoulli distribution with parameter $\nu$ and pgf $P_{I_j}(z)=1-\nu+\nu z$ 
+- Then, $I_j$ has a Bernoulli distribution with parameter $\nu$ and pgf $P_{I_j}(z)=1-\nu+\nu z$
 
 - Let $N^P = \sum_\limits{i=0}^{N^L} I_i$ represent the number of payments
 
@@ -1228,7 +1222,7 @@ The ***collective risk model*** assumes all $X_j\text{s}$ to be independent and 
 
 <div class = "purple">
 
-The ***individual risk model*** represents the aggregate loss as a sum, $S = X_1 + \dots + X_n$, of a fixed number, $n$, of insurance contracts. The loss amounts for the contracts, ($X_1, X_2, \dots, X_n$), are assumed to be independent but are not assumed to be identically distributed 
+The ***individual risk model*** represents the aggregate loss as a sum, $S = X_1 + \dots + X_n$, of a fixed number, $n$, of insurance contracts. The loss amounts for the contracts, ($X_1, X_2, \dots, X_n$), are assumed to be independent but are not assumed to be identically distributed
 
 - Special case of the collective risk model
 
@@ -1245,7 +1239,7 @@ The ***individual risk model*** represents the aggregate loss as a sum, $S = X_1
 
 
 </div> <br>
- 
+
 
 #### Two strategies:
 
@@ -1304,7 +1298,7 @@ $$
   F_X^{*0} = \begin{cases}
                 0, & x<0, \\
                 1, & x \geq 0
-             \end{cases} 
+             \end{cases}
 $$
 $$
   F_X^{*k} = \int_{-\infty}^\infty F_X^{*(k-1)} (x-y) \ dF_X(y), \quad \text{for } k=1,2,\dots
@@ -1353,7 +1347,7 @@ $$
 
 $$
   \begin{align}
-  P_S(z) &= \text{E}[z^S] = P_N[P_X(z)] \\ 
+  P_S(z) &= \text{E}[z^S] = P_N[P_X(z)] \\
   M_S(z) &= P_N[M_X(z)]
   \end{align}
 $$
@@ -1440,7 +1434,7 @@ $$
   \text{E}(S) = \mu \quad \text{and} \quad \text{Var}(S) = \phi \mu^p
 $$
 
-- $\phi$ is called the ***dispersion parameter*** and allows for additional flexibility with respect to how the variance relates to the mean 
+- $\phi$ is called the ***dispersion parameter*** and allows for additional flexibility with respect to how the variance relates to the mean
 
 - When $\phi>1$, the distribution is called the ***overdispersed Poisson*** distribution
 
@@ -1485,7 +1479,7 @@ $$
   \textbf{(a,b,1) Class: } \quad f_S(x) &= \frac{[p_1 - (a+b)p_0] f_X(x) + \sum_{y=1}^{x\wedge m} (a+by/x) f_X(y) f_S(x-y) }{1-a \ f_X(0)} \\
   &= p_1 f_X(x) + \int_0^x \left( a + \dfrac{by}{x}  \right) f_X(y) f_S(x-y) \ dy  \quad \text{(if severity continuous)}\\
   \textbf{(a,b,0) Class: } \quad f_S(x) &= \frac{\sum_{y=1}^{x\wedge m} (a+by/x) f_X(y) f_S(x-y) }{1-a \ f_X(0)} \\
-  &= \dfrac{\lambda}{x} \sum_{y=1}^{x \wedge m} y f_X(y) f_S(x-y), \quad x = 1,2,\dots \quad \quad \quad \ \ \text{(if Poisson distribution)} 
+  &= \dfrac{\lambda}{x} \sum_{y=1}^{x \wedge m} y f_X(y) f_S(x-y), \quad x = 1,2,\dots \quad \quad \quad \ \ \text{(if Poisson distribution)}
   \end{align}
 $$
 
@@ -1584,9 +1578,9 @@ $$
                \end{cases}  \\ \\
     \text{E}(S) &= \sum_{j=1}^n b_j q_j \\
     \text{Var}(S) &= \sum_{j=1}^n b_j^2 q_j (1-q_j) \\
-    P_S(z) &= \prod_{j=1}^n (1-q_j + q_j z^{b_j}) \\ 
+    P_S(z) &= \prod_{j=1}^n (1-q_j + q_j z^{b_j}) \\
            &= [1 + q(z-1)]^n \quad \text{(identical risks)} \\
-    M_S(z) &= \prod_{j=1}^n [1 - q_j + q_j M_{B_j}(z)] 
+    M_S(z) &= \prod_{j=1}^n [1 - q_j + q_j M_{B_j}(z)]
   \end{align}
 $$
 
@@ -1647,7 +1641,7 @@ $$
   \textbf{Loglikelihood Function: } \quad l(\theta) = \ln L(\theta)
 $$
 
-- To maximize $l(\theta)$ is the same thing as -- and is often easier than -- maximizing $L(\theta)$ 
+- To maximize $l(\theta)$ is the same thing as -- and is often easier than -- maximizing $L(\theta)$
 
 - Examples 11.1-2 are good!
 
@@ -1670,7 +1664,7 @@ $$
 
 We want to be able to assess how good our estimators are for each parameter. To do that, we need a way to determine the variance of the parameter estimates. The process requires a few steps:
 
-1. Consider $L(p_1,p_2,\dots, p_k)$ where $p_i$ represent the $k$ parameters of the distribution 
+1. Consider $L(p_1,p_2,\dots, p_k)$ where $p_i$ represent the $k$ parameters of the distribution
 
 2. Take the natural log, yielding $l(p_1,p_2,\dots,p_k)$
 
@@ -1689,41 +1683,41 @@ We want to be able to assess how good our estimators are for each parameter. To 
 
 Once we have parameter estimates and variance estimates of the parameters, we can create confidence intervals for each of the parameters. This can be done as follows:
 
-1. Estimate the parameters by finding the value for $p_j$ that solves the equation $\dfrac{\partial l}{\partial p_j} = 0$. We call this parameter estimate $\hat{p_j}$ 
+1. Estimate the parameters by finding the value for $p_j$ that solves the equation $\dfrac{\partial l}{\partial p_j} = 0$. We call this parameter estimate $\hat{p_j}$
 
-2. We've already determined variance estimates above: $\widehat{\text{Var}}(\hat{p_j}) = \left[-\text{E}\left( \frac{\partial^2l}{\partial p_j^2} \right) \right]^{-1}$ 
+2. We've already determined variance estimates above: $\widehat{\text{Var}}(\hat{p_j}) = \left[-\text{E}\left( \frac{\partial^2l}{\partial p_j^2} \right) \right]^{-1}$
 
 3. For a given confidence level, we can construct confidence intervals as usual (e.g., 95% c.i. is $\pm 1.96 \sqrt{\text{Var}}$)
 
 </div> <br>
 
-- ***Example 11.7 is crucial!!*** 
+- ***Example 11.7 is crucial!!***
 
 - An alternative approach would be to use the observed data points (***observed information***) rather than using the more complicated expectations to find $\widehat{\text{Var}}(\hat{p_j})$
 
 
 ## 11.6: Functions of Asymptotically Normal Estimators
 
-- Let $g$ be a function of a distribution's parameters. Can we construct a confidence interval for $g(p_1,p_2,\dots,p_k)$? Yes! 
+- Let $g$ be a function of a distribution's parameters. Can we construct a confidence interval for $g(p_1,p_2,\dots,p_k)$? Yes!
 
 <div class = "blue">
 
-Let's assume $g$ is normally distributed. A construction of the $g$'s confidence interval proceeds as follows: 
+Let's assume $g$ is normally distributed. A construction of the $g$'s confidence interval proceeds as follows:
 
 1. An estimate of $g$, call is $\hat{g}$. This can be calculated using our previously determined parameter estimates, $\hat{p_i}$
 
-2. An estimate of the variance of $g$ is more difficult, but we can use the ***delta method***. For two or less parameters, we have: 
+2. An estimate of the variance of $g$ is more difficult, but we can use the ***delta method***. For two or less parameters, we have:
 
 $$
-  \widehat{\text{Var}}[g(\hat{p_1}, \hat{p_2} )] = 
-  \begin{bmatrix} 
+  \widehat{\text{Var}}[g(\hat{p_1}, \hat{p_2} )] =
+  \begin{bmatrix}
     \widehat{\dfrac{\partial g}{\partial p_1}} & \widehat{\dfrac{\partial g}{\partial p_2}}   
-  \end{bmatrix} 
+  \end{bmatrix}
   \begin{bmatrix}
     \left[-\text{E}\left(\dfrac{\partial^2 l}{\partial p_1^2}\right)\right]^{-1} & \left[-\text{E}\left(\dfrac{\partial^2 l}{\partial p_1 \partial p_2}\right)\right]^{-1} \\
     \left[-\text{E}\left(\dfrac{\partial^2 l}{\partial p_1 \partial p_2}\right)\right]^{-1} & \left[-\text{E}\left(\dfrac{\partial^2 l}{\partial p_2^2}\right)\right]^{-1}
-  \end{bmatrix} 
-  \begin{bmatrix} 
+  \end{bmatrix}
+  \begin{bmatrix}
     \widehat{\dfrac{\partial g}{\partial p_1}} \\
     \widehat{\dfrac{\partial g}{\partial p_2}}
   \end{bmatrix}
@@ -1766,7 +1760,7 @@ $$
   \begin{align}
     p_k &= \dfrac{e^{-\lambda}\lambda^k}{k!} \\
     \ln p_k &= -\lambda + k \ln \lambda - \ln k! \\ \\
-    L &= \prod_{k=0}^\infty p_k^{n_k} \\ 
+    L &= \prod_{k=0}^\infty p_k^{n_k} \\
     l &=  \sum_{k=0}^\infty n_k \ln p_k \\ \\
   \end{align}
 $$
@@ -1784,11 +1778,11 @@ $$
 
 </div><br>
 
-#### Contribution to Likelihood in Special Cases 
+#### Contribution to Likelihood in Special Cases
 
 <div class = "green">
 
-- If the final entry is $k+$, representing $k$ or more claims were observed $n_{k+}$ times, the contribution to the likelihood function is: $(p_k + p_{k+1} + \dots)^{n_{k+}} = (1-p_0 - \dots - p_{k-1})^{n_{k+}}$ 
+- If the final entry is $k+$, representing $k$ or more claims were observed $n_{k+}$ times, the contribution to the likelihood function is: $(p_k + p_{k+1} + \dots)^{n_{k+}} = (1-p_0 - \dots - p_{k-1})^{n_{k+}}$
 
 - Suppose there were five observations at frequencies $3-5$. The contribution to the likelihood function would be: $(p_3 + p_4 + p_5)^5$
 
@@ -1829,7 +1823,7 @@ $$
   \begin{align}
     l &= \sum_{k=0}^m n_k \ln p_k \\
       &= \sum_{k=0}^m n_k \left[ \ln {m \choose k} + k \ln q + (m-k) \ln (1-q)  \right] \\ \\
-    \hat{q} &= \dfrac{1}{\hat{m}} \dfrac{\sum_{k=0}^\infty k n_k}{\sum_{k=0}^\infty n_k} = \dfrac{\text{# of observed events}}{\text{maximum # of possible events}} 
+    \hat{q} &= \dfrac{1}{\hat{m}} \dfrac{\sum_{k=0}^\infty k n_k}{\sum_{k=0}^\infty n_k} = \dfrac{\text{# of observed events}}{\text{maximum # of possible events}}
   \end{align}
 $$
 </div><br>
@@ -1872,7 +1866,7 @@ $$
 
 <div class = "red">
 
-We can construct zero-modified models using the appropriate zero-truncated subclass $(a,b,1)$ distributions (p. 14-16 in reference tables) by setting: 
+We can construct zero-modified models using the appropriate zero-truncated subclass $(a,b,1)$ distributions (p. 14-16 in reference tables) by setting:
 
 $$
   \hat{p}_0^M = \dfrac{n_0}{n}
@@ -1923,7 +1917,7 @@ $$
 
 - The ***marginal distribution of $\vect{x}$*** is the  integral of the joint distribution: $f_{\vect{X}}(\vect{x}) = \int f_{\vect{X}|\Theta} \cdot \pi(\theta) \ d\theta$
 
-- The ***posterior distribution*** is the conditional probability distribution of the parameters given the observed data: 
+- The ***posterior distribution*** is the conditional probability distribution of the parameters given the observed data:
 
 $$
   \pi_{\Theta|\vect{X}}(\theta|\vect{x}) = \dfrac{\text{joint}}{\text{marginal}} = \dfrac{f_{\vect{X}|\Theta}(\vect{x}|\theta) \cdot \pi(\theta)}{\int f_{\vect{X}|\Theta} \cdot \pi(\theta) \ d\theta}
@@ -1942,12 +1936,12 @@ $$
 
 <div class = "purple">
 
-A ***loss function $l_j(\hat{\theta}_j,\theta_j)$*** describes the penalty paid by the investigator when $\hat{\theta_j}$ is the estimate and $\theta_j$ is the true value of the $j^{th}$ parameter 
+A ***loss function $l_j(\hat{\theta}_j,\theta_j)$*** describes the penalty paid by the investigator when $\hat{\theta_j}$ is the estimate and $\theta_j$ is the true value of the $j^{th}$ parameter
 
 
 #### Common Loss Functions
 
-1. ***Squared-error loss***: $l(\hat{\theta},\theta) = (\hat{\theta}-\theta)^2$ 
+1. ***Squared-error loss***: $l(\hat{\theta},\theta) = (\hat{\theta}-\theta)^2$
 
 2. ***Absolute loss***: $l(\hat{\theta},\theta) = \lvert\hat{\theta}-\theta)\rvert$
 
@@ -2098,7 +2092,7 @@ Another way to highlight differences is the ***p-p plot*** or ***probability plo
 
 ### 15.4.1: The Kolmogorov-Smirnov Test
 
-- Let $t$ be the left truncation point ($t=0$ if there is no truncation) and let $u$ be the right censoring point ($u = \infty$ if there is no censoring). 
+- Let $t$ be the left truncation point ($t=0$ if there is no truncation) and let $u$ be the right censoring point ($u = \infty$ if there is no censoring).
 
 <div class = "purple">
 
@@ -2111,7 +2105,7 @@ $$
 $$
   \begin{gather}
     \alpha && \text{Critical Value} \\
-    \hline 
+    \hline
     0.10   && 1.22/\sqrt{n} \\
     0.05   && 1.36/\sqrt{n} \\
     0.01   && 1.63/\sqrt{n}
@@ -2165,10 +2159,10 @@ $$
 
 2. Let $\theta_0$ be the value of the parameters that maximizes $L$ under the assumptions of the null hypothesis
 
-3. Let $\theta_1$ be the maximum likelihood estimator, where the parameter values are constrained by the assumptions of the alternative hypothesis 
+3. Let $\theta_1$ be the maximum likelihood estimator, where the parameter values are constrained by the assumptions of the alternative hypothesis
 
 $$
-  \textbf{Likelihood Ratio test statistic: } \quad T = 2 \ln(L_1/L_0) = 2(\ln L_1 - \ln L_0) 
+  \textbf{Likelihood Ratio test statistic: } \quad T = 2 \ln(L_1/L_0) = 2(\ln L_1 - \ln L_0)
 $$
 
 - Reject the null hypothesis if $T>c$, where $c$ is calculated from $\alpha = \Pr(T>c)$, where $T$ has a chi-square distribution with degrees of freedom equal to the number of free parameters in the model from the alternative hypothesis less the number of free parameters in the model from the null hypothesis (e.g., $c = 3.841$ for $1 \text{ d.f}$ and $\alpha = 0.95$)
@@ -2203,11 +2197,8 @@ A more automated approach might be preferable. In this case, we need some score 
 
 3. The **Likelihood function** (choose model with largest value)
 
-4. The ***SBC/BIC***: $\ln L - \dfrac{r}{2} \ln n \quad$ [$r$ =  # of parameters, $n$= sample size] (choose largest value) 
+4. The ***SBC/BIC***: $\ln L - \dfrac{r}{2} \ln n \quad$ [$r$ =  # of parameters, $n$= sample size] (choose largest value)
 
 5. The ***AIC***: $\ln L - r$ [$r$ = # of parameters] (choose largest value)
 
 </div>
-
-
-
