@@ -13,10 +13,6 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
-## Test LaTeX
-
-$\beta =2$
-
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
