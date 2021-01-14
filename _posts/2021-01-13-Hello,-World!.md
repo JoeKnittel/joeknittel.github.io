@@ -27,6 +27,6 @@ $$x^2=1$$
 **To-do List**:
 
 - Get images to display (Jekyll issue) ✔️
-- Configure .yml for direct .rmd -> blog post conversion ✔️
-- Get MathJax to render LaTeX (GitHub Pages issue) ❌
+- Configure YAML for direct .rmd -> blog post conversion ✔️
+- Get MathJax to render LaTeX (works locally, but not online) ❌
 - Probably a bunch of other things that I'll notice later ❓
