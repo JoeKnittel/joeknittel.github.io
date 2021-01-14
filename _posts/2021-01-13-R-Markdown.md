@@ -13,6 +13,11 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
+## Test LaTeX
+
+*x*<sup>2</sup> = 1
+*β* = 2
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
