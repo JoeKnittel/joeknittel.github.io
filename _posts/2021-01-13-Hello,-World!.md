@@ -7,7 +7,7 @@ categories: first post
 
 This is just a test post to make sure everything's set up properly.
 
-### A Bit of Code:
+#### A Bit of Code:
 
 {% highlight python %}
 
