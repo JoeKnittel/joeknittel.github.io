@@ -10,7 +10,7 @@ This is just a test post to make sure everything's set up properly.
 
 **Locally-Stored Static Image**:
 
-![](/images/soa.jpg)
+<img src = "/images/soa.jpg" width = "500">
 
 **GIF Functionality**:
 
