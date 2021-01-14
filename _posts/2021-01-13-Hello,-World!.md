@@ -18,7 +18,7 @@ while(x):
 
 {% endhighlight %}
 
-**Some LaTeX**: 
+**Some LaTeX**:
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 **To-do List**:
@@ -26,4 +26,5 @@ $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 - Get images to display (Jekyll issue)
 - Configure .yml for direct .rmd -> blog post conversion
 - Improve lexer for code hightlighting
+- Get MathJax to render LaTeX
 - Probably a bunch of other things that I'll notice later
