@@ -5,6 +5,8 @@ date:   2021-01-13 20:30:30
 author: "Joe"
 ---
 
+<!DOCTYPE html><script src="https://cdn.jsdelivr.net/npm/texme@0.9.0"></script><textarea>
+
 This is just a test post to make sure everything's set up properly.
 
 **A bit of Python code**:
