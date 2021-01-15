@@ -44,6 +44,8 @@ $$\chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$$
 
 <hr>
 
+<br>
+
 | To-do List                                                          | Complete? |
 | ------------------------------------------------------------------- | --------- |
 | Get images to display (Jekyll issue)                                | ✔️        |
