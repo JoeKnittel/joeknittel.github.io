@@ -39,7 +39,7 @@ barplot(t)
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
-$$x^2=1$$
+$$\Chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$$
 
 **To-do List**:
 
