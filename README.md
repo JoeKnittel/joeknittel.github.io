@@ -6,7 +6,7 @@
 
 <img src = "https://joeknittel.github.io/images/soa.jpg" width = 500>
 
-It is my belief that in this modern world, **it behooves everyone to have an open-source collection of their past work** that they, personally, can reference at any time, that current and future employers can observe for the sake of skills assessment, and that anyone working in the field can access to potentially bring about growth in the industry, at large. **This blog serves as my attempt to achieve such a objective.** 
+It is my belief that in this modern world, **it behooves everyone to have an open-source collection of their past work** that they, personally, can reference at any time, that current and future employers can observe for the sake of skills assessment, and that anyone working in the field can access to potentially bring about growth in the industry, at large. **This blog serves as my attempt to achieve such an objective.** 
 
 <hr>
 
