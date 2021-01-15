@@ -19,5 +19,5 @@
 - Blog entries 
   - Raw .rmd and.md files
   - Generated .html files
-- Ruby files that define the structure of the blog
-- CSS files that codify the blog's stylistic elements
+- .rb files that define the structure of the blog
+- .scss files that codify the blog's stylistic elements
