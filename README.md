@@ -20,4 +20,4 @@
   - Raw .rmd and.md files
   - Generated HTML files
 - Ruby files that define the structure of the blog
-- SCSS files that codify the blog's stylistic elements
+- CSS files that codify the blog's stylistic elements
