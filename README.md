@@ -6,4 +6,4 @@ The blog is powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pag
 
 <hr>
 
-Live Link: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
+**Live Link**: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
