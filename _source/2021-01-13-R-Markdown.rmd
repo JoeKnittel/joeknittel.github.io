@@ -29,10 +29,13 @@ knitr::opts_chunk$set(fig.path = fig_path,
 
 ## Test LaTeX
 
-$$
-  x^2 = 1
-$$
+<div>
+$$f(x) = \sum_{k=1}^{K}\alpha_{k}$$
+</div>
+
+<div>
 $\beta=2$
+</div>
 
 ## R Markdown
 
