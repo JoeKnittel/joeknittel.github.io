@@ -10,8 +10,6 @@ It is my belief that in this modern world, **it behooves everyone to have an ope
 
 <hr>
 
-Blog powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). 
-
 **Live Link**: <a href = "https://joeknittel.github.io/">joeknittel.github.io</a>
 
 <hr>
