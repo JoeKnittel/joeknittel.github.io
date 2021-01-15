@@ -13,12 +13,6 @@ layout: post
 image: brent-rambo.jpg # for open graph protocol
 ---
 
-## Test LaTeX
-
-$$
-    \sum_{i=1}^n x_i
-$$
-
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax

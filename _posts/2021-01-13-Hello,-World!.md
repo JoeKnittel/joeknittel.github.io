@@ -3,7 +3,6 @@ layout: post
 title:  "Hello, World!"
 date:   2021-01-13 20:30:30
 author: "Joe"
-use_math: true
 tags: test
 ---
 
