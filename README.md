@@ -6,7 +6,7 @@
 
 <img src = "https://joeknittel.github.io/images/soa.jpg" width = 500>
 
-It is my belief that in this modern world, **it behooves everyone to have an open-source collection of their past work** that they, personally, can reference at any time, that current and future employers can observe for the sake of skills assessment, and that anyone working in the field can access to potentially bring about growth in the industry, at large. **This blog serves as my attempt to achieve such an objective.** 
+**In this ever-more-connected and rapidly evolving world, it behooves all corporate workers to have some kind of openly-available record describing important projects they've worked on and key insights they've gained in their respective fields**. On a personal level, such documentation can be used as a tool to complete similar tasks confronted in the future, it can also be used by employers for skills assessment, and, finally, it can be referenced by anyone across the globe working in the field to potentially bring about growth in the industry. **This blog serves as my attempt to achieve such an objective**.
 
 <hr>
 
