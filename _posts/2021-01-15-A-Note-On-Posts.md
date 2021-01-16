@@ -13,7 +13,7 @@ layout: post
 
 It appears as though everything is configured properly, so I'd like to take a moment to describe the type of content I'll be posting on this blog.
 
-## What to Expect
+### What to Expect
 
 Blog posts will be comprised of:
 
@@ -27,7 +27,7 @@ Blog posts will be comprised of:
 
 I'm sure there'll be some philosophical rambling interspersed between the core posts described above, but I'll do my best to control myself. No promises.
 
-## Up Next
+### Up Next
 
 Tune in next time for something more substantive. Until then, please enjoy this GIF:
 

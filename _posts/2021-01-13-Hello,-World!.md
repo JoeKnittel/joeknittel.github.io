@@ -8,15 +8,15 @@ tags: test
 
 This is just a test post to make sure everything's set up properly.
 
-## Locally-Stored Static Image:
+### Locally-Stored Static Image:
 
 <img src = "/images/soa.jpg" width = "500">
 
-## GIF Functionality:
+### GIF Functionality:
 
 ![](https://media.giphy.com/media/bAplZhiLAsNnG/source.gif)
 
-## A Bit of Python Code:
+### A Bit of Python Code:
 
 {% highlight python %}
 
@@ -27,7 +27,7 @@ while(x):
 
 {% endhighlight %}
 
-## Some R Code:
+### Some R Code:
 
 {% highlight r %}
 n <- floor(rnorm(10000, 500, 100))
@@ -35,7 +35,7 @@ t <- table(n)
 barplot(t)
 {% endhighlight %}
 
-## Even $\LaTeX$?:
+### Even $\LaTeX$?:
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
