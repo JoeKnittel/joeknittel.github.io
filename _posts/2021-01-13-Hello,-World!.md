@@ -14,7 +14,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### GIF Functionality:
 
-![](https://media.giphy.com/media/bAplZhiLAsNnG/source.gif)
+![](https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/source.gif)
 
 ### A Bit of Python Code:
 

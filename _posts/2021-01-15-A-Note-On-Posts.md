@@ -30,15 +30,3 @@ I'm sure there'll be some philosophical rambling interspersed between the core p
 ### Up Next
 
 Tune in next time for something more substantive.
-
-### Quote of the Day
-
-![](/images/gladwell.jpg)
-
-
-
-
-
-#Until then, please enjoy this GIF:
-
-#![](https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/source.gif)
