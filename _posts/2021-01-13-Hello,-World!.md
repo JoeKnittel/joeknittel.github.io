@@ -43,7 +43,7 @@ barplot(t)
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
-$\chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$
+$\chi^2 = \sum_{j=1}^k \dfrac{(E_j-O_j)^2}{E_j}$
 
 ### To-Do List:
 
