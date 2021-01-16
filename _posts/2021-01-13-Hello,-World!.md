@@ -54,3 +54,4 @@ $\chi^2 = \sum\limits_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$
 | Enable R Markdown -> blog post conversion (configure YAML)             | ✔️        |
 | Enable Jupyter notebook -> blog post conversion (nbconvert issue)      | ✔️        |
 | Modify CSS to adjust base theme (something with gemfile)               | ✔️        |
+| Design favicon.ico                                                     | ✔️        | 
