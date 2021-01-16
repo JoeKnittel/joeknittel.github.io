@@ -45,9 +45,9 @@ $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 $\chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$
 
-<br><br>
+### To-Do List:
 
-| To-do List                                                             | Complete? |
+| Task                                                                   | Complete? |
 | ---------------------------------------------------------------------- | --------- |
 | Get images to display (Jekyll issue)                                   | ✔️        |
 | Get MathJax to render $\LaTeX$ (works on local server, but not online) | ✔️        |
