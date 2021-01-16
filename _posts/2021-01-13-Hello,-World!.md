@@ -46,7 +46,7 @@ $$\chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$$
 | To-do List                                                             | Complete? |
 | ---------------------------------------------------------------------- | --------- |
 | Get images to display (Jekyll issue)                                   | ✔️        |
-| Configure YAML for direct .rmd -> blog post conversion                 | ✔️        |
 | Get MathJax to render $\LaTeX$ (works on local server, but not online) | ✔️        |
-| Modify CSS to adjust base theme                                        | ✔️        |
-| Enable Jupyter notebook -> blog post conversion                        | ✔️        |
+| Enable R Markdown -> blog post conversion (configure YAML)             | ✔️        |
+| Enable Jupyter notebook -> blog post conversion (nbconvert issue)      | ✔️        |
+| Modify CSS to adjust base theme (something with gemfile)               | ✔️        |
