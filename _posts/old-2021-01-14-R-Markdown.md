@@ -10,7 +10,6 @@ author: "Joe"
 date: '2021-01-14 05:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
-image: brent-rambo.jpg # for open graph protocol
 ---
 
 ## R Markdown
