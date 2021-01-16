@@ -12,6 +12,10 @@ This is just a test post to make sure everything's set up properly.
 
 <img src = "/images/gamma-trans2.png" width = "500">
 
+### Interactive Plot:
+
+<iframe src="plotly_test.html" height="400" width="500" title="plotly demo" frameborder = "0"></iframe>
+
 ### GIF Functionality:
 
 ![](https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/source.gif)
