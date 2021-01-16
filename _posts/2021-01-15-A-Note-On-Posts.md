@@ -15,11 +15,11 @@ It appears as though everything is configured properly, so I'd like to take a mo
 
 ### What to Expect
 
-Blog posts will be comprised of:
+The vast majority of blog posts will take one of the following forms:
 
 1. `Summaries of major projects` I've completed, referencing code hosted on my GitHub
 
-2. Discussions on `useful tools` I've recently come across (not-so-well-known program features, software libraries, etc.)
+2. Demonstrations of `useful tools` I've recently come across (not-so-well-known program features, software libraries, etc.)
 
 3. `Book reviews` covering a broad range of scientific topics  
 
