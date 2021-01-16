@@ -18,7 +18,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### GIF Functionality:
 
-![](https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/source.gif)
+![](https://media.giphy.com/media/3o7bu79VY9ruoYHPs4/source.gif)
 
 ### A Bit of Python Code:
 
@@ -54,4 +54,4 @@ $\chi^2 = \sum\limits_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$
 | Enable R Markdown -> blog post conversion (configure YAML)             | ✔️        |
 | Enable Jupyter notebook -> blog post conversion (nbconvert issue)      | ✔️        |
 | Modify CSS to adjust base theme (something with gemfile)               | ✔️        |
-| Design favicon.ico                                                     | ✔️        | 
+| Design favicon.ico                                                     | ✔️        |
