@@ -18,7 +18,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### GIF Functionality:
 
-![](https://media.giphy.com/media/3o7bu79VY9ruoYHPs4/source.gif)
+<img src = "/images/abstract-gif.gif" width = "500">
 
 ### A Bit of Python Code:
 
