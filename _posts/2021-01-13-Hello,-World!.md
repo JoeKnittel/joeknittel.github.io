@@ -14,7 +14,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### Interactive Plot:
 
-<iframe src="./plotly_test.html" height="400" width="500" title="plotly demo" frameborder = "0"></iframe>
+<iframe src="\plotly_test.html" height="400" width="500" title="plotly demo" frameborder = "0"></iframe>
 
 ### GIF Functionality:
 
