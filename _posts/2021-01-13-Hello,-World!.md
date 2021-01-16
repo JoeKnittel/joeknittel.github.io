@@ -18,7 +18,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### GIF Functionality:
 
-<img src = "https://i.giphy.com/media/l0HlFvKI2icLus7w4/giphy.webp" width = "500">
+<img src = "https://media.giphy.com/media/3o7TKs0tiDmJZ5U2fC/giphy.gif" width = "500">
 
 ### A Bit of Python Code:
 
