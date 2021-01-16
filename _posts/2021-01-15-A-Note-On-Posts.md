@@ -1,5 +1,5 @@
 ---
-title: Preamble to the Posts
+title: Preamble
 output:
   md_document:
     variant: gfm
