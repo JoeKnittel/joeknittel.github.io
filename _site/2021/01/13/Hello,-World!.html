@@ -28,6 +28,7 @@
          });
        </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <link rel="shortcut icon" type="image/png" href="\favicon.png">
 </head>
 <body><header class="site-header" role="banner">
 
@@ -41,7 +42,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/Jupyter/map.html">     Map plots in Lightning</a><a class="page-link" href="/Jupyter/">Jupyter</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -58,28 +59,32 @@
   <div class="post-content e-content" itemprop="articleBody">
     <p>This is just a test post to make sure everything’s set up properly.</p>
 
-<p><strong>Locally-Stored Static Image</strong>:</p>
+<h3 id="locally-stored-static-image">Locally-Stored Static Image:</h3>
 
-<p><img src="/images/soa.jpg" width="500" /></p>
+<p><img src="/images/gamma-trans2.png" width="500" /></p>
 
-<p><strong>GIF Functionality</strong>:</p>
+<h3 id="interactive-plot">Interactive Plot:</h3>
 
-<p><img src="https://media.giphy.com/media/bAplZhiLAsNnG/source.gif" alt="" /></p>
+<iframe src="https://joeknittel.github.io/plotly_test.html" height="500" width="600" title="plotly demo" frameborder="0"></iframe>
 
-<p><strong>A Bit of Python Code</strong>:</p>
+<h3 id="gif-functionality">GIF Functionality:</h3>
+
+<p><img src="https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/source.gif" alt="" /></p>
+
+<h3 id="a-bit-of-python-code">A Bit of Python Code:</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="k">while</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="s">"TRUE"</span><span class="p">)</span>
     <span class="n">x</span><span class="o">-=</span><span class="mi">1</span></code></pre></figure>
 
-<p><strong>Some R Code</strong>:</p>
+<h3 id="some-r-code">Some R Code:</h3>
 
 <figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">n</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">floor</span><span class="p">(</span><span class="n">rnorm</span><span class="p">(</span><span class="m">10000</span><span class="p">,</span><span class="w"> </span><span class="m">500</span><span class="p">,</span><span class="w"> </span><span class="m">100</span><span class="p">))</span><span class="w">
 </span><span class="n">t</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">table</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="w">
 </span><span class="n">barplot</span><span class="p">(</span><span class="n">t</span><span class="p">)</span></code></pre></figure>
 
-<p><strong>Even $\LaTeX$?</strong>:</p>
+<h3 id="even-latex">Even $\LaTeX$?:</h3>
 
 <p>$\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha &gt; 0$</p>
 
@@ -100,20 +105,20 @@
       <td>✔️</td>
     </tr>
     <tr>
-      <td>Configure YAML for direct .rmd -&gt; blog post conversion</td>
-      <td>✔️</td>
-    </tr>
-    <tr>
       <td>Get MathJax to render $\LaTeX$ (works on local server, but not online)</td>
       <td>✔️</td>
     </tr>
     <tr>
-      <td>Modify CSS to adjust base theme</td>
+      <td>Enable R Markdown -&gt; blog post conversion (configure YAML)</td>
       <td>✔️</td>
     </tr>
     <tr>
-      <td>Enable Jupyter notebook -&gt; blog post conversion</td>
-      <td>❌</td>
+      <td>Enable Jupyter notebook -&gt; blog post conversion (nbconvert issue)</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Modify CSS to adjust base theme (something with gemfile)</td>
+      <td>✔️</td>
     </tr>
   </tbody>
 </table>
