@@ -49,4 +49,4 @@ $$\chi^2 = \sum_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$$
 | Configure YAML for direct .rmd -> blog post conversion                 | ✔️        |
 | Get MathJax to render $\LaTeX$ (works on local server, but not online) | ✔️        |
 | Modify CSS to adjust base theme                                        | ✔️        |
-| Enable Jupyter notebook -> blog post conversion                        | ❌        |
+| Enable Jupyter notebook -> blog post conversion                        | ✔️        |
