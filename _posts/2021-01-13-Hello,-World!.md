@@ -10,7 +10,7 @@ This is just a test post to make sure everything's set up properly.
 
 ### Locally-Stored Static Image:
 
-<img src = "/images/surreal.jpg" width = "500">
+<img src = "/images/gamma.png" width = "500">
 
 ### GIF Functionality:
 
