@@ -273,3 +273,15 @@ table td { border: 1px solid #e8e8e8; }
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+
+.about{
+  color: #424242;
+}
+
+.about:visited{
+  color: #424242;
+}
+
+.about:hover{
+  color: #424242;
+}
