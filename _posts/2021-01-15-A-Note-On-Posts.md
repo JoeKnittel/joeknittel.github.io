@@ -1,5 +1,5 @@
 ---
-title: Preamble
+title: Preface
 output:
   md_document:
     variant: gfm
