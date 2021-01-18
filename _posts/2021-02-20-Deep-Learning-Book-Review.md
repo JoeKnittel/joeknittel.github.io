@@ -1,5 +1,5 @@
 ---
-title: "Book Review : Deep Learning for Coders with Fastai and PyTorch"
+title: "Book Review : Deep Learning for Coders with FastAI and PyTorch"
 output:
   md_document:
     variant: gfm
