@@ -218,8 +218,8 @@ table td { border: 1px solid #e8e8e8; }
   height: 3px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 0.25s;
-  transition-duration: 0.25s;
+  -webkit-transition-duration: 0.20s;
+  transition-duration: 0.20s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
