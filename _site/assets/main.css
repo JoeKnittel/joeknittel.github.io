@@ -283,7 +283,24 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 .about:hover{
+  color: #777;;
+}
+
+.top{
   color: #424242;
+  text-align: center;
+}
+
+.top a{
+  color: #424242;
+}
+
+.top a:visited {
+  color: #424242;
+}
+
+.top a:hover{
+  color: #777;;
 }
 
 /* Icon Buzz Out */
@@ -400,4 +417,30 @@ table td { border: 1px solid #e8e8e8; }
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+.PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  color: #424242;
+}
+
+.PageNavigation a:hover {
+  color: #777;
+}
+
+.PageNavigation .prev {
+  text-align: left;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }

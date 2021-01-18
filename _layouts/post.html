@@ -23,5 +23,22 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  <div class = "top">
+    <a href = "#"><i class="fas fa-caret-up"></i></a>
+  </div>
+
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}"><i class="fas fa-chevron-circle-left"></i>
+        {{page.previous.title}}
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">{{page.next.title}}
+      <i class="fas fa-chevron-circle-right"></i>
+    </a>
+    {% endif %}
+  </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
