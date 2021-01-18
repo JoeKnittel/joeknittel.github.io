@@ -1,5 +1,5 @@
 ---
-title: Writing Reproducible Code with Jupyter Notebooks
+title: Writing Reproducible Python Code with Jupyter Notebooks
 output:
   md_document:
     variant: gfm
