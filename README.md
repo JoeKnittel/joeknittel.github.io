@@ -18,6 +18,6 @@
 
 - Blog entries
   - Raw .rmd and .md files 
-  - Generated HTML files
+  - Generated .html files
 - HTML files defining the structure of the website
 - CSS files that codify the blog's stylistic elements
