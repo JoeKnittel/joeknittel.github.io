@@ -1,5 +1,5 @@
 ---
-title: Bringing Reproducible Code to Life with Binder
+title: Writing Reproducible Code with Jupyter Notebooks
 output:
   md_document:
     variant: gfm
