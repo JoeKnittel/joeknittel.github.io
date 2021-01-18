@@ -16,8 +16,8 @@
 
 ### Contained in this repository:
 
-- Blog entries 
-  - Raw .rmd and .md files
+- Blog entries
+  - Raw .rmd and .md files 
   - Generated HTML files
-- Ruby files that define the structure of the blog
+- HTML files defining the structure of the website
 - CSS files that codify the blog's stylistic elements
