@@ -1,5 +1,5 @@
 ---
-title: Working with APIs in VBA
+title: Working with APIs in Excel VBA
 output:
   md_document:
     variant: gfm
