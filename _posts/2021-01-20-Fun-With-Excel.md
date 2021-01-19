@@ -16,7 +16,7 @@ Microsoft Excel is ubiquitous. The program is <a href = "https://www.google.com/
 
 In this first of what will likely be a truly compelling series of posts (\*sarcasm\*) on Excel, I will talk about functions.
 
-### What is a Function
+## What is a Function
 
 A function can be thought of as an abstract machine that takes a bunch of things as input and outputs a number.
 
@@ -24,11 +24,11 @@ For instance, $f(x) = x^2$ is a function. The input of the "machine" is $x$ and 
 
 One can go into considerably more detail regarding the formalities of the construction, but that's really all that needs to be known for our purposes.
 
-#### How Functions are Used in Excel
+### How Functions are Used in Excel
 
 How does this relate to Microsoft Excel? Well, it's the lifeblood of Excel! You see, the program contains data stored in labeled `cells`, and we can use those data as the input to Excel's many functions in order to get insight into the nature of the data.
 
-#### A Very Basic Example
+### A Very Basic Example
 
 ![](\images\sum.gif)
 
@@ -38,11 +38,11 @@ In our example, as you might expect, the value of $\text{B4}$ is $10$ because $3
 
 Mathematically, `SUM` $(x_1, x_2, \dots, x_n) = \sum_{i=1}^n x_i$. Hence, $\text{B4} = $ `SUM` $\text{(B2,B3)} = 3+7=10$.
 
-### Some Useful Functions:
+## Some Useful Functions:
 
 Now that we have an understanding of a basic function like `SUM`, let's consider some other popular functions, but ones with a little more depth.
 
-#### COUNTIFS
+### COUNTIFS
 
 The `COUNTIFS` function allows us to count the number of cells within multiple ranges that satisfy all of the ranges' respective criteria.
 
@@ -78,7 +78,7 @@ Notice the very slight change? The formula is almost exactly the same, but the c
 
 I'm sure you can think of a number of ways the function can be used to analyze data. The possibilities are really endless.
 
-#### SUMIFS
+### SUMIFS
 
 Let's move on to a similar function called `SUMIFS`. Take a look at the video below and see if you can determine what's going on:
 
@@ -98,7 +98,7 @@ Not too bad, huh?
 
 And since we used absolute references for our ranges, we can just copy our formula down to the remaining rows in the list on the right. You should take a moment to compare the calculated values to what you would expect them to be (e.g., notice that there are two rows with criteria $\text{C and Y}$, so we must sum over both of those rows).
 
-#### VLOOKUP
+### VLOOKUP
 
 The last function we'll look at in this post is called `VLOOKUP`. It's considerably different from the other functions we've discussed so far, but it's utility is just as significant.
 
@@ -132,34 +132,14 @@ This is where things get a little messy. Since the `key` $\text{"C"}$ is not pre
 
 Let's briefly describe the second `VLOOKUP` calculation (with the last arugment = $\text{TRUE}$). Everything's the same, except if no rows contain the `key`, the function selects the row whose value in the first column of the `data` is the most similar to the `key`. This happens in the case of $\text{TYPE C}$: the function just considers the `key` to be $\text{"B"}$ rather than $\text{"C"}$, so it focuses on $\text{Row 4}$ in its search. Consequently, it finds a value of $5$ for $\text{VAL2 (APPROX)}$. And in the case where the `key` appears in more than one row in the `table`, the function now selects the last instance (as opposed to the first instance when the last argument was $\text{FALSE}$). This results in a $\text{VAL2 (APPROX)}$ of $14$.
 
-### Other Excel Functions
+## Other Excel Functions
 
 Excel contains countless functions, all with their specific merit in different scenarios, but no one knows what every single Excel function does.
 
 Luckily, having a firm understanding of how functions work, access to <a href = "https://support.microsoft.com/en-us/">reference documentation</a>, some patience to experiment, and a bit of ingenuity goes a long way in becoming acquainted with a new function's usage.
 
-### Coming Up
+## Coming Up
 
 - In the next entry of this series on Excel, we'll talk about some other commonly used features like conditional formatting and pivot tables. Look out for that post in the coming weeks/months.
 
 - The next blog post, though, will be about programming in Excel using a powerful language called VBA--it's the tool used to make the Tetris game described above, and we'll use it to do something just as cool: interact with an open web API and automate actions within Excel.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
