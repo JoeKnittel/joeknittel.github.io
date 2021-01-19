@@ -8,21 +8,19 @@ tags: test
 
 This is just a test post to make sure everything's set up properly.
 
-## Testing: 1,2,3
-
-### Locally-Stored Static Image:
+## Locally-Stored Static Image:
 
 <img src = "/images/gamma.png" width = "550">
 
-### Interactive Plot:
+## Interactive Plot:
 
 <iframe src="https://joeknittel.github.io/plotly_test.html" height="500" width="600" title="plotly demo" frameborder = "0"></iframe>
 
-### GIF Functionality:
+## GIF Functionality:
 
 <img src = "https://media.giphy.com/media/ftAyb0CG1FNAIZt4SO/giphy.gif" width = "500">
 
-### A Bit of Python Code:
+## A Bit of Python Code:
 
 {% highlight python %}
 
@@ -33,7 +31,7 @@ while(x):
 
 {% endhighlight %}
 
-### Some R Code:
+## Some R Code:
 
 {% highlight r %}
 n <- floor(rnorm(10000, 500, 100))
@@ -41,7 +39,7 @@ t <- table(n)
 barplot(t)
 {% endhighlight %}
 
-### Even $\LaTeX$?:
+## Even $\LaTeX$?:
 
 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
