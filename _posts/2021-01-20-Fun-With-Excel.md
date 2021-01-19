@@ -104,7 +104,7 @@ The last function we'll look at in this post is called `VLOOKUP`. It's considera
 
 `VLOOKUP` finds a corresponding `value` for a given `key` in a `table` of values, located in a specified `column`.
 
-Our arguments are: a `key` (i.e., a cell) which focuses our search to a specific row in the data, a `table` of values (i.e., a range), a `column number` that tells us where where to look for the `value` in the `table`, and a boolean value (i.e., $\text{TRUE}$ or \text{FALSE}$) representing the type of match (approximate or exact, respectively).
+Our arguments are: a `key` (i.e., a cell) which focuses our search to a specific row in the data, a `table` of values (i.e., a range), a `column number` that tells us where where to look for the `value` in the `table`, and a boolean value (i.e., $\text{TRUE}$ or $\text{FALSE}$) representing the type of match (approximate or exact, respectively).
 
 Let's take a look at our function machine in action:
 
