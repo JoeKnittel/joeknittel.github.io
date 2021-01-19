@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-18 9:01:01'
+date: '2021-01-19 9:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
