@@ -16,8 +16,8 @@ Last time, we considered some very contrived examples wherein we applied a few o
 
 In this post, we look to extend our reach within Micorosft Excel by doing the following:
 
-1. Describing the various data sources and how to import them into Excel
-2. Using VBA, the programming language of Excel, to define our own functions  
+1. Describing the various types of data sources and how to import them into Excel
+2. Using VBA, the programming language of Excel, to define our own functions and subroutines
 3. Connecting to and interacting with a website's database programmatically through an interface called a Web API
 
 ## Data are Everywhere
@@ -96,7 +96,7 @@ Since <a href = "https://dictionaryapi.com/products/api-collegiate-dictionary">M
 
 ## Interacting with a Web API Using VBA
 
-VBA (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (`UDFs`), in order to extend the utility of our workbooks.
+VBA (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (`UDFs`) and `subroutines`, in order to extend the utility of our workbooks.
 
 This is exactly what we need to set up a connection with a Web API, get our data, and interact with the data in all kinds of fancy ways.
 
