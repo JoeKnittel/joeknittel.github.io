@@ -12,6 +12,8 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
+<img src = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/excel-1598646848.jpg" width = "100%">
+
 Microsoft Excel is ubiquitous. The program is <a href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the early '90s.
 
 In this first of what will likely be a truly compelling series of posts (\*sarcasm\*) on Excel, I will talk about functions.
@@ -142,4 +144,4 @@ Luckily, having a firm understanding of how functions work, access to <a href = 
 
 - In the next entry of this series on Excel, we'll talk about some other commonly used features like conditional formatting and pivot tables. Look out for that post in the coming weeks/months.
 
-- The next blog post, though, will be about programming in Excel using a powerful language called VBA--it's the tool used to make the Tetris game described above, and we'll use it to do something just as cool: interact with an open web API and automate actions within Excel.
+- The next blog post, though, will be about programming in Excel using a powerful language called VBA--it's the tool used to make the Tetris game described above, and we'll use it to do something just as cool: interact with an open Web API and automate actions within Excel.
