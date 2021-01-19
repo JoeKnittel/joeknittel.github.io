@@ -1,5 +1,5 @@
 ---
-title: "Fun With MS Excel, Part 1 : Some Useful Functions"
+title: "Experiments With MS Excel, Part 1 : Some Useful Functions"
 output:
   md_document:
     variant: gfm
