@@ -8,6 +8,8 @@ tags: test
 
 This is just a test post to make sure everything's set up properly.
 
+## Testing: 1,2,3
+
 ### Locally-Stored Static Image:
 
 <img src = "/images/gamma.png" width = "550">
@@ -45,7 +47,7 @@ $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t} \ dt, \quad \alpha > 0$
 
 $\chi^2 = \sum\limits_{j=1}^k \frac{(E_j-O_j)^2}{E_j}$
 
-### To-Do List:
+## To-Do List:
 
 | Task                                                                   | Complete? |
 | ---------------------------------------------------------------------- | --------- |
