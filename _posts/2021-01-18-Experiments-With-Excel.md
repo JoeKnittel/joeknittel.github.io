@@ -62,7 +62,7 @@ $$
 
 What's a `range`? It's just a collection of adjacent cells (e.g., $\text{B3:B7}$ is a range of cells from $\text{B3}$ to $\text{B7}$.
 
-What's with the all the dollar signs? The dollar signs signify an `absolute reference`, meaning the range is locked in place when we copy the formula to other cells.
+What's with the all the dollar signs? The dollar signs signify an `absolute reference`, meaning the range is locked in place when we copy the formula to other cells. *Pro Tip: you can auto-populate the dollar signs for absolute reference by typing the $\text{"F4"}$ key immediately after selecting the range*.
 
 And the `criterion`? It's just a condition that can be either $\text{TRUE}$ or $\text{FALSE}$. The first criterion (second argument) just says we're looking for cells whose $\text{Type}$ is $\text{A}$.
 
