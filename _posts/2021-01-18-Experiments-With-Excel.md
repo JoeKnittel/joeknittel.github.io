@@ -12,7 +12,7 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
-<img src = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/excel-1598646848.jpg" width = "100%">
+![](/images/excel logo.svg)
 
 Microsoft Excel is ubiquitous. The program is <a href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the early '90s.
 
