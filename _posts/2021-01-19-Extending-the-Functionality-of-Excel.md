@@ -394,6 +394,6 @@ All of the code I developed can be found in <a href = "https://github.com/JoeKni
 
 We've talk a lot about Excel in the most recent posts.
 
-Let's flip the script and start to discuss coding in Python, with a strong focus on `literate programming` and `reproducibility`.
+Let's flip the script and start to discuss coding in Python.
 
 More on what that entails next time.
