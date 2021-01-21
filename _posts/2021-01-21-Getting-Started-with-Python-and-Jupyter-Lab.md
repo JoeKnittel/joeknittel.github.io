@@ -95,7 +95,7 @@ We do so by typing: `np.random.normal(0,1,100)`. And, the result should be somet
 
 ![](\images\array.png)
 
-<font color = "green">**Awesome!** </font>
+<font color = "green"> <b>Awesome!</b> </font>
 
 It may not seem like much, but we're well on our way to doing some pretty cool stuff.
 
@@ -135,9 +135,7 @@ In the next step, we'll run Jupyter Lab from this directory and it'll provide th
 
 Running Juypter Lab requires just two steps:
 
-1. Open the terminal and change directory ("cd") to your new Jupyter directory from the previous step (don't forget to exit out of Python first, if you're still in it from before)
-
- (e.g., `cd C:\Code\Jupyter`)
+1. Open the terminal and change directory ("cd") to your new Jupyter directory from the previous step (don't forget to exit out of Python first, if you're still in it from before) (e.g., `cd C:\Code\Jupyter`)
 
 2. Type `jupyter lab`
 
