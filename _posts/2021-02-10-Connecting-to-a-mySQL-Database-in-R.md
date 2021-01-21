@@ -1,5 +1,5 @@
 ---
-title: "R Graphing Libraries, Part 1 : Plotly"
+title: Connecting to a mySQL Database with R (+ a Primer on SQL)
 output:
   md_document:
     variant: gfm
@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-21 07:02:01'
+date: '2021-01-21 9:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---

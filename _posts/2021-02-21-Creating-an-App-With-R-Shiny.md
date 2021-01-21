@@ -1,5 +1,5 @@
 ---
-title: "Creating an App with R Shiny"
+title: Creating a Data-Driven App with Shiny and Deploying it Online
 output:
   md_document:
     variant: gfm

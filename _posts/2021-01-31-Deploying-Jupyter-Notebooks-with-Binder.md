@@ -1,5 +1,5 @@
 ---
-title: Bringing Reproducible Code to Life with Binder
+title: Deploying Jupyter Notebooks in a Self-Contained Execution Environment with Binder 
 output:
   md_document:
     variant: gfm

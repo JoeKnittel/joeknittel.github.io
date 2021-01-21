@@ -1,5 +1,5 @@
 ---
-title: Stylized Note-Taking with R Markdown
+title: Setting up R and Configuring it for Usage Within Jupyter Lab
 output:
   md_document:
     variant: gfm
@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-21 08:01:01'
+date: '2021-01-21 07:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
