@@ -117,9 +117,9 @@ Installing our new IDE is a breeze: just type `pip install jupyterlab` from the 
 
 #### Extensions
 
-Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have node.js installed.
+Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have <a href = "https://nodejs.org/en/about/">node.js</a> installed.
 
-If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, sql features, latex enhancements, and an improved suite of visualization libraries) in the future, download node.js at: https://nodejs.org/en/download/ (use the default options when installing)
+If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, sql features, latex enhancements, and an improved suite of visualization libraries) in the future, download node.js at: <a href = "https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> (use the default options when installing)
 
 After installing node.js (which might take a few minutes), we'll be ready to give Jupyter Lab a spin.
 
