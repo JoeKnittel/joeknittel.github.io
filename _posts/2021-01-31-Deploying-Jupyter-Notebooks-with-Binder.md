@@ -1,5 +1,5 @@
 ---
-title: Deploying Jupyter Notebooks in a Self-Contained Execution Environment with Binder 
+title: "Reproducible Code : Deploying Jupyter Notebooks with Binder"
 output:
   md_document:
     variant: gfm

@@ -10,6 +10,8 @@ This blog will serve primarily as a tool to document what I've learned throughou
 
 Just as the field is evolving quickly to keep up with changes in the technological landscape, I, too, hope to keep this site relevant with fresh ideas spanning various fields.
 
+<img src = "\images\squiggly.png" width = "100%">
+
 ### Blog Design
 
 - Site Generator: <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a>
