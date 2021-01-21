@@ -12,6 +12,8 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
+![](/images/vba api.png)
+
 Last time, we considered some very contrived examples wherein we applied a few of Excel's built-in functions to data contained in a few cells. It was a good way to get a taste of how Excel is used, but it certainly doesn't tell the whole story.
 
 In this post, we look to extend our reach within Micorosft Excel by doing the following:
@@ -392,8 +394,6 @@ All of the code I developed can be found in <a href = "https://github.com/JoeKni
 
 ## Coming up
 
-We've talk a lot about Excel in the most recent posts.
-
-Let's flip the script and start to discuss coding in Python.
+We've talk a lot about Excel in the most recent posts. Let's flip the script and start to discuss coding in Python.
 
 More on what that entails next time.

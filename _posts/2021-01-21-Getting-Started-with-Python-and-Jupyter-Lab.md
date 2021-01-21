@@ -139,7 +139,9 @@ Running Juypter Lab requires just two steps:
 
 2. Type `jupyter lab`
 
-That's it! Your default web browser should open and be directed to a local web server located at http://localhost:8888/lab and you should see something similar to the UI pictured in the previous section.
+That's it! Your default web browser should open and be directed to a local web server located at http://localhost:8888/lab.
+
+You should see something similar to the UI pictured in the previous section.
 
 ## Summary
 
