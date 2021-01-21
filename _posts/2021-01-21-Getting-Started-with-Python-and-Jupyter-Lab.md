@@ -55,15 +55,15 @@ Once you have everything installed, head over to your terminal (on Windows, pres
 
 You should see something like:
 
-![](images\cmd.png)
+![](\images\cmd.png)
 
 Type "python" and press enter, which should result in (if it doesn't, either you didn't install Python at all, or the program has not been added to your PATH; a quick <a href = "https://www.google.com/search?sxsrf=ALeKk02k37KuZe-GXFmpBlwWNXtuQXMgAQ%3A1611245768430&source=hp&ei=yKgJYPiFF4iL5wL4mKv4Dg&q=adding+python+to+path&oq=adding+python+&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQM6EQguELEDEMcBEKMCEMkDEJMCOg4ILhCxAxCDARDHARCjAjoFCAAQsQM6AgguOgsILhCxAxDJAxCTAjoFCC4QkwI6DQguELEDEMcBEKMCEAo6CwgAELEDEIMBEMkDUOANWK0dYOgkaABwAHgAgAFxiAGsCpIBBDExLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab">google search</a> should help here):
 
-![](images\python.png)
+![](\images\python.png)
 
 Finally, just to be sure everything is function properly, let's type `2+2` and see if Python knows its basic math:
 
-![](images\2+2.png)
+![](\images\2+2.png)
 
 <b><font color = "green">Success!</font></b>
 
@@ -81,19 +81,19 @@ If you're still in the terminal from before, Python is still running, so we need
 
 Here's approximately what you should be seeing on your screen:
 
-![](images\numpy.png)
+![](\images\numpy.png)
 
 When you press enter, you should see the installation process occur and, if all goes according to plan, you'll encounter no errors.
 
 Let's head back into Python (type `python` and press enter, as we did earlier), then import our new package and give it a nickname ("np") for ease of use going forward.
 
-![](images\import.png)
+![](\images\import.png)
 
 Finally, let's use numpy to generate an array of 100 random values, each selected from the standard normal distribution: $X_i \sim \mathcal{N}(\mu = 0, \sigma^2 = 1), \ i \in \{1,2,...,100\}$
 
 We do so by typing: `np.random.normal(0,1,100)`. And, the result should be something like:
 
-![](images\array.png)
+![](\images\array.png)
 
 <font color = "green">**Awesome!** </font>
 
@@ -105,7 +105,7 @@ Python comes with an IDE built in, called IDLE. It works (just search for "pytho
 
 Going forward, we'll be using Jupyter Lab as our IDE. Here's a peak at the `UI` (user interface):
 
-![](images\jupyter-lab.png)
+![](\images\jupyter-lab.png)
 
 Pretty cool, right! Let's set it up.
 
