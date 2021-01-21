@@ -12,7 +12,7 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
-<img src = "images/python-jupyter.png" width = "100%">
+![](/images/python-jupyter.png)
 
 In this post, we'll do the following:
 
