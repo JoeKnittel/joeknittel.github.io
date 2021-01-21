@@ -99,7 +99,7 @@ We do so by typing: `np.random.normal(0,1,100)`. And, the result should be somet
 
 It may not seem like much, but we're well on our way to doing some pretty cool stuff.
 
-At this point, we need to get set up with an `IDE` (integrated development environment), which is just a program that will make it easy for us to write more elaborate programs, instead of just writing one-off statements in the terminal.
+At this point, we need to get set up with an `IDE` (integrated development environment), which is just a program that will make it easy for us to write more elaborate code, instead of just one-off statements in the terminal.
 
 Python comes with an IDE built in, called IDLE. It works (just search for "python" on your computer), but it's highly lacking compared to some of the more modern environments.
 
