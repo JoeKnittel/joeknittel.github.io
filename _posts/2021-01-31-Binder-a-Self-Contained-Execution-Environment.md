@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Code : Deploying Jupyter Notebooks with Binder"
+title: "Our First Jupyter Notebook, Deployed with Binder"
 output:
   md_document:
     variant: gfm

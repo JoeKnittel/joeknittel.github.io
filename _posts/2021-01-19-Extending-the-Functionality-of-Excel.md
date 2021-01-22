@@ -394,6 +394,4 @@ All of the code I developed can be found in <a class = "post" href = "https://gi
 
 ## Coming up
 
-We've talk a lot about Excel in the most recent posts. Let's flip the script and start to discuss coding in Python.
-
-More on what that entails next time.
+We've talked a lot about Excel in the most recent posts, so let's flip the script and start to discuss coding in Python. More on what that entails next time.
