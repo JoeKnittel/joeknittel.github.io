@@ -71,13 +71,13 @@ Finally, just to be sure everything is function properly, let's type `2+2` and s
 
 When you installed Python (if you followed the default prompts, as suggested), you also downloaded the Package Installer for Python, or `pip`, for short.
 
-pip will allow us to very easily extend the functionality of Python, by adding `packages`. Python packages most commonly contain a `library` of Python files called `modules`, and each one serves a different purpose (e.g., use the numpy package to perform standard statistical calculations)
+pip will allow us to very easily extend the functionality of Python, by adding `packages`. Python packages most commonly contain a `library` of Python files called `modules`, and each one serves a different purpose (e.g., use the NumPy package to perform standard statistical calculations)
 
-Statistical calculations? That sounds useful. Let's install the numpy package and see an example of what it can do.
+Statistical calculations? That sounds useful. Let's install the NumPy package and see an example of what it can do.
 
-#### Using pip to Install Numpy
+#### Using pip to Install NumPy
 
-If you're still in the terminal from before, Python is still running, so we need to exit (by typing `exit()` and pressing enter). Next, we'll install numpy by typing: `pip install numpy`.
+If you're still in the terminal from before, Python is still running, so we need to exit (by typing `exit()` and pressing enter). Next, we'll install NumPy by typing: `pip install numpy`.
 
 Here's approximately what you should be seeing on your screen:
 
@@ -89,7 +89,7 @@ Let's head back into Python (type `python` and press enter, as we did earlier), 
 
 ![](\images\import.png)
 
-Finally, let's use numpy to generate an array of 100 random values, each selected from the standard normal distribution: $X_i \sim \mathcal{N}(\mu = 0, \sigma^2 = 1), \ i \in \{1,2,...,100\}$
+Finally, let's use NumPy to generate an array of $100$ sample points $[x_i], \ i \in \\{ 1,2,\dots,100 \\} $ from the standard normal distribution: $X \sim \mathcal{N}(\mu = 0, \sigma^2 = 1)$.
 
 We do so by typing: `np.random.normal(0,1,100)`. And, the result should be something like:
 
@@ -113,7 +113,7 @@ Pretty cool, right! Let's set it up.
 
 ### Installation
 
-Installing our new IDE is a breeze: just type `pip install jupyterlab` from the terminal, as we had done when installing the numpy package.
+Installing our new IDE is a breeze: just type `pip install jupyterlab` from the terminal, as we had done when installing the NumPy package.
 
 #### Extensions
 
@@ -129,7 +129,7 @@ One last thing before we proceed: let's create a base working directory for our 
 
 Find a place on your computer's file system where you normaly keep data analysis stuff and create a new directory for Juypter Lab (e.g., C:\Code\Jupyter).
 
-In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our `Juypter notebooks` (collections of code interspersed with markdown elements).
+In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our `Juypter notebooks` (i.e., collections of code interspersed with markdown elements).
 
 ## Loading Jupyter Lab
 
