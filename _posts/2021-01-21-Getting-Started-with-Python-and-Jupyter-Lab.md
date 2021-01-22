@@ -133,13 +133,13 @@ In the next step, we'll run Jupyter Lab from this directory and it'll provide th
 
 ## Loading Jupyter Lab
 
-Running Juypter Lab requires just two steps:
+Running Juypter Lab requires just two steps (don't forget to exit out of Python first, if you're still in it from before, then proceed):
 
-1. Open the terminal and change directory ("cd") to your new Jupyter directory from the previous step (don't forget to exit out of Python first, if you're still in it from before) (e.g., `cd C:\Code\Jupyter`)
+1. Open the terminal and change directory ("cd") to your new Jupyter directory from the previous step (e.g., `cd C:\Code\Jupyter`)
 
 2. Type `jupyter lab`
 
-That's it! Your default web browser should open and be directed to a local web server located at http://localhost:8888/lab.
+That's it! Your default web browser should open and be directed to a local web server running at the address: http://localhost:8888/lab.
 
 You should see something similar to the UI pictured in the previous section.
 
