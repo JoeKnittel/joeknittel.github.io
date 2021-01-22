@@ -66,7 +66,7 @@ What's with the all the dollar signs? The dollar signs signify an `absolute refe
 
 And the `criterion`? It's just a condition that can be either $\text{TRUE}$ or $\text{FALSE}$. The first criterion (second argument) just says we're looking for cells whose $\text{Type}$ is $\text{A}$.
 
-The pattern repeats itself for the third and fourth arguments such that the formula specifies we're looking for cells whose $\text{Val}>=10$.
+The pattern repeats itself for the third and fourth arguments such that the formula specifies we're looking for cells whose $\text{Val} \ge 10$.
 
 Putting everything together, we can see that there is only $1$ row that satisfies both of these criteria; hence, the value of cell $\text{G3}$ is $1$.
 
