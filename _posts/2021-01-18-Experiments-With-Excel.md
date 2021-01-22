@@ -14,7 +14,7 @@ layout: post
 
 ![](/images/excel logo.png)
 
-Microsoft Excel is ubiquitous. The program is <a href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the early '90s.
+Microsoft Excel is ubiquitous. The program is <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a class = "post" href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the early '90s.
 
 In this first of what will likely be a truly compelling series of posts (\*sarcasm\*) on Excel, I will talk about functions.
 
@@ -138,7 +138,7 @@ Let's briefly describe the second `VLOOKUP` calculation (with the last arugment 
 
 Excel contains countless functions, all with their specific merit in different scenarios, but no one knows what every single Excel function does.
 
-Luckily, having a firm understanding of how functions work, access to <a href = "https://support.microsoft.com/en-us/">reference documentation</a>, some patience to experiment, and a bit of ingenuity goes a long way in becoming acquainted with a new function's usage.
+Luckily, having a firm understanding of how functions work, access to <a class = "post" href = "https://support.microsoft.com/en-us/">reference documentation</a>, some patience to experiment, and a bit of ingenuity goes a long way in becoming acquainted with a new function's usage.
 
 ## Coming Up
 

@@ -14,10 +14,15 @@ Just as the field is evolving quickly to keep up with changes in the technologic
 
 ### Blog Design
 
-- Site Generator: <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a>
-- Web Hosting: <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a>
-- Base Theme: <a href = "https://jekyll.github.io/minima/" target = "_blank">Minima</a>
-- Custom CSS Libraries: <a href = "https://ianlunn.github.io/Hover/" target = "_blank">Hover.css</a>
-- Icons: <a href = "https://fontawesome.com/" target= "_blank">Font Awesome</a>
+<div class = "special">
+<ul>
+<li> Site Generator: <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> </li>
+<li> Web Hosting: <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a> </li>
+<li> Base Theme: <a href = "https://jekyll.github.io/minima/" target = "_blank">Minima</a> </li>
+<li> Custom CSS Libraries: <a href = "https://ianlunn.github.io/Hover/" target = "_blank">Hover.css</a> </li>
+<li> Icons: <a href = "https://fontawesome.com/" target= "_blank">Font Awesome</a> </li> 
+</ul>
+
+</div>
 
 Site is optimized for Google Chrome on laptop/desktop, but should be responsive to most browsing environments.

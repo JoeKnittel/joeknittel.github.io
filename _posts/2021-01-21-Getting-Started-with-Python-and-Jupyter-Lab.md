@@ -57,7 +57,7 @@ You should see something like:
 
 ![](\images\cmd.png)
 
-Type "python" and press enter, which should result in (if it doesn't, either you didn't install Python at all, or the program has not been added to your PATH; a quick <a href = "https://www.google.com/search?sxsrf=ALeKk02k37KuZe-GXFmpBlwWNXtuQXMgAQ%3A1611245768430&source=hp&ei=yKgJYPiFF4iL5wL4mKv4Dg&q=adding+python+to+path&oq=adding+python+&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQM6EQguELEDEMcBEKMCEMkDEJMCOg4ILhCxAxCDARDHARCjAjoFCAAQsQM6AgguOgsILhCxAxDJAxCTAjoFCC4QkwI6DQguELEDEMcBEKMCEAo6CwgAELEDEIMBEMkDUOANWK0dYOgkaABwAHgAgAFxiAGsCpIBBDExLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab">google search</a> should help here):
+Type "python" and press enter, which should result in (if it doesn't, either you didn't install Python at all, or the program has not been added to your PATH; a quick <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk02k37KuZe-GXFmpBlwWNXtuQXMgAQ%3A1611245768430&source=hp&ei=yKgJYPiFF4iL5wL4mKv4Dg&q=adding+python+to+path&oq=adding+python+&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQM6EQguELEDEMcBEKMCEMkDEJMCOg4ILhCxAxCDARDHARCjAjoFCAAQsQM6AgguOgsILhCxAxDJAxCTAjoFCC4QkwI6DQguELEDEMcBEKMCEAo6CwgAELEDEIMBEMkDUOANWK0dYOgkaABwAHgAgAFxiAGsCpIBBDExLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab">google search</a> should help here):
 
 ![](\images\python.png)
 
@@ -117,9 +117,9 @@ Installing our new IDE is a breeze: just type `pip install jupyterlab` from the 
 
 #### Extensions
 
-Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have <a href = "https://nodejs.org/en/about/">node.js</a> installed.
+Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have <a class = "post" href = "https://nodejs.org/en/about/">node.js</a> installed.
 
-If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, sql features, latex enhancements, and an improved suite of visualization libraries) in the future, download node.js at: <a href = "https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> (use the default options when installing)
+If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, sql features, latex enhancements, and an improved suite of visualization libraries) in the future, download node.js at: <a class = "post" href =  "https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> (use the default options when installing)
 
 After installing node.js (which might take a few minutes), we'll be ready to give Jupyter Lab a spin.
 

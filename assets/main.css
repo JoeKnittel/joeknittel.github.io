@@ -26,19 +26,39 @@ li > ul, li > ol { margin-bottom: 0; }
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
-/** Links */
-a { color: #2a7ae2; text-decoration: none; }                        /*2a7ae2*/
-a:visited { color: #2a7ae2; }                                       /*2a7ae2*/
+
+
+/** Links (POST TITLE LINKS!!!) */
+a { color: #333; text-decoration: none; }                        /*2a7ae2*/
+a:visited { color: #333; }                                       /*2a7ae2*/
 a:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
 
 /*a.uemail {color: #2a7ae2;}
 a.uemail:visited {color: #2a7ae2;}
 a.uemail: {color: #2a7ae2;}*/
 
-.social-media-list a { color: #2a7ae2;      }
-.social-media-list a:visited { color: #2a7ae2;      }
-.social-media-list a:hover { text-decoration: none; color: #0059cc;                           }
+.social-media-list a { color: #2a7ae2;      }                        /*2a7ae2*/
+.social-media-list a:visited { color: #2a7ae2;       }               /*2a7ae2*/
+.social-media-list a:hover { text-decoration: none; color: #0059cc;      /*0059cc*/                      }
 .social-media-list a:hover .username { /*text-decoration: underline; */}
+
+.contact-list a { color: #2a7ae2;      }                        /*2a7ae2*/
+.contact-list a:visited { color: #2a7ae2;       }               /*2a7ae2*/
+.contact-list a:hover { text-decoration: none; color: #0059cc;      /*0059cc*/                      }
+
+.rss-subscribe a { color: #2a7ae2;      }                        /*2a7ae2*/
+.rss-subscribe a:visited { color: #2a7ae2;       }               /*2a7ae2*/
+.rss-subscribe a:hover { text-decoration: none; color: #0059cc;      /*0059cc*/                      }
+
+
+.special a { color: #2a7ae2;      }                        /*2a7ae2*/
+.special a:visited { color: #2a7ae2;       }               /*2a7ae2*/
+.special a:hover { text-decoration: none; color: #0059cc;      /*0059cc*/                      }
+.special a:hover .username { /*text-decoration: underline; */}
+
+a.post { color: #2a7ae2;      }                        /*2a7ae2*/
+a.post:visited { color: #2a7ae2;       }               /*2a7ae2*/
+a.post:hover { text-decoration: none; color: #0059cc;      /*0059cc*/                      }
 
 /** Blockquotes */
 blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
