@@ -113,6 +113,8 @@ Pretty cool, right! Let's set it up.
 
 ### Installation
 
+#### Base IDE
+
 Installing our new IDE is a breeze: just type `pip install jupyterlab` from the terminal, as we had done when installing the NumPy package.
 
 #### Extensions
