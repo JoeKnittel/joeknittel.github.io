@@ -95,7 +95,7 @@ We do so by typing: `np.random.normal(0,1,100)`. And, the result should be somet
 
 ![](\images\array.png)
 
-<font color = "green"> <b>Awesome!</b> </font> <br>
+<font color = "green"> <b>Awesome!</b> </font> 
 
 It may not seem like much, but we're well on our way to doing some pretty cool stuff.
 
