@@ -92,7 +92,7 @@ In the diagram, we see that the key link between the site's database and us is t
 1. We send an API request to the web server via the internet
 2. The web browser directs the request to the database in the form of a query
 3. The results of the query are collected into a nice little package and the web server directs it back to us
-4. We get our requested data in the form of an API response (most commonly with <a class = "post" = "https://en.wikipedia.org/wiki/JSON">JSON</a> structure)     
+4. We get our requested data in the form of an API response (most commonly with <a class = "post" href = "https://en.wikipedia.org/wiki/JSON">JSON</a> structure)     
 
 Since <a class = "post" = "https://dictionaryapi.com/products/api-collegiate-dictionary">Merriam-Webster does provide a Web API</a>, we'll be able to proceed, and we'll do so using a programming language called `VBA`.
 
