@@ -39,7 +39,7 @@ It turns out that in many cases Excel works just fine, but here are a few reason
 
 - **Very popular**: by some estimates, there are around 10 million Python developers worldwide
 
-- **Extensibility**: since Python is such a popular programming language, there's also a large group of contributors worldwide who are constantly creating new tools to extend the functionality of the program
+- **Extensible**: since Python is such a popular programming language, there's also a large group of contributors worldwide who are constantly creating new tools to extend the functionality of the program
 
 What do we have to lose? Let's get started with Python!
 
