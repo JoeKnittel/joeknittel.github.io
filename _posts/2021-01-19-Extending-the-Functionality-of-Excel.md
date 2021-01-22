@@ -75,7 +75,7 @@ For instance, say we want a cell in our worksheet to display the cell to its imm
 
 ![](\images\definition.png)
 
-We can set up a connection with a webpage that has the word's definition (e.g., <a class = "post" href = "https://www.merriam-webster.com/dictionary/test">https://www.merriam-webster.com/dictionary/test</a> has information for the word "test") and then do a bit of <a class = "post" = "https://en.wikipedia.org/wiki/Data_wrangling">data wrangling</a> to display the definition. But that's just one page; we need this to work for all possible words! Seems like we're out of options.
+We can set up a connection with a webpage that has the word's definition (e.g., <a class = "post" href = "https://www.merriam-webster.com/dictionary/test">https://www.merriam-webster.com/dictionary/test</a> has information for the word "test") and then do a bit of <a class = "post" href = "https://en.wikipedia.org/wiki/Data_wrangling">data wrangling</a> to display the definition. But that's just one page; we need this to work for all possible words! Seems like we're out of options.
 
 Well, not so fast... Let's consider the problem from a different perspective:
 
@@ -94,7 +94,7 @@ In the diagram, we see that the key link between the site's database and us is t
 3. The results of the query are collected into a nice little package and the web server directs it back to us
 4. We get our requested data in the form of an API response (most commonly with <a class = "post" href = "https://en.wikipedia.org/wiki/JSON">JSON</a> structure)     
 
-Since <a class = "post" = "https://dictionaryapi.com/products/api-collegiate-dictionary">Merriam-Webster does provide a Web API</a>, we'll be able to proceed, and we'll do so using a programming language called `VBA`.
+Since <a class = "post" href = "https://dictionaryapi.com/products/api-collegiate-dictionary">Merriam-Webster does provide a Web API</a>, we'll be able to proceed, and we'll do so using a programming language called `VBA`.
 
 ## Interacting with a Web API Using VBA
 
@@ -104,7 +104,7 @@ This is exactly what we need to set up a connection with a Web API, get our data
 
 ### Setup
 
-To get started, we first need to enable the $\text{Developer}$ tab within Excel. If yours is not already enabled, <a class = "post" = "https://support.microsoft.com/en-us/office/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45#:~:text=The%20Developer%20tab%20isn't,select%20the%20Developer%20check%20box.">this guide</a> should help you out.
+To get started, we first need to enable the $\text{Developer}$ tab within Excel. If yours is not already enabled, <a class = "post" href = "https://support.microsoft.com/en-us/office/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45#:~:text=The%20Developer%20tab%20isn't,select%20the%20Developer%20check%20box.">this guide</a> should help you out.
 
 Now, that that's set up, let's go to the Visual Basic editor:
 
@@ -135,11 +135,11 @@ End Function
 
 Don't worry too much about the details, but this function's argument is a URL. So what URL do we use?
 
-The <a class = "post" = "https://dictionaryapi.com/products/api-collegiate-dictionary" width = "400px">API</a> helps us out:
+The <a class = "post" href = "https://dictionaryapi.com/products/api-collegiate-dictionary" width = "400px">API</a> helps us out:
 
 ![](\images\request_url.png)
 
-It turns out that in order to use most Web APIs, a key is required, so that that the server is not bogged down with requests. In our case, the <a class = "post" = "https://dictionaryapi.com/register/index">API registration process</a> is quick and free, but that's not always the case.
+It turns out that in order to use most Web APIs, a key is required, so that that the server is not bogged down with requests. In our case, the <a class = "post" href = "https://dictionaryapi.com/register/index">API registration process</a> is quick and free, but that's not always the case.
 
 So, we've got our API key, now we can construct our full URL:
 
@@ -220,7 +220,7 @@ It's not necessary to know exactly what's going on here, but here's the gist:
 
 #### Using Open-Source Modules and Classes in VBA
 
-So, what's $\text{JsonConverter}$? It's an `open-source` (located <a class = "post" = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA `module` (i.e., collection of functions) that uses the $\text{VBA-Dictionary}$ (found <a class = "post" = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) `class` (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable. Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
+So, what's $\text{JsonConverter}$? It's an `open-source` (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA `module` (i.e., collection of functions) that uses the $\text{VBA-Dictionary}$ (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) `class` (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable. Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
 
 To use the aforementioned module and class, we just download them and import them in their respective section of the Visual Basic editor:
 
