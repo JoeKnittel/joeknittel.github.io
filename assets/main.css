@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 
 /** Links (POST TITLE LINKS!!!) */
-a { color: #333; text-decoration: none; }                        /*2a7ae2*/
-a:visited { color: #333; }                                       /*2a7ae2*/
+a { color: #2a7ae2; text-decoration: none; }                        /*2a7ae2*/
+a:visited { color: #2a7ae2; }                                       /*2a7ae2*/
 a:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
 
 /*a.uemail {color: #2a7ae2;}
