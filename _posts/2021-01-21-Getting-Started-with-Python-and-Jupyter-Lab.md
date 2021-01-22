@@ -95,8 +95,8 @@ We do so by typing: `np.random.normal(0,1,100)`. And, the result should be somet
 
 ![](\images\array.png)
 
-<font color = "green"> <b>Awesome!</b> </font> 
-
+<font color = "green"> <b>Awesome!</b> </font>
+<br>
 It may not seem like much, but we're well on our way to doing some pretty cool stuff.
 
 At this point, we need to get set up with an `IDE` (integrated development environment), which is just a program that will make it easy for us to write more elaborate code, instead of just one-off statements in the terminal.
