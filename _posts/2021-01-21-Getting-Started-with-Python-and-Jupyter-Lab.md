@@ -152,6 +152,6 @@ We have now:
 - Installed an IDE called Jupyter Lab
 - Learned how to launch the Jupyter Lab environment
 
-# Coming Up
+## Coming Up
 
 The next post will be very much an extension of this post: We'll describe the components of our new Jupyter Lab working environment, then get right into creating our first notebook. We'll then deploy the notebook in a self-contained execution environment. Tune in next time to find out what that means and why it's useful.
