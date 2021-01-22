@@ -107,7 +107,7 @@ Going forward, we'll be using Jupyter Lab as our IDE. Here's a peak at the `UI` 
 
 ![](\images\jupyter-lab.png)
 
-Pretty cool, right! Let's set it up.
+Pretty cool, right? Let's set it up!
 
 ## Jupyter Lab
 
