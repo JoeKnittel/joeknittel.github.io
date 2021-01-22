@@ -52,7 +52,7 @@ That sounds really confusing (probably moreso due to my definition's lack of per
 
 ![](\images\countifs.gif)
 
-I think the video makes it clear to see that, within the data on the left, there is $1$ cell whose $\text{Type}$ is $\text{A}$ and whose $\text{Val} >=10$. Let's explore what was typed into $\text{G4}$:
+I think the video makes it clear to see that, within the data on the left, there is $1$ cell whose $\text{Type}$ is $\text{A}$ and whose $\text{Val} \ge 10$. Let's explore what was typed into $\text{G4}$:
 
 $$
   \text{G3} = \text{COUNTIFS(\$B\$3:\$B\$7,E3,\$C\$3:\$C\$7,F3)} \nonumber
