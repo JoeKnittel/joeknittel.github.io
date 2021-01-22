@@ -196,9 +196,11 @@ Function getDef(word As String) As String
     Dim Json As Object
     Set Json = JsonConverter.ParseJson(data) 'this is the JSON object, parsed
 
-    If Left(JsonConverter.ConvertToJson(Json(1)("def")(1)("sseq")(1)(1)(2), Whitespace:=2), 1) <> "[" Then
+    If Left(JsonConverter.ConvertToJson(Json(1)("def")(1)("sseq")(1)(1)(2),
+            Whitespace:=2), 1) <> "[" Then
 
-        getDef = JsonConverter.ConvertToJson(Json(1)("def")(1)("sseq")(1)(1)(2)("dt")(1)(2))
+        getDef
+        = JsonConverter.ConvertToJson(Json(1)("def")(1)("sseq")(1)(1)(2)("dt")(1)(2))
 
     Else
 
@@ -244,7 +246,8 @@ It turns out that Merriam-Webster provide a slew of formatting tags in their def
 
 {% highlight vb %}
 
-'cleans up definition string (i.e., formatting tags), preparing it for printing to screen
+'cleans up definition string (i.e., formatting tags),
+'preparing it for printing to screen
 Function getTransformedDef(word As String) As String
 
     'removes " from start and end of def (and {bc} from start, if necessary)
@@ -260,7 +263,8 @@ Function getTransformedDef(word As String) As String
     Dim posBC As Integer
     posBC = InStr(temp, "{bc}")
     If posBC > 0 Then
-        temp = Left(temp, posBC - 1) & ": " & Mid(temp, posBC + 4, (Len(temp) - posBC) - 3)
+        temp = Left(temp, posBC - 1) & ": " &
+              Mid(temp, posBC + 4, (Len(temp) - posBC) - 3)
     End If
 
     'removes {sx} tag(s), if present
@@ -269,7 +273,8 @@ Function getTransformedDef(word As String) As String
     endSX = InStr(temp, "||")
     wordLen = (endSX - posSX) - 4
     While posSX > 0
-        temp = Left(temp, posSX - 1) & Mid(temp, posSX + 4, wordLen) & Right(temp, Len(temp) - posSX - 6 - wordLen)
+        temp = Left(temp, posSX - 1) & Mid(temp, posSX + 4, wordLen) &
+               Right(temp, Len(temp) - posSX - 6 - wordLen)
         posSX = InStr(temp, "{sx|")
         endSX = InStr(temp, "||")
         wordLen = (endSX - posSX) - 4
@@ -281,7 +286,8 @@ Function getTransformedDef(word As String) As String
     While posALink > 0
         endALink = InStr(Mid(temp, posALink), "}") + posALink - 1
         linkLen = (endALink - posALink) - 8
-        temp = Left(temp, posALink - 1) & Mid(temp, posALink + 8, linkLen) & Mid(temp, endALink + 1)
+        temp = Left(temp, posALink - 1) & Mid(temp, posALink + 8, linkLen) &
+               Mid(temp, endALink + 1)
         posALink = InStr(temp, "{a_link")
     Wend
 
@@ -292,7 +298,8 @@ Function getTransformedDef(word As String) As String
         endDLink = InStr(Mid(temp, posDLink + 8), "|") + posDLink + 7
         dlinkLen = (endDLink - posDLink) - 8
         tagEnd = InStr(Mid(temp, posDLink), "}") + posDLink - 1
-        temp = Left(temp, posDLink - 1) & Mid(temp, posDLink + 8, dlinkLen) & Mid(temp, tagEnd + 1)
+        temp = Left(temp, posDLink - 1) & Mid(temp, posDLink + 8, dlinkLen) &
+               Mid(temp, tagEnd + 1)
         posDLink = InStr(temp, "{d_link")
     Wend
 
@@ -301,7 +308,8 @@ Function getTransformedDef(word As String) As String
     posIt = InStr(temp, "{it")
     While posIt > 0
         endIt = InStr(temp, "{/it")
-        temp = Left(temp, posIt - 1) & Mid(temp, posIt + 4, (endIt - posIt) - 4) & Mid(temp, endIt + 5)
+        temp = Left(temp, posIt - 1) & Mid(temp, posIt + 4, (endIt - posIt) - 4) &
+               Mid(temp, endIt + 5)
         posIt = InStr(temp, "{it")
     Wend
 
@@ -310,7 +318,8 @@ Function getTransformedDef(word As String) As String
     posB = InStr(temp, "{b")
     While posB > 0
         endB = InStr(temp, "{/b")
-        temp = Left(temp, posB - 1) & Mid(temp, posB + 3, (endB - posB) - 3) & Mid(temp, endB + 4)
+        temp = Left(temp, posB - 1) & Mid(temp, posB + 3, (endB - posB) - 3) &
+               Mid(temp, endB + 4)
         posB = InStr(temp, "{b")
     Wend
 
@@ -350,7 +359,8 @@ Now that the formatting is complete, let's define a subroutine that will generat
 
 {% highlight vb %}
 
-'when a word is input into the target cell, this sub is called; the word's definition is printed in the cell one place to its right
+'when a word is input into the target cell, this sub is called; the word's definition
+'is printed in the cell one place to its right
 Sub printDef(row As Integer, col As Integer)
 
     Cells(row, col).Value = getTransformedDef(Cells(row, col - 1).Value)
