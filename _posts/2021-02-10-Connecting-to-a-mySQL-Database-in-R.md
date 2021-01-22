@@ -1,5 +1,5 @@
 ---
-title: Connecting to a mySQL Database with R (+ a Primer on SQL)
+title: Connecting to a MySQL Database with R (+ a Primer on SQL)
 output:
   md_document:
     variant: gfm
