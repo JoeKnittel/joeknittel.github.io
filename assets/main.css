@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 
 
-/** Links (POST TITLE LINKS!!!) */
+/** Links  */
 a { color: #2a7ae2; text-decoration: none; }                        /*2a7ae2*/
 a:visited { color: #2a7ae2; }                                       /*2a7ae2*/
 a:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
@@ -36,6 +36,11 @@ a:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
 /*a.uemail {color: #2a7ae2;}
 a.uemail:visited {color: #2a7ae2;}
 a.uemail: {color: #2a7ae2;}*/
+
+/*(POST TITLE LINKS!!!) */
+a.hvr-underline-from-center { color: #2a7ae2; text-decoration: none; }                        /*2a7ae2*/
+a.hvr-underline-from-center:visited { color: #2a7ae2; }                                       /*2a7ae2*/
+a.hvr-underline-from-center:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
 
 .social-media-list a { color: #2a7ae2;      }                        /*2a7ae2*/
 .social-media-list a:visited { color: #2a7ae2;       }               /*2a7ae2*/
