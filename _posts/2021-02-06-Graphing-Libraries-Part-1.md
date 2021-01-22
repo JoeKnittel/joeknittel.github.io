@@ -1,5 +1,5 @@
 ---
-title: "R Graphing Libraries, Part 1 : Plotly"
+title: "Data Visualization Libraries, Part 1 : Plotly"
 output:
   md_document:
     variant: gfm
