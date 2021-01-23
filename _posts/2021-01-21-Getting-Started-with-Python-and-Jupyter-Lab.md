@@ -33,7 +33,7 @@ It turns out that in many cases Excel works just fine, but here are a few reason
 
 - **Big datasets**: scrolling through thousands (millions?) of rows of data in Excel vs. programmatically interacting with our data in Python
 
-- **Free**: as we'll see below, Python is completely free to use
+- **Free**: Python is completely free to use
 
 - **Easy to learn**: some programming languages have a steep learning curve, with complex syntax; that's not at all the case with Python, as we'll see later on  
 
