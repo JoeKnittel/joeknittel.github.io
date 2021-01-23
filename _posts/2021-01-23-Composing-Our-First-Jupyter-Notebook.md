@@ -203,14 +203,22 @@ Let's calculate the total amount of storms in each year with this code:
 ```python
 import numpy as np
 df = data.iloc[:,np.r_[2:len(data.columns)]]
+df.columns = ['2005', '2006', '2007', '2008', '2009', '2010',
+              '2011', '2012', '2013', '2014', '2015']
 yearly_totals = data.sum(axis=0)
 ```
 
-Here, we imported the numpy package, used it to select only the year columns of our dataset (which we renamed to $\text{df}$ for ease of usage), then summed over the 0-axis (columns) to get our totals.
+Here, we imported the numpy package, used it to select only the year columns of our dataset (which we renamed to $\text{df}$ for ease of usage), renamed the column names, then summed over the 0-axis (columns) to get our totals.
 
 If you type `yearly_totals` into a cell below it and run it, you can see the column sums.
 
-Now, let's generate a quick bar plot using the pandas.plot.bar function with the code `yearly_totals.plot.bar()`.
+Now, let's generate a quick bar plot:
+
+```python
+from matplotlib import pyplot as plt
+plt.title('# Hurricanes and Tropical Storms in the Atlantic')
+yearly_totals.plot.bar()
+```
 
 You should see something like this after running the cell:
 
@@ -218,11 +226,11 @@ You should see something like this after running the cell:
 
 #### Additional Formatting
 
-At this point, let's conclude our analysis. Obviously, we can look into some other useful statistics and generate some additional cool plots, but this post was really just about learning the basic.
+At this point, let's conclude our analysis. Obviously, we can look into some other useful statistics and generate some additional cool plots, but this post was really just about learning the basics.
 
 Before we finish up, though, let's make some formatting alterations. First, let's change our title heading to something more meaningful. I went with "Atlantic Hurricanes from 2005-2015".
 
-Then, let's reorganize our code a bit. In my code, I placed the numpy import statement in the top cell, alongside the pandas import statement.
+Then, let's reorganize our code a bit. In my code, I placed the numpy and matplotlib import statements in the top cell, alongside the pandas import statement.
 
 To add further embellishment, we can even add images to our notebook. I decided to place <a href = "https://www.cummins.com/sites/default/files/styles/newsroom_hero_image/public/images/newsroom_article/Cummins%20-%202020%20Hurricane%20Season%20-%20What%20to%20Expect%20-%20Web.jpg?itok=OIDc9N_N">this image</a> right below our title heading to show what our data represent.
 
@@ -240,7 +248,7 @@ Here's how mine turned out:
 
 Looks pretty good for a first notebook.
 
-For extra credit, try adding some HTML tags to your markdown cells to provide even more elaborate formatting. Additionally, you might want to see if you can go through the pandas documentation to find out how to adjust the year labels in our bar graph to not contain quotation marks.
+For extra credit, try adding some HTML tags to your markdown cells to provide even more elaborate formatting.
 
 Other than that, our first notebook is complete. Let's see how we can share our analysis with other people.
 
