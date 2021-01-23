@@ -160,7 +160,7 @@ The icons in the Cell Menu are fairly self-explanatory. You can copy and paste c
 
 But take particular notice of the dropdown menu at the right of the menu: this is where you tell the kernel a cell's type, so it knows how to process it.
 
-Also, notice the one and only cell, highlighted in blue. This shows that the cell is currently selected. Code cells also have a set of square brackets $[ ]$ which will look like $[*]$ while processing and, once executed, it'll look like $[n]$, where $n$ represents the $n^{th}$ cell of code that's been executed.
+Also, notice the one and only cell, highlighted in blue. This shows that the cell is currently selected. Code cells also have a set of square brackets $[ \ ]$ which will look like $[*]$ while processing and, once executed, it'll look like $[n]$, where $n$ represents the $n^{th}$ cell of code that's been executed.
 
 #### Headings
 
