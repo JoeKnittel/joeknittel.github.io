@@ -200,13 +200,7 @@ The data contained in our .csv file represent the amount of tropical storms and 
 
 Let's calculate the total amount of storms in each year with this code:
 
-{% highlight python %}
-
-import numpy as np
-df = data.iloc[:,np.r_[2:len(data.columns)]]
-yearly_totals = data.sum(axis=0)
-
-{% endhighlight %}
+![](\images\code1.png)
 
 Here, we imported the numpy package, used it to select only the year columns of our dataset (which we renamed to $\text{df}$ for ease of usage), then summed over the 0-axis (columns) to get our totals.
 
