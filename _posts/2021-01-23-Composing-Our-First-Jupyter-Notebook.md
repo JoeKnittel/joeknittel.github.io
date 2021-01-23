@@ -258,6 +258,6 @@ In a future post, we'll look into hosting our Jupyter notebooks for free online 
 
 ## Coming Up
 
-We now have the basic know-how to install Python packages and work with them in Jupyter Lab to perform data analysis. You'll soon find that any data analysis task you had previously completed using Excel can be done (often more efficiently, with some practice) with the Python packages we've already installed and some ingenuity, plus maybe a Google search from time to time or a quick package install with pip.
+We've now cultivated the basic know-how to install Python packages and work with them in Jupyter Lab to perform data analysis. You'll soon find that any data analysis task you had previously completed using Excel can be done (often more efficiently, with some practice) with the Python packages we've already installed and some ingenuity, plus maybe a Google search from time to time or a quick package install with pip.
 
 With that said, there's another program that, in my opinion, is even better than Python for data analysis. It's called R, and we'll add it to our growing data science toolkit next time, then configure it to work within Jupyter Lab.
