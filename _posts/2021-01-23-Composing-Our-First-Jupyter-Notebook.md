@@ -250,7 +250,7 @@ Other than that, our first notebook is complete. Let's see how we can share our 
 
 We currently have a fully-functional Jupyter notebook that uses a few Python packages, manipulates, calculates statistics, and generates a plot from data stored in a .csv file online.
 
-Our analysis (i.e., our notebook, the .ipynb file) can now be shared with anyone by just sending them the .ipynb file (or the entire contents of the directory in which it resides, just in case you reference local images).
+Our analysis (i.e., our notebook, the .ipynb file) can now be shared with anyone by just sending them the .ipynb file (or the entire contents of the directory in which it resides, just in case you reference local images). <a href = "https://downgit.github.io/#/home?url=https://github.com/JoeKnittel/joeknittel.github.io/tree/main/notebooks/jupyter-notebook-demo">Here</a>'s a link to my directory, containing the Jupyter notebook and the locally-referenced image.
 
 ### Binder
 
