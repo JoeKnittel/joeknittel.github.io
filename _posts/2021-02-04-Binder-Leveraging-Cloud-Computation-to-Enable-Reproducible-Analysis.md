@@ -1,5 +1,5 @@
 ---
-title: "Binder : Enabling Reproducibility in the Cloud with a Kubernetes Cluster"
+title: "Binder : Leveraging Cloud Computation to Enable Reproducible Analysis"
 output:
   md_document:
     variant: gfm
