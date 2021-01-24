@@ -217,7 +217,7 @@ It's not necessary to know exactly what's going on here, but here's the gist:
 1. We send an API request for a specified word using `getData(getURL(word))`  
 2. The resultant JSON object is stored in a variable called $\text{data}$
 3. We use a module called $\text{JsonConverter}$ to parse the data into a more readable format
-4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., $[id]$) or list (i.e., $(id)$)
+4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., $[\text{id}]$) or list (i.e., $(\text{id})$)
 5. We navigate to the appropriate element in the data structure to find our word's definition
 
 #### Using Open-Source Modules and Classes in VBA
