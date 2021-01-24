@@ -356,7 +356,7 @@ End Function
 
 {% endhighlight %}
 
-### Defining a Subroutine for Printing the Definition
+### Defining a Sub-Routine for Printing the Definition
 
 Now that the formatting is complete, let's define a subroutine that will generate the specified word's definition in the cell to the next cell over whenever some action occurs:
 
