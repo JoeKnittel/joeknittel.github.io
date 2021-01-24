@@ -21,6 +21,7 @@ In this first of what will likely be a truly compelling series of posts (\*sarca
 1. Describe what a function is
 2. Talk about how functions are used in Excel
 3. Learn about some of the more common and/or particularly useful Excel functions
+4. Discuss how to access Microsoft's reference documentation for Excel
 
 ## What is a Function
 
