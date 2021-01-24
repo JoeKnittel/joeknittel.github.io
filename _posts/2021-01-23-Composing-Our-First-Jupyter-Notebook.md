@@ -256,16 +256,12 @@ Other than that, our first notebook is complete. Let's see how we can share our 
 
 ### Send the .ipynb File Directly
 
-We currently have a fully-functional Jupyter notebook that uses a few Python packages, manipulates, calculates statistics, and generates a plot from data stored in a .csv file online.
+We currently have a fully-functional Jupyter notebook that uses a few Python packages and manipulates, calculates statistics, and generates a plot from data stored in a .csv file online.
 
 Our analysis (i.e., our notebook, the .ipynb file) can now be shared with anyone by just sending them the .ipynb file (or the entire contents of the directory in which it resides, just in case you reference local images). <a href = "https://downgit.github.io/#/home?url=https://github.com/JoeKnittel/joeknittel.github.io/tree/main/notebooks/jupyter-notebook-demo">Here</a>'s a link to my directory, containing the Jupyter notebook and the locally-referenced image.
 
-### Binder
-
-In a future post, we'll look into hosting our Jupyter notebooks for free online in a self-contained execution environment (i.e., a docker image), using a service called Binder. This will improve the reproducibility of our future analyses.
-
 ## Coming Up
 
-We've now cultivated the basic know-how to install Python packages and work with them in Jupyter Lab to perform data analysis. You'll soon find that any data analysis task you had previously completed using Excel can be done (often more efficiently, with some practice) with the Python packages we've already installed and some ingenuity, plus maybe a Google search from time to time or a quick package install with pip.
+While it's fantastic to be able to just send a .ipynb file to someone to let them see your analysis, there are a few slight problems: The person to whom you send your analysis must have Python and Jupyter installed on their computer in order to execute the code in the file's cells. Additionally, any packages you import in your notebook must also be installed on your co-worker's/co-collaborator's computer. This severely limits the reproducibility of the analysis.
 
-With that said, there's another program that, in my opinion, is even better than Python for data analysis. It's called R, and we'll add it to our growing data science toolkit next time, then configure it to work within Jupyter Lab.
+To address this issue of reproducibility, our next post will be dedicated to hosting our Jupyter notebooks for free online in a self-contained execution environment (i.e., a docker image), using a service called Binder. In doing so, our code will be accessible and--crucially--executable to anyone on the planet who has internet access.
