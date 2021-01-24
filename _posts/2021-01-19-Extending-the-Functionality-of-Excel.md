@@ -233,7 +233,7 @@ To use the aforementioned module and class, we just download them and import the
 Our *getDef* function can now take a word as input and output its most common definition. Or, at least, kind of. Here's what `getDef("weird")` outputs:
 
 $$
-\text{ " {bc}of strange or extraordinary character {bc}{sx|odd||}, {sx|fantastic||} " } \nonumber
+\text{ ' {bc}of strange or extraordinary character {bc}{sx|odd||}, {sx|fantastic||} ' } \nonumber
 $$
 
 
