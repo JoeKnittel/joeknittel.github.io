@@ -14,13 +14,13 @@ layout: post
 
 ![](/images/excel logo.png)
 
-Microsoft Excel is ubiquitous. The program is <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a class = "post" href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the early '90s.
+Microsoft Excel is ubiquitous. The program is <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk00ODJ7TqYafhlPlw5BPYjlpyOTlrQ%3A1611010725599&source=hp&ei=pRIGYLKPIoHr_Qa35Y3QCw&q=how+many+people+use+excel&oq=how+many+people+use+excel&gs_lcp=CgZwc3ktYWIQAzoOCC4QsQMQxwEQowIQkwI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6AgguOgIIADoLCAAQsQMQgwEQyQM6CAguELEDEIMBOgUILhCxAzoFCAAQyQNQKFjDHmDcH2gAcAB4AIABfIgBzw-SAQQyMS40mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjy9ZrQyqbuAhWBdd8KHbdyA7oQ4dUDCAk&uact=5">used by 750 million people worldwide</a> in just about any field imaginable to do everything from creating a quick chart to complex data analysis. You can even <a class = "post" href ="https://www.instructables.com/Tetris-on-Excel/">play tetris</a> with Excel! It's a wonderful program, and I've been enjoying experimenting with its different uses since the mid-'90s.
 
 In this first of what will likely be a truly compelling series of posts (\*sarcasm\*) on Excel, we'll do the following:
 
 1. Describe what a function is
 2. Talk about how functions are used in Excel
-3. Learn about some of the more common and/or particularly useful Excel functions 
+3. Learn about some of the more common and/or particularly useful Excel functions
 
 ## What is a Function
 
