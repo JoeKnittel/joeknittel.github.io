@@ -34,19 +34,19 @@ How does this relate to Microsoft Excel? Well, it's the lifeblood of Excel! You 
 
 ![](\images\sum.gif)
 
-The video above demonstrates the usage of the `SUM` function. The values of cells $\text{B2}$ and $\text{B3}$ were used as input (we call these inputs to a function `arguments`) to generate the value of cell $\text{B4}$. This is done by selecting the output cell (in this case, $\text{B4}$) and setting its value to "=`SUM`$(\text{B2,B3})$". The equal sign tells Excel that the selected cell is not just raw data--it depends on the values of other cells according to some function.
+The video above demonstrates the usage of the *SUM* function. The values of cells $\text{B2}$ and $\text{B3}$ were used as input (we call these inputs to a function `arguments`) to generate the value of cell $\text{B4}$. This is done by selecting the output cell (in this case, $\text{B4}$) and setting its value to "=*SUM*$(\text{B2,B3})$". The equal sign tells Excel that the selected cell is not just raw data--it depends on the values of other cells according to some function.
 
 In our example, as you might expect, the value of $\text{B4}$ is $10$ because $3+7 = 10$.
 
-Mathematically, `SUM` $(x_1, x_2, \dots, x_n) = \sum_{i=1}^n x_i$. Hence, $\text{B4} = $ `SUM` $\text{(B2,B3)} = 3+7=10$.
+Mathematically, *SUM* $(x_1, x_2, \dots, x_n) = \sum_{i=1}^n x_i$. Hence, $\text{B4} = $ *SUM* $\text{(B2,B3)} = 3+7=10$.
 
 ## Some Useful Functions:
 
-Now that we have an understanding of a basic function like `SUM`, let's consider some other popular functions, but ones with a little more depth.
+Now that we have an understanding of a basic function like *SUM*, let's consider some other popular functions, but ones with a little more depth.
 
 ### COUNTIFS
 
-The `COUNTIFS` function allows us to count the number of cells within multiple ranges that satisfy all of the ranges' respective criteria.
+The *COUNTIFS* function allows us to count the number of cells within multiple ranges that satisfy all of the ranges' respective criteria.
 
 That sounds really confusing (probably moreso due to my definition's lack of perspicuity than due to the function's complexity), but below shows it's really rather intuitive:
 
@@ -58,11 +58,11 @@ $$
   \text{G3} = \text{COUNTIFS(\$B\$3:\$B\$7,E3,\$C\$3:\$C\$7,F3)} \nonumber
 $$
 
-`COUNTIFS` has four `arguments` in this case (note that there can be more arguments, but it will always be an even number, because each range has its corresponding criterion): a range, its criterion, another range, and its criterion.
+*COUNTIFS* has four `arguments` in this case (note that there can be more arguments, but it will always be an even number, because each range has its corresponding criterion): a range, its criterion, another range, and its criterion.
 
 What's a `range`? It's just a collection of adjacent cells (e.g., $\text{B3:B7}$ is a range of cells from $\text{B3}$ to $\text{B7}$.
 
-What's with the all the dollar signs? The dollar signs signify an `absolute reference`, meaning the range is locked in place when we copy the formula to other cells. *Pro Tip: you can auto-populate the dollar signs for absolute reference by typing the $\text{"F4"}$ key immediately after selecting the range*.
+What's with the all the dollar signs? The dollar signs signify an `absolute reference`, meaning the range is locked in place when we copy the formula to other cells. Pro-Tip: you can auto-populate the dollar signs for absolute reference by typing the F4 key immediately after selecting the range.
 
 And the `criterion`? It's just a condition that can be either $\text{TRUE}$ or $\text{FALSE}$. The first criterion (second argument) just says we're looking for cells whose $\text{Type}$ is $\text{A}$.
 
@@ -82,7 +82,7 @@ I'm sure you can think of a number of ways the function can be used to analyze d
 
 ### SUMIFS
 
-Let's move on to a similar function called `SUMIFS`. Take a look at the video below and see if you can determine what's going on:
+Let's move on to a similar function called *SUMIFS*. Take a look at the video below and see if you can determine what's going on:
 
 ![](\images\sumifs.gif)
 
@@ -102,11 +102,11 @@ And since we used absolute references for our ranges, we can just copy our formu
 
 ### VLOOKUP
 
-The last function we'll look at in this post is called `VLOOKUP`. It's considerably different from the other functions we've discussed so far, but it's utility is just as significant.
+The last function we'll look at in this post is called *VLOOKUP*. It's considerably different from the other functions we've discussed so far, but it's utility is just as significant.
 
-`VLOOKUP` finds a corresponding `value` for a given `key` in a `table` of values, located in a specified `column number`.
+*VLOOKUP* finds a corresponding `value` for a given `key` in a `table` of values, located in a specified `column number`.
 
-Our arguments are: a `key` (i.e., a cell) which focuses our search to a specific row in the data, a `table` of values (i.e., a range), a `column number` that tells us where where to look for the `value` in the `table`, and a boolean value (i.e., $\text{TRUE}$ or $\text{FALSE}$) representing the type of match (approximate or exact, respectively).
+Our arguments are: a key (i.e., a cell) which focuses our search to a specific row in the data, a table of values (i.e., a range), a column number that tells us where where to look for the value in the table, and a boolean value (i.e., $\text{TRUE}$ or $\text{FALSE}$) representing the type of match (approximate or exact, respectively).
 
 Let's take a look at our function machine in action:
 
@@ -124,15 +124,15 @@ The formula is basically saying the following:
 
 1. Look at the cells within the range $\text{B3:E7}$ and focus your attention on the row with the value $\text{"A"}$ (since $\text{G3}=\text{"A"}$) in the first column of the range (i.e., $\text{Column B}$). This row happens to be $\text{Row 3}$.
 
-2. Next, go to `column number` $3$ in the data (i.e., $\text{Column D}$, since we start in $\text{Column B}$) and find the value of the cell.
+2. Next, go to column number $3$ in the data (i.e., $\text{Column D}$, since we start in $\text{Column B}$) and find the value of the cell.
 
-Since the intersection of $\text{Row 3}$ and $\text{Column D}$ is the cell $\text{D3}$, our `value` is its value: $2$.
+Since the intersection of $\text{Row 3}$ and $\text{Column D}$ is the cell $\text{D3}$, our function's value is its value: $2$.
 
-Okay, that seems to make sense, and the `value` of $5$ for $\text{TYPE B}$ makes sense, but what about the `value` for $\text{TYPE C}$ and $\text{TYPE D}$?
+Okay, that seems to make sense, and the function's value of $5$ for $\text{TYPE B}$ makes sense, but what about the function's value for $\text{TYPE C}$ and $\text{TYPE D}$?
 
-This is where things get a little messy. Since the `key` $\text{"C"}$ is not present in the first column of the `table`, the function can't compute a `value` for $\text{VAL2 (EXACT)}$; that's why the result is $\text{#N/A}$. And notice the result for $\text{TYPE D}$? It's $8$ because that's the `value` corresponding to the first row ($\text{Row 5}$) whose value matches the `key` in `column number` $3$. Just something to keep in mind if your data contain not exactly one row for each `key` value.
+This is where things get a little messy. Since the key $\text{"C"}$ is not present in the first column of the table, the function can't compute a value for $\text{VAL2 (EXACT)}$; that's why the result is $\text{#N/A}$. And notice the result for $\text{TYPE D}$? It's $8$ because that's the value corresponding to the first row ($\text{Row 5}$) whose value matches the key in column number $3$. Just something to keep in mind if your data contain not exactly one row for each key value.
 
-Let's briefly describe the second `VLOOKUP` calculation (with the last arugment = $\text{TRUE}$). Everything's the same, except if no rows contain the `key`, the function selects the row whose value in the first column of the `data` is the most similar to the `key`. This happens in the case of $\text{TYPE C}$: the function just considers the `key` to be $\text{"B"}$ rather than $\text{"C"}$, so it focuses on $\text{Row 4}$ in its search. Consequently, it finds a value of $5$ for $\text{VAL2 (APPROX)}$. And in the case where the `key` appears in more than one row in the `table`, the function now selects the last instance (as opposed to the first instance when the last argument was $\text{FALSE}$). This results in a $\text{VAL2 (APPROX)}$ of $14$.
+Let's briefly describe the second *VLOOKUP* calculation (with the last arugment = $\text{TRUE}$). Everything's the same, except if no rows contain the key, the function selects the row whose value in the first column of the data is the most similar to the key. This happens in the case of $\text{TYPE C}$: the function just considers the key to be $\text{"B"}$ rather than $\text{"C"}$, so it focuses on $\text{Row 4}$ in its search. Consequently, it finds a value of $5$ for $\text{VAL2 (APPROX)}$. And in the case where the key appears in more than one row in the table, the function now selects the last instance (as opposed to the first instance when the last argument was $\text{FALSE}$). This results in a $\text{VAL2 (APPROX)}$ of $14$.
 
 ## Other Excel Functions
 
