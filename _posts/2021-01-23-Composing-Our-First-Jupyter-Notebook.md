@@ -123,7 +123,7 @@ So, what *is* a Jupyter notebook and what can we do with this thing?
 
 In short, a Jupyter notebook is a virtual environment wherein `literate programming` resides.
 
-The idea of literate programming harkens back to a <a href = "https://en.wikipedia.org/wiki/Turing_Award">Turing Award</a>-winning computer scientist named <a href = "https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>, who developed the typsetting system $\TeX$, which we'll use in our future notebooks. Knuth saw programs as literary works, stating:
+The idea of literate programming harkens back to a <a href = "https://en.wikipedia.org/wiki/Turing_Award">Turing Award</a>-winning computer scientist named <a href = "https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>, who developed the typsetting system TeX, which we'll use in our future notebooks. Knuth saw programs as literary works, stating:
 
 >"Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."
 
@@ -264,4 +264,4 @@ Our analysis (i.e., our notebook, the .ipynb file) can now be shared with anyone
 
 While it's fantastic to be able to just send a .ipynb file to someone to let them see your analysis, there are a few slight problems: The person to whom you send your notebook must have Python and Jupyter installed on their computer in order to execute the code in the file's cells. Additionally, any packages you import in your notebook must also be installed on your co-worker's/co-collaborator's computer. This severely limits the reproducibility of the analysis.
 
-To address this issue of reproducibility, our next post will be dedicated to hosting our Jupyter notebooks for free online in a self-contained execution environment (i.e., a docker image), using a service called Binder. In doing so, our code will be accessible and--crucially--executable to anyone on the planet who has internet access.
+To address this issue of reproducibility, our next post will be dedicated to hosting our Jupyter notebooks for free online in a self-contained execution environment (i.e., a containerized docker image), using a service called Binder. In doing so, our code will be accessible and--crucially--executable to anyone on the planet who has internet access.
