@@ -1,5 +1,5 @@
 ---
-title: "Binder : A Self-Contained Execution Environment for Our Code"
+title: "Binder : Executing Our Code in the Cloud with a Kubernetes Cluster"
 output:
   md_document:
     variant: gfm
