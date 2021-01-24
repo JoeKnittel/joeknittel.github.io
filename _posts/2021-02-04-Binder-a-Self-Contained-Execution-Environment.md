@@ -1,5 +1,5 @@
 ---
-title: Binder : A Self-Contained Execution Environment for Our Code
+title: "Binder : A Self-Contained Execution Environment for Our Code"
 output:
   md_document:
     variant: gfm
