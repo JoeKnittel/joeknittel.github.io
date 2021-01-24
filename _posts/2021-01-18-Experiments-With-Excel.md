@@ -106,7 +106,7 @@ And since we used absolute references for our ranges, we can just copy our formu
 
 ### VLOOKUP
 
-The last function we'll look at in this post is called *VLOOKUP*. It's considerably different from the other functions we've discussed so far, but it's utility is just as significant.
+The last function we'll look at in this post is called *VLOOKUP*. It's considerably different from the other functions we've discussed so far, but its utility is just as significant.
 
 *VLOOKUP* finds a corresponding `value` for a given `key` in a `table` of values, located in a specified `column number`.
 
