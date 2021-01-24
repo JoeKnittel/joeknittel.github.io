@@ -1,5 +1,5 @@
 ---
-title: "Binder : Executing Code in the Cloud with a Kubernetes Cluster"
+title: "Binder : Enabling Reproducibility in the Cloud with a Kubernetes Cluster"
 output:
   md_document:
     variant: gfm
