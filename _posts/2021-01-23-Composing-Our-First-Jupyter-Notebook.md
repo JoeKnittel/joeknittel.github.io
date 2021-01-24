@@ -262,6 +262,6 @@ Our analysis (i.e., our notebook, the .ipynb file) can now be shared with anyone
 
 ## Coming Up
 
-While it's fantastic to be able to just send a .ipynb file to someone to let them see your analysis, there are a few slight problems: The person to whom you send your analysis must have Python and Jupyter installed on their computer in order to execute the code in the file's cells. Additionally, any packages you import in your notebook must also be installed on your co-worker's/co-collaborator's computer. This severely limits the reproducibility of the analysis.
+While it's fantastic to be able to just send a .ipynb file to someone to let them see your analysis, there are a few slight problems: The person to whom you send your notebook must have Python and Jupyter installed on their computer in order to execute the code in the file's cells. Additionally, any packages you import in your notebook must also be installed on your co-worker's/co-collaborator's computer. This severely limits the reproducibility of the analysis.
 
 To address this issue of reproducibility, our next post will be dedicated to hosting our Jupyter notebooks for free online in a self-contained execution environment (i.e., a docker image), using a service called Binder. In doing so, our code will be accessible and--crucially--executable to anyone on the planet who has internet access.
