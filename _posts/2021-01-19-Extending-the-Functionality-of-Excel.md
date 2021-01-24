@@ -32,7 +32,6 @@ When performing real-world analyses in Excel, we often won't be typing our funct
   - Data files
   - Webpages
   - Databases
-  - etc.
 
 ### Using Data in Other Worksheets
 
