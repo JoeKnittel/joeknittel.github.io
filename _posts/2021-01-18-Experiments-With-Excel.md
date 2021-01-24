@@ -149,4 +149,4 @@ Luckily, having a firm understanding of how functions work, access to <a class =
 
 - In the next entry of this series on Excel, we'll talk about some other commonly used features like conditional formatting and pivot tables. Look out for that post in the coming weeks/months.
 
-- The next blog post, though, will be about programming in Excel using a powerful language called VBA--it's the tool used to make the Tetris game described above, and we'll use it to do something just as cool: interact with an open Web API and automate actions within Excel.
+- The next blog post, though, will be about programming in Excel using a powerful language called VBA--it's the tool used to make the Tetris game described above, and we'll use it to do something just as cool: interact with an open Web API to automate actions within Excel.
