@@ -40,7 +40,7 @@ We didn't talk about it last time, but the grid of cells in which we tested our 
 
 ![](\images\sheet2.gif)
 
-The file that houses this collection of worksheets is called a `workbook`, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing `[worksheet-name]![range]` instead of just `[range]` (see example below):
+The file that houses this collection of worksheets is called a `workbook`, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing $\text{[worksheet-name]![range]}$ instead of just $\text{[range]}$ (see example below):
 
 ![](\images\sheet1ref.gif)
 
