@@ -40,11 +40,11 @@ We didn't talk about it last time, but the grid of cells in which we tested our 
 
 ![](\images\sheet2.gif)
 
-The file that houses this collection of worksheets is called a `workbook`, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing $\text{[worksheet-name]![range]}$ instead of just $\text{[range]}$ (see example below):
+The file that houses this collection of worksheets is called a `workbook`, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing `[worksheet-name]![range]` instead of just `[range]` (see example below):
 
 ![](\images\sheet1ref.gif)
 
-As you can see, we were able to use the `SUM` function on the worksheet named $\text{Sheet2}$ with arguments coming from cells $\text{B25:B26}$ on the worksheet named $\text{Sheet1}$ using by typing $\text{"=SUM(Sheet1!B25:B26)"}$.
+As you can see, we were able to use the *SUM* function on the worksheet named $\text{Sheet2}$ with arguments coming from cells $\text{B25:B26}$ on the worksheet named $\text{Sheet1}$ using by typing $\text{"=SUM(Sheet1!B25:B26)"}$.
 
 ### Accessing Data from External Sources
 
@@ -98,7 +98,7 @@ Since <a class = "post" href = "https://dictionaryapi.com/products/api-collegiat
 
 ## Interacting with a Web API Using VBA
 
-VBA (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (`UDFs`) and `subroutines`, in order to extend the utility of our workbooks.
+VBA (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (`UDFs`) and `sub-routines`, in order to extend the utility of our workbooks.
 
 This is exactly what we need to set up a connection with a Web API, get our data, and interact with the data in all kinds of fancy ways.
 
@@ -217,12 +217,12 @@ It's not necessary to know exactly what's going on here, but here's the gist:
 1. We send an API request for a specified word using `getData(getURL(word))`  
 2. The resultant JSON object is stored in a variable called $\text{data}$
 3. We use a module called $\text{JsonConverter}$ to parse the data into a more readable format
-4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., [id]) or (i.e., list (id))
+4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., $[id]$) or list (i.e., $(id)$)
 5. We navigate to the appropriate element in the data structure to find our word's definition
 
 #### Using Open-Source Modules and Classes in VBA
 
-So, what's $\text{JsonConverter}$? It's an `open-source` (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA `module` (i.e., collection of functions) that uses the $\text{VBA-Dictionary}$ (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) `class` (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable. Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
+So, what's $\text{JsonConverter}$? It's an `open-source` (i.e., freely-available to the public) (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA `module` (i.e., collection of functions) that uses the $\text{VBA-Dictionary}$ (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) `class` (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable. Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
 
 To use the aforementioned module and class, we just download them and import them in their respective section of the Visual Basic editor:
 
@@ -230,9 +230,12 @@ To use the aforementioned module and class, we just download them and import the
 
 ### Calling our getDef Function
 
-Our `getDef` function can now take a word as input and output its most common definition. Or, at least, kind of. Here's what `getDef("weird")` outputs:
+Our *getDef* function can now take a word as input and output its most common definition. Or, at least, kind of. Here's what `getDef("weird")` outputs:
 
-`"{bc}of strange or extraordinary character {bc}{sx|odd||}, {sx|fantastic||}"`
+$$
+\text{"{bc}of strange or extraordinary character {bc}{sx|odd||}, {sx|fantastic||}"}
+$$
+
 
 The definition of "weird" appears to be there, but there's a bunch of other tags that signify stylistic elements of the defintion for display on Merriam-Webster's website:
 
