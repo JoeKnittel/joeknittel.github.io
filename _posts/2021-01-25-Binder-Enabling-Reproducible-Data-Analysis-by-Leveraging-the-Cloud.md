@@ -38,7 +38,7 @@ Here's the overall idea, from the perspective of a data science practitioner, as
 
 1. Write some code in a Jupyter notebook and create a $\text{requirements.txt}$ file saying which packages are needed to run the notebook, then place these files in a GitHub repository.
 
-2. Direct the `BinderHub` to your repository (and, specifically, the notebook), so a `container` (an immutable, ready-to-run software package) can be built and stored in a registry for future processing.
+2. Direct the `BinderHub` to your repository (and, specifically, the notebook), so a `container` (an immutable, ready-to-run software package) can be built and stored in a <a href = "https://cloud.google.com/container-registry/">registry</a> for future processing.
 
 3. BinderHub generates a link which can then be shared with whomever.
 
