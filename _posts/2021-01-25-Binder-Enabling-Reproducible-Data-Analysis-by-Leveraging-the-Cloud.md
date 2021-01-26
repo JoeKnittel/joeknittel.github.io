@@ -28,7 +28,9 @@ In this post, we'll do the following:
 
 ## Overview of Binder
 
-As we've described earlier, Binder solves the issue of reproducibility by leveraging cloud resources. How does this all work? Have a look at the diagram below, and then we'll try to dig into what's going on.
+As we've described earlier, Binder solves the issue of reproducibility by leveraging cloud resources. So, how does this all work?
+
+Have a look at the diagram below, and then we'll try to dig into what's going on.
 
 ![](\images\binderhub.png)
 
