@@ -111,7 +111,7 @@ To see what version of your Python packages are installed, go to your terminal a
 
 Here's approximately what you'll see:
 
-```python
+```text
 .
 .
 .
