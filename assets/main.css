@@ -33,6 +33,8 @@ a { color: #2a7ae2; text-decoration: none; }                        /*2a7ae2*/
 a:visited { color: #2a7ae2; }                                       /*2a7ae2*/
 a:hover { color: #0059cc; /*text-decoration: underline;*/ }         /*0059cc*/
 
+a.hvr-icon-buzz-out:hover {color: #424242}
+
 /*a.uemail {color: #2a7ae2;}
 a.uemail:visited {color: #2a7ae2;}
 a.uemail: {color: #2a7ae2;}*/
