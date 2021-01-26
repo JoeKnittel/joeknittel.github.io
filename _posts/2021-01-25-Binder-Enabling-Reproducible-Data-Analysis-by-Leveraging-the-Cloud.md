@@ -177,8 +177,6 @@ Once you've filled out the form correctly (and saved the link(s) for future use)
 
 After the build is complete, you will be directed to temporary instance of your notebook, served through the cloud.
 
-<font color = "green"><b>Congratulations, your analysis is now live in the cloud!</b></font><br>
-
 ## Accessing the Binder
 
 Send out the link (or Binder badge) from the previous section to whomever, and they'll have access to your analysis in a computing environment identical to the one you had when creating it.
