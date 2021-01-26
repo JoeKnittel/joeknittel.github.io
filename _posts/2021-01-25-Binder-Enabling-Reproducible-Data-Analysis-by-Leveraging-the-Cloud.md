@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-23 07:01:01'
+date: '2021-01-25 07:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
@@ -56,8 +56,6 @@ The following are required in order to use Binder:
 2. Repository containing the following:
    - Jupyter notebook
    - $\text{requirements.txt}$ file, which lists the code's required packages
-
-That's it!
 
 Once we've set up a GitHub repository, we just need to direct BinderHub to our code, and it'll generate a container and a link for us to share with others.
 
@@ -183,8 +181,7 @@ After the build is complete, you will be directed to temporary instance of your 
 
 Send out the link (or Binder badge) from the previous section to whomever, and they'll have access to your analysis in a computing environment identical to the one you had when creating it.
 
-Here's a link to my Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JoeKnittel/BinderDemo/HEAD?filepath=analysis.ipynb)
+Here's a link to my Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JoeKnittel/BinderDemo/HEAD?filepath=analysis.ipynb)
 
 ## Some Things to Keep in Mind
 
