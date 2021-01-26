@@ -112,21 +112,13 @@ To see what version of your Python packages are installed, go to your terminal a
 Here's approximately what you'll see:
 
 ```text
-.
-.
-.
+...
 matplotlib             3.3.3
-.
-.
-.
+...
 numpy                  1.19.5
-.
-.
-.
+...
 pandas                 1.2.0
-.
-.
-.
+...
 ```
 
 Perfect, let's proceed.
