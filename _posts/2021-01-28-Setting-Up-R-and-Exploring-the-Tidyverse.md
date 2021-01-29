@@ -163,8 +163,8 @@ and 2012, respectively.
 Let’s see if we can observe any trends at the county level. Here,
 we’ll employ the pipe operator `%>%` from the
 <a href = "https://magrittr.tidyverse.org/">magrittr package</a> and several key functions from the <a href = "https://dplyr.tidyverse.org/">dplyr package</a> to sum
-all TIV values for policies within each county, then add in a new
-variable that computes the percent increase in TIV from 2011 to 2012.
+all $\text{TIV}$ values for policies within each county, then add in a new
+variable that computes the percent increase in $\text{TIV}$ from 2011 to 2012.
 
 ``` r
 grouped_data = data %>% group_by(county) %>%
@@ -189,7 +189,7 @@ head(grouped_data, 10)
     ## 10 OKALOOSA COUNTY  658196224. 832855891.  0.265
 
 It looks like there’s a special focus on policies in Orlando, Florida,
-since Orlando is not a county and its percent change in TIV was higher
+since Orlando is not a county and its percent change in $\text{TIV}$ was higher
 than that of any county in the state.
 
 To have that data not affect the rest of our code, we'll disregard the "Orlando" row:
@@ -198,7 +198,7 @@ To have that data not affect the rest of our code, we'll disregard the "Orlando"
 grouped_data = grouped_data[-1,]
 ```
 
-Let’s now get an idea of the distribution of percent increase in TIV
+Let’s now get an idea of the distribution of percent increase in $\text{TIV}$
 over all counties using a histogram from the
 <a href = "https://ggplot2.tidyverse.org/">ggplot2 package</a>:
 
@@ -208,7 +208,7 @@ ggplot(data = grouped_data) + geom_histogram(mapping = aes(x = change))
 
 ![](/images/unnamed-chunk-6-1.png)<!-- -->
 
-It appears as though most counties saw an increase in TIV, with an
+It appears as though most counties saw an increase in $\text{TIV}$, with an
 average of around 20% increase.
 
 ``` r
@@ -220,7 +220,7 @@ mean(grouped_data$change)
 #### Bonus
 
 As a demonstration of things to come, we’ll create a map of the percent
-change in TIV. To do this, we’ll need a few additional packages (see
+change in $\text{TIV}$. To do this, we’ll need a few additional packages (see
 documentation
 <a href = "https://urbaninstitute.github.io/urbnmapr/">here</a> and
 <a href = "https://urbaninstitute.github.io/urbnthemes/articles/introducing-urbnthemes.html">here</a>)
@@ -269,7 +269,7 @@ Anyway, here's the result:
 
 ![](/images/unnamed-chunk-8-1.png)<!-- -->
 
-It looks like there was a greater increase in TIV in
+It looks like there was a greater increase in $\text{TIV}$ in
 north-central Florida and a few other counties throughout the state, with data completely lacking in two
 counties on the east.
 
