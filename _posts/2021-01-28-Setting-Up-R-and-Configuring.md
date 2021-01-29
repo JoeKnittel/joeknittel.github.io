@@ -254,7 +254,7 @@ p = m %>% ggplot(mapping = aes(long, lat, group = group, fill = change)) +
   scale_fill_gradientn(labels = scales::percent,
                        guide = guide_colorbar(title.position = "top")) +
   coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
-  labs(fill = "% change in TIV") +
+  labs(fill = "% Change in TIV") +
   theme(legend.title = element_text(), legend.key.width = unit(.5, "in")) +
   theme_urbn_map()
 p
