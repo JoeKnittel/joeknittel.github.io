@@ -27,7 +27,7 @@ Objectives for this post include:
 
 ## A Brief Introduction to R
 
-`R` is a freely available programming language that's been around since 1993 and has, for most of its existence, been most data science practitioners' preferred tool for exploring and displaying their data.
+`R` is a freely available programming language that's been around since 1993 and has, for most of its existence, been data science practitioners' preferred tool for exploring, modeling, and displaying their data.
 
 The language was constructed specifically for statistical computing, with many useful statistical features built directly into it.
 
@@ -71,7 +71,7 @@ Once R Studio is installed, give it a look. You should see something similar to 
 
 ![](\images\r-studio.png)
 
-R Studio provides all of the tools necessary for us to perform all of our analyses in R. We can execute one-off chunks of code in the console at the bottom-left section, edit scripts in the upper left section, view our variables and their respective structures in the upper-right section, and manage packages, plots, and our files in the bottom-right section.
+R Studio provides all of the tools necessary for us to perform our analyses in R. We can execute one-off chunks of code in the console at the bottom-left section, edit scripts in the upper left section, view our variables and their respective structures in the upper-right section, and manage packages, plots, and our files in the bottom-right section.
 
 ### Packages
 
@@ -84,8 +84,6 @@ Let's use the technique described above to install a collection of rather useful
 ![](\images/install-package.gif)
 
 Note that once the packages were installed, I loaded them into the session by using the <a href = "https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/library">library</a> function with the code: `library(tidyverse)`. This allows us to utilize all of the functions contained within the Tidyverse collection of packages in our code.
-
-In future posts, we'll explore other ways to install packages that cannot be found on CRAN.
 
 ### Installing IR Kernel
 
@@ -127,8 +125,8 @@ Next, we’ll load up the Tidyverse collection of packages:
 library(tidyverse)
 ```
 
-In the following cell, we’ll read in some .csv data (using the
-<a href = "https://readr.tidyverse.org/">readr package</a>) I’ve stored
+In the following cell, using the
+<a href = "https://readr.tidyverse.org/">readr package</a>, we’ll read in some .csv data I’ve stored
 locally on my site in case it’s deleted from its original source
 (<https://support.spatialkey.com/spatialkey-sample-csv-data/>).
 
@@ -138,7 +136,7 @@ pertaining to a collection of insurance policies in Florida from
 
 ``` r
 data = read_csv("http://joeknittel.github.io/sample_data.csv")
-head(data) 
+head(data)
 ```
 
     ## # A tibble: 6 x 18
@@ -156,13 +154,15 @@ head(data)
     ## #   point_longitude <dbl>, line <chr>, construction <chr>,
     ## #   point_granularity <dbl>
 
-Of particular interest are the *tiv\_2011* and *tiv\_2012* variables; they
-represent the Total Insurable Value (TIV) of the policy from years 2011
+By running the `head` function above, we can see the first few entries in the dataset.
+
+Of particular interest are the $\text{tiv_2011}$ and $\text{tiv_2012}$ variables; they
+represent the *Total Insurable Value (TIV)* of the policy from years 2011
 and 2012, respectively.
 
 Let’s see if we can observe any trends at the county level. Here,
 we’ll employ the pipe operator `%>%` from the
-<a href = "https://magrittr.tidyverse.org/">magrittr package</a> to sum
+<a href = "https://magrittr.tidyverse.org/">magrittr package</a> and several key functions from the <a href = "https://dplyr.tidyverse.org/">dplyr package</a> to sum
 all TIV values for policies within each county, then add in a new
 variable that computes the percent increase in TIV from 2011 to 2012.
 
@@ -192,6 +192,12 @@ It looks like there’s a special focus on policies in Orlando, Florida,
 since Orlando is not a county and its percent change in TIV was higher
 than that of any county in the state.
 
+To have that data not affect the rest of our code, we'll disregard the "Orlando" row:
+
+```{r}
+grouped_data = grouped_data[-1,]
+```
+
 Let’s now get an idea of the distribution of percent increase in TIV
 over all counties using a histogram from the
 <a href = "https://ggplot2.tidyverse.org/">ggplot2 package</a>:
@@ -200,7 +206,7 @@ over all counties using a histogram from the
 ggplot(data = grouped_data) + geom_histogram(mapping = aes(x = change))
 ```
 
-![](/images/unnamed-chunk-5-1.png)<!-- -->
+![](/images/unnamed-chunk-6-1.png)<!-- -->
 
 It appears as though most counties saw an increase in TIV, with an
 average of around 20% increase.
@@ -209,7 +215,7 @@ average of around 20% increase.
 mean(grouped_data$change)
 ```
 
-    ## [1] 0.2016668
+    ## [1] 0.1951023
 
 #### Bonus
 
@@ -253,13 +259,13 @@ p
 ```
 
 We won’t get into the specifics of what’s going in the code above (see future posts
-discussing data wrangling and visualization using R), but see if you can decipher
+discussing data wrangling and visualization using R), but perhaps you can decipher
 what actions the code is performing (you may need to review the tidyverse and urbanmapr
 documentation).
 
 Anyway, here's the result:
 
-![](/images/unnamed-chunk-7-1.png)<!-- -->
+![](/images/unnamed-chunk-8-1.png)<!-- -->
 
 It looks like there was a greater increase in TIV in
 north-central and north-western Florida, with some data lacking in a few
