@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-01-25 07:01:02'
+date: '2021-01-28 07:01:02'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
@@ -267,13 +267,8 @@ counties on the east.
 
 ## Summary
 
-.
-.
-.
-
+We accomplished a lot in this post: we installed a really useful programming language called R and its most commonly used IDE (R Studio); we configured R to work within Jupyter Lab; we installed R packages from CRAN and other sources; and we began to explore the functions that can be found in the Tidyverse collection of packages.
 
 ## Coming Up
 
-.
-.
-.
+The chloropleth map we constructed in the last section was just to whet your appetite for data visualization. In the next post, we'll work with several really cool packages that will allow us to create interactive plots. It should be a fun one!
