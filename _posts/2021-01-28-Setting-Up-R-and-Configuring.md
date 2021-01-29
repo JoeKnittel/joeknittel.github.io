@@ -1,5 +1,5 @@
 ---
-title: Setting up R and Configuring it for Usage Within Jupyter Lab
+title: Setting up R and Exploring the Tidyverse within Jupyter Lab
 output:
   md_document:
     variant: gfm
