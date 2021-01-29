@@ -279,4 +279,4 @@ We accomplished a lot in this post: we installed a really useful programming lan
 
 ## Coming Up
 
-The chloropleth map we constructed in the last section was just to whet your appetite for data visualization. In the next post, we'll work with several really cool packages that will allow us to create interactive plots. It should be a fun one!
+The choropleth map we constructed in the last section was just to whet your appetite for data visualization. In the next post, we'll work with several really cool packages that will allow us to create interactive plots. It should be a fun one!
