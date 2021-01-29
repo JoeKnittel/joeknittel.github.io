@@ -138,7 +138,7 @@ pertaining to a collection of insurance policies in Florida from
 
 ``` r
 data = read_csv("http://joeknittel.github.io/sample_data.csv")
-head(data)
+head(data) 
 ```
 
     ## # A tibble: 6 x 18
@@ -156,7 +156,7 @@ head(data)
     ## #   point_longitude <dbl>, line <chr>, construction <chr>,
     ## #   point_granularity <dbl>
 
-Of particular interest are the *tiv\_2011* and *tiv\_2012* columns; they
+Of particular interest are the *tiv\_2011* and *tiv\_2012* variables; they
 represent the Total Insurable Value (TIV) of the policy from years 2011
 and 2012, respectively.
 
