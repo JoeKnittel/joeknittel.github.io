@@ -261,7 +261,7 @@ Anyway, here's the result:
 
 ![](/images/unnamed-chunk-7-1.png)<!-- -->
 
-Hey, it worked! It looks like there was a greater increase in TIV in
+It looks like there was a greater increase in TIV in
 north-central and north-western Florida, with some data lacking in a few
 counties on the east.
 
