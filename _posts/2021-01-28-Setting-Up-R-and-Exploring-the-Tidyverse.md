@@ -154,7 +154,7 @@ head(data)
     ## #   point_longitude <dbl>, line <chr>, construction <chr>,
     ## #   point_granularity <dbl>
 
-By running the `head` function above, we can see the first few entries in the dataset. Notice that the data type of the dataset is a `tibble`; it's basically a specially-structured data frame (read more <a href = "https://tibble.tidyverse.org/index.html">here</a>).
+By running the `head` function above, we can see the first few entries in the dataset. Notice that the data type of the dataset is a *tibble*; it's basically a specially-structured data frame (read more <a href = "https://tibble.tidyverse.org/index.html">here</a>).
 
 Of particular interest are the $\text{tiv_2011}$ and $\text{tiv_2012}$ variables; they
 represent the <a href = "https://www.irmi.com/term/insurance-definitions/total-insurable-value">Total Insurable Value</a>, or $\text{TIV}$, of the policy from years 2011 and 2012, respectively.
