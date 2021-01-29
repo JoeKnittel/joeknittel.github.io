@@ -246,6 +246,8 @@ names(grouped_data) = c("county_name","tiv2011","tiv2012","change")
 grouped_data$county_name = tolower(grouped_data$county_name)
 c = counties %>% filter(state_name == "Florida")
 c$county_name = tolower(c$county_name)
+grouped_data[20,1] = "st. johns county"
+grouped_data[29,1] = "miami-dade county"
 m = grouped_data %>% full_join(c, by = "county_name")
 p = m %>% ggplot(mapping = aes(long, lat, group = group, fill = change)) +
   geom_polygon(color = "#ffffff", size = .25) +
