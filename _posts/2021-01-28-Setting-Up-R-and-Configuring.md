@@ -270,7 +270,7 @@ Anyway, here's the result:
 ![](/images/unnamed-chunk-8-1.png)<!-- -->
 
 It looks like there was a greater increase in TIV in
-north-central and north-western Florida, with some data lacking in a few
+north-central Florida and a few other counties throughout the state, with data completely lacking in two
 counties on the east.
 
 ## Summary
