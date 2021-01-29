@@ -112,6 +112,152 @@ After a few seconds, your favorite IDE should have loaded. This time, though, th
 
 ### A Quick Test: Jupyter Lab + R Kernel + Tidyverse
 
+First, start a new notebook running the R kernel by clicking the newly available icon.
+
+Let’s turn off warnings, since R in Jupyter Lab tends to spit out a lot
+of unnecessary information while running cells.
+
+``` r
+options(warn=-1)
+```
+
+Next, we’ll load up the Tidyverse collection of packages:
+
+``` r
+library(tidyverse)
+```
+
+In the following cell, we’ll read in some .csv data (using the
+<a href = "https://readr.tidyverse.org/">readr package</a>) I’ve stored
+locally on my site in case it’s deleted from its original source
+(<https://support.spatialkey.com/spatialkey-sample-csv-data/>). There’s
+not too much of a description of the dataset, but it appears to be data
+pertaining to a collection of insurance policies in Florida from
+2011-2012.
+
+``` r
+data = read_csv("http://joeknittel.github.io/sample_data.csv")
+head(data)
+```
+
+    ## # A tibble: 6 x 18
+    ##   policyID statecode county eq_site_limit hu_site_limit fl_site_limit
+    ##      <dbl> <chr>     <chr>          <dbl>         <dbl>         <dbl>
+    ## 1   119736 FL        CLAY ~       498960        498960        498960
+    ## 2   448094 FL        CLAY ~      1322376.      1322376.      1322376.
+    ## 3   206893 FL        CLAY ~       190724.       190724.       190724.
+    ## 4   333743 FL        CLAY ~            0         79521.            0
+    ## 5   172534 FL        CLAY ~            0        254282.            0
+    ## 6   785275 FL        CLAY ~            0        515036.            0
+    ## # ... with 12 more variables: fr_site_limit <dbl>, tiv_2011 <dbl>,
+    ## #   tiv_2012 <dbl>, eq_site_deductible <dbl>, hu_site_deductible <dbl>,
+    ## #   fl_site_deductible <dbl>, fr_site_deductible <dbl>, point_latitude <dbl>,
+    ## #   point_longitude <dbl>, line <chr>, construction <chr>,
+    ## #   point_granularity <dbl>
+
+Of particular interest are the *tiv\_2011* and *tiv\_2012* columns. They
+represent the Total Insurable Value (TIV) of the policy from years 2011
+and 2012.
+
+Let’s see if we can observe any trends on at the county level. Here,
+we’ll employ the pipe operator `%>%` from the
+<a href = "https://magrittr.tidyverse.org/">magrittr package</a> to sum
+all TIV values for policies within each county, then add in a new
+variable that computes the percent increase in TIV from 2011 to 2012.
+
+``` r
+grouped_data = data %>% group_by(county) %>% summarize(tiv2011 = sum(tiv_2011), tiv2012 = sum(tiv_2012), change = (tiv2012-tiv2011)/tiv2011) %>% arrange(desc(change))
+head(grouped_data, 10)
+```
+
+    ## # A tibble: 10 x 4
+    ##    county              tiv2011    tiv2012 change
+    ##    <chr>                 <dbl>      <dbl>  <dbl>
+    ##  1 Orlando              36000      58857.  0.635
+    ##  2 UNION COUNTY       3019258.   4324471.  0.432
+    ##  3 DIXIE COUNTY      16040608.  22378058.  0.395
+    ##  4 MADISON COUNTY    44965041.  61165726.  0.360
+    ##  5 HIGHLANDS COUNTY 567025313. 756072585.  0.333
+    ##  6 GILCHRIST COUNTY   9352936.  12270142.  0.312
+    ##  7 OSCEOLA COUNTY      307029.    398351.  0.297
+    ##  8 TAYLOR COUNTY     66138565.  85255667.  0.289
+    ##  9 CALHOUN COUNTY    38235106.  48664158.  0.273
+    ## 10 OKALOOSA COUNTY  658196224. 832855891.  0.265
+
+It looks like there’s a special focus on policies in Orlando, Florida,
+since Orlando is not a county, and its percent change in TIV was higher
+than that of any county in the state.
+
+Let’s now get an idea of the distribution of percent increase in TIV
+over all counties using a histogram from the
+<a href = "https://ggplot2.tidyverse.org/">ggplot2 package</a>:
+
+``` r
+ggplot(data = grouped_data) + geom_histogram(mapping = aes(x = change))
+```
+
+![](/images/unnamed-chunk-5-1.png)<!-- -->
+
+It appears as though most counties saw an increase in TIV, with an
+average of around 20% increase.
+
+``` r
+mean(grouped_data$change)
+```
+
+    ## [1] 0.2016668
+
+# Bonus
+
+As a demonstration of things to come, we’ll create a map of the percent
+change in TIV. To do this, we’ll need a few additional packages (see
+documentation
+<a href = "https://urbaninstitute.github.io/urbnmapr/">here</a> and
+<a href = "https://urbaninstitute.github.io/urbnthemes/articles/introducing-urbnthemes.html">here</a>)
+from the <a href = "https://www.urban.org/aboutus">Urban Institute</a>,
+so head over to your R console and run the lines:
+
+``` r
+install.packages("devtools")
+devtools::install_github("UrbanInstitute/urbnmapr")           
+install.packages("remotes")                                               
+remotes::install_github("UrbanInstitute/urbnthemes")
+```
+
+Since these packages are not available on CRAN, we needed to use
+package-specific instructions to install them.
+
+We won’t get into the specifics of what’s going here (see future posts
+discussing data wrangling and visualization using R), but as a test of
+your knowledge see if you can decipher what actions the code is
+performing (you may need to review the tidyverse and urbanmapr
+documentation)
+
+``` r
+library(urbnmapr)
+library(urbnthemes)
+names(grouped_data) = c("county_name","tiv2011","tiv2012","change")
+grouped_data$county_name = tolower(grouped_data$county_name)
+c = counties %>% filter(state_name == "Florida")
+c$county_name = tolower(c$county_name)
+m = grouped_data %>% full_join(c, by = "county_name")
+p = m %>% ggplot(mapping = aes(long, lat, group = group, fill = change)) +
+  geom_polygon(color = "#ffffff", size = .25) +
+  scale_fill_gradientn(labels = scales::percent, guide = guide_colorbar(title.position = "top")) +
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+  labs(fill = "% change in TIV") +
+  theme(legend.title = element_text(), legend.key.width = unit(.5, "in")) +
+  theme_urbn_map()
+p
+```
+
+![](/images/unnamed-chunk-7-1.png)<!-- -->
+
+Hey, it worked! It looks like there was a greater increase in TIV in
+north-central and north-western Florida, with some data lacking in a few
+counties on the east.
+
+
 .
 .
 .
