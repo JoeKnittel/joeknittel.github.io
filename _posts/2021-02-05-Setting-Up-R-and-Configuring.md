@@ -130,8 +130,9 @@ library(tidyverse)
 In the following cell, we’ll read in some .csv data (using the
 <a href = "https://readr.tidyverse.org/">readr package</a>) I’ve stored
 locally on my site in case it’s deleted from its original source
-(<https://support.spatialkey.com/spatialkey-sample-csv-data/>). There’s
-not too much of a description of the dataset, but it appears to be data
+(<https://support.spatialkey.com/spatialkey-sample-csv-data/>).
+
+There’s not too much of a description of the dataset, but it appears to be data
 pertaining to a collection of insurance policies in Florida from
 2011-2012.
 
@@ -155,18 +156,21 @@ head(data)
     ## #   point_longitude <dbl>, line <chr>, construction <chr>,
     ## #   point_granularity <dbl>
 
-Of particular interest are the *tiv\_2011* and *tiv\_2012* columns. They
+Of particular interest are the *tiv\_2011* and *tiv\_2012* columns; they
 represent the Total Insurable Value (TIV) of the policy from years 2011
-and 2012.
+and 2012, respectively.
 
-Let’s see if we can observe any trends on at the county level. Here,
+Let’s see if we can observe any trends at the county level. Here,
 we’ll employ the pipe operator `%>%` from the
 <a href = "https://magrittr.tidyverse.org/">magrittr package</a> to sum
 all TIV values for policies within each county, then add in a new
 variable that computes the percent increase in TIV from 2011 to 2012.
 
 ``` r
-grouped_data = data %>% group_by(county) %>% summarize(tiv2011 = sum(tiv_2011), tiv2012 = sum(tiv_2012), change = (tiv2012-tiv2011)/tiv2011) %>% arrange(desc(change))
+grouped_data = data %>% group_by(county) %>%
+               summarize(tiv2011 = sum(tiv_2011), tiv2012 = sum(tiv_2012),
+                         change = (tiv2012-tiv2011)/tiv2011) %>%
+               arrange(desc(change))
 head(grouped_data, 10)
 ```
 
@@ -185,7 +189,7 @@ head(grouped_data, 10)
     ## 10 OKALOOSA COUNTY  658196224. 832855891.  0.265
 
 It looks like there’s a special focus on policies in Orlando, Florida,
-since Orlando is not a county, and its percent change in TIV was higher
+since Orlando is not a county and its percent change in TIV was higher
 than that of any county in the state.
 
 Let’s now get an idea of the distribution of percent increase in TIV
@@ -207,7 +211,7 @@ mean(grouped_data$change)
 
     ## [1] 0.2016668
 
-# Bonus
+#### Bonus
 
 As a demonstration of things to come, we’ll create a map of the percent
 change in TIV. To do this, we’ll need a few additional packages (see
@@ -227,11 +231,7 @@ remotes::install_github("UrbanInstitute/urbnthemes")
 Since these packages are not available on CRAN, we needed to use
 package-specific instructions to install them.
 
-We won’t get into the specifics of what’s going here (see future posts
-discussing data wrangling and visualization using R), but as a test of
-your knowledge see if you can decipher what actions the code is
-performing (you may need to review the tidyverse and urbanmapr
-documentation)
+Now, let's create our map:
 
 ``` r
 library(urbnmapr)
@@ -243,7 +243,8 @@ c$county_name = tolower(c$county_name)
 m = grouped_data %>% full_join(c, by = "county_name")
 p = m %>% ggplot(mapping = aes(long, lat, group = group, fill = change)) +
   geom_polygon(color = "#ffffff", size = .25) +
-  scale_fill_gradientn(labels = scales::percent, guide = guide_colorbar(title.position = "top")) +
+  scale_fill_gradientn(labels = scales::percent,
+                       guide = guide_colorbar(title.position = "top")) +
   coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
   labs(fill = "% change in TIV") +
   theme(legend.title = element_text(), legend.key.width = unit(.5, "in")) +
@@ -251,16 +252,18 @@ p = m %>% ggplot(mapping = aes(long, lat, group = group, fill = change)) +
 p
 ```
 
+We won’t get into the specifics of what’s going in the code above (see future posts
+discussing data wrangling and visualization using R), but see if you can decipher
+what actions the code is performing (you may need to review the tidyverse and urbanmapr
+documentation).
+
+Anyway, here's the result:
+
 ![](/images/unnamed-chunk-7-1.png)<!-- -->
 
 Hey, it worked! It looks like there was a greater increase in TIV in
 north-central and north-western Florida, with some data lacking in a few
 counties on the east.
-
-
-.
-.
-.
 
 ## Summary
 
