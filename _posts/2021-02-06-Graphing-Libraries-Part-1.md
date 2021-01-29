@@ -1,5 +1,5 @@
 ---
-title: "Graphing Libraries, Part 1 : Plotly"
+title: "Graphing Libraries, Part 1 : Plotly, [2], [3], etc."
 output:
   md_document:
     variant: gfm
