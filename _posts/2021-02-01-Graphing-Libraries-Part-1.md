@@ -31,7 +31,7 @@ Let's start with the R packages, then we'll turn our attention to those of Pytho
 
 <a href = "https://plotly.com/r/">Plotly</a> is perhaps the most commonly used interactive data visualization library for R (and Python)!.
 
-The package provides tools for generating basic interactive plots (scatterplots, line plots, bar charts, etc.), statistical charts (histograms, box plots, violin plots, etc.), scientific plots (contour plots, heatmaps, network graphs, etc.), financial charts (time series, candlestick charts, etc.), maps (choropleth maps, scatter plots on maps, etc.), and 3-D charts, as well as subplots and animations.
+The package provides tools for generating basic interactive plots (scatterplots, line plots, bar charts, etc.), statistical charts (histograms, box plots, violin plots, etc.), scientific plots (contour plots, heatmaps, network graphs, etc.), financial charts (time-series, candlestick charts, etc.), maps (choropleth maps, scatter plots on maps, etc.), and 3-D charts, as well as subplots and animations.
 
 Needless to say, it's a very powerful library and it deserves a place in any R programmer's toolkit.
 
@@ -117,7 +117,7 @@ It can't be understated how useful it is to be able to generate such a compellin
 
 Just like the previous package, the <a href = "http://rstudio.github.io/dygraphs/index.html">dygraphs</a> package is a wrapper for its respective homonymous <a href = "https://dygraphs.com/">JavaScript library</a>.
 
-This package is not as versatile as the first two packages we've already discussed, but it's really useful for visualizing time series data.
+This package is not as versatile as the first two packages we've already discussed, but it's really useful for visualizing time-series data.
 
 ### Installation
 
