@@ -191,7 +191,7 @@ It's probably a plot type you're familiar with, but perhaps you've never seen su
 
 <a href = "https://docs.bokeh.org/en/latest/index.html">bokeh</a> is a very versatile and powerful graphing library for Python.
 
-One of the coolest things about bokeh is that it allows one to create dashboards, by utilizing widgets (e.g., slider, dropdown menu, etc.). This provides the user with an extensive depth of data interactivity.
+One of the coolest things about bokeh is that it allows one to create dashboards, by utilizing widgets (e.g., sliders, dropdown menus, etc.). This provides the user with an extensive depth of data interactivity.
 
 But not every plot is dashboard; using bokeh, we can also create almost any of the aforementioned interactive plots from other packages.
 
