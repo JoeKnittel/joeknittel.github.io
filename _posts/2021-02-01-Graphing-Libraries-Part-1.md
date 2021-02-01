@@ -148,7 +148,7 @@ dygraph(predicted, main = "Predicted Lung Deaths (UK)") %>%
 ```
 <iframe src="\interactive plots\dygraphs-example.html" width="650" height="600" frameBorder="0"></iframe>
 
-In the above plot, we took a time-series of lung-related deaths in the UK from 1974-1979, fit a Holt-Winters additive model (which allow us to capture seasonality in the data) to the data, then plotted the model's predictions for the next 72 months, including a prediction interval.
+In the above plot, we took a time-series of lung-related deaths in the UK from 1974-1979, fit a Holt-Winters additive model (which allows us to capture seasonality) to the data, then plotted the model's predictions for the next 72 months, including a prediction interval.
 
 Give the plot a mouseover to see it in action. I'm rather fond of the particularly clean effect: all of the pertinent information that one might expect is displayed, with no bloat.
 
