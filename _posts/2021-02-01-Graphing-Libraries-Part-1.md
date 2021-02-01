@@ -266,11 +266,11 @@ There's a lot going on code-wise in the above plot, but it's not difficult to se
 
 This is a calendar heatmap, wherein each rectangle corresponds to a specific month over the span of several decades. There are some clear elements that jump out at the viewer: specifically, the low unemployment rate around 1953 (post-WWII growth) and the high unemployment rates around 1982 (recession induced by tightened monetary policy) and around 2009 (the Great Recession). We also get a good view of intra-yearly patterns throughout the dataset.
 
-That I chose this plot to exhibit is not particularly meaningful; there will be tons of opportunities for exploring the different types of plots bokeh is capable of producing (including those that contain widgets).
+That I chose to exhibit this plot is not particularly meaningful; there will be tons of opportunities for exploring the different types of plots bokeh is capable of producing (including those that contain widgets).
 
 ## Altair
 
-<a href = "https://altair-viz.github.io/gallery/index.html">Altair</a> is one of the more commonly-used graphing libraries for Python.
+Last but not least, we have <a href = "https://altair-viz.github.io/gallery/index.html">Altair</a>, which is one of the more commonly-used graphing libraries for Python.
 
 The package provides tools for creating a vast array of static plots (e.g., bar charts, histograms, line charts, etc.), but it can also be used to create several types of interactive plots.
 
@@ -312,15 +312,15 @@ points & bars
 
 Upon first glance, the plot above is pretty cool, as it contains both a scatterplot and histogram of the dataset, broken up by a class.
 
-One can instantly see several patterns emerge, including the general distribution for each individual class, the overall trend of mpg vs. horsepower, and percent of the market deriving from each class.
+One can instantly see several patterns emerge, including the general distribution for each individual class, the overall trend of mpg vs. horsepower, and the percent of the market deriving from each class.
 
-But click and drag to select a rectangular region of the scatterplot and things really come to life. We can now hone into a certain subset of the space to investigate patterns within just the region we can about. This is rather powerful, and the plot has a top-notch user experience.
+But click and drag to select a rectangular region of the scatterplot and things really come alive. We can now hone into a certain subset of the space to investigate patterns within just the region we care about. This is a rather powerful, and the plot has a top-notch user experience, to boot.
 
 ## Summary
 
-Well, that was fun! We've now installed and investigated the possible use cases for a number of really essential data visualization libraries in R and Python.
+Well, that was fun! We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
 
-These tools make it incredibly easy to produce compelling interactive plots with our data, which bring out essential features in the data that might not otherwise have been noticed.
+These tools make it incredibly easy to produce compelling interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
 
 One thing to consider is that many of these packages were first developed in JavaScript, as all major browsers have a built-in JavaScript engine. With that said, if we seek further customization beyond what is provided in the packages described in this post, we'll have to look into JavaScript libraries (e.g., <a href = "https://d3js.org/">D3.js</a>). This will certainly be a topic of future blog posts.
 
