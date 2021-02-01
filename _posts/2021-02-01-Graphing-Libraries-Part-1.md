@@ -261,7 +261,7 @@ show(p)      # show the plot
 
 ```
 <iframe src="\interactive plots\bokeh-example.html" width="700" height="500" frameBorder="0"></iframe>
-
+<br>
 There's a lot going on code-wise in the above plot, but it's not difficult to see the utility of its result.
 
 This is a calendar heatmap, wherein each rectangle corresponds to a specific month over the span of several decades. There are some clear elements that jump out at the viewer: specifically, the low unemployment rate around 1953 (post-WWII growth) and the high unemployment rates around 1982 (recession induced by tightened monetary policy) and around 2009 (the Great Recession). We also get a good view of intra-yearly patterns throughout the dataset.
