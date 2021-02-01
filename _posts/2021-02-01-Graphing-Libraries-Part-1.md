@@ -260,7 +260,7 @@ p.add_layout(color_bar, 'right')
 show(p)      # show the plot
 
 ```
-<iframe src="\interactive plots\bokeh-example.html" width="700" height="500" frameBorder="0"></iframe>
+<iframe src="\interactive plots\bokeh-example.html" width="700" height="450" frameBorder="0"></iframe>
 <br>
 There's a lot going on code-wise in the above plot, but it's not difficult to see the utility of its result.
 
@@ -318,9 +318,7 @@ But click and drag to select a rectangular region of the scatterplot and things 
 
 ## Summary
 
-Well, that was fun!
-
-We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
+Well, that was fun! We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
 
 These tools make it incredibly easy to produce compelling interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
 
