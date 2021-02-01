@@ -177,7 +177,7 @@ line_chart.add('IE', [85.8, 84.6, 84.7, 74.5, 66, 58.6, 54.7, 44.8, 36.2, 26.6, 
 line_chart.add('Others', [14.2, 15.4, 15.3, 8.9, 9, 10.4, 8.9, 5.8, 6.7, 6.8, 7.5])
 line_chart.render_in_browser()
 ```
-<iframe src="\interactive plots\pygal-example.html" width="700" height="560" frameBorder="0"></iframe>
+<iframe src="\interactive plots\pygal-example.html" width="700" height="540" frameBorder="0"></iframe>
 
 In the plot above, we see a normalized stacked bar chart of different browser usage over time (clearly not up-to-date, since Chrome has taken over almost the entirety of the market).
 
