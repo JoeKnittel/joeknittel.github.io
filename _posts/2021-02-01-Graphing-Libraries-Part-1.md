@@ -1,5 +1,5 @@
 ---
-title: "Graphing Libraries, Part 1 : Interactive Plots in R and Python"
+title: "Graphing Libraries, Part 1 : Interactive Plots Using R and Python"
 output:
   md_document:
     variant: gfm
