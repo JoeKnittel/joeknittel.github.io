@@ -24,7 +24,7 @@ layout: default
   {%- endif -%}
 
   <div class = "top">
-    <a href = "#"><i class="fas fa-caret-up"></i></a>
+    <a href = "#top"><i class="fas fa-caret-up"></i></a>
   </div>
 
   <div class="PageNavigation">
@@ -33,7 +33,7 @@ layout: default
         {{page.previous.title}}
       </a>
     {% else %}
-    <a class="prev" href="{{page.previous.url}}"></a>  
+    <a class="prev" href="{{page.previous.url}}"></a>
     {% endif %}
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}">{{page.next.title}}
