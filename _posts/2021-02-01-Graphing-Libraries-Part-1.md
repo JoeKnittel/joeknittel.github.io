@@ -260,7 +260,7 @@ p.add_layout(color_bar, 'right')
 show(p)      # show the plot
 
 ```
-<iframe src="\interactive plots\bokeh-example.html" width="700" height="475" frameBorder="0"></iframe>
+<iframe src="\interactive plots\bokeh-example.html" width="700" height="500" frameBorder="0"></iframe>
 
 There's a lot going on code-wise in the above plot, but it's not difficult to see the utility of its result.
 
