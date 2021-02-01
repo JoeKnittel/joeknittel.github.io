@@ -16,7 +16,7 @@ layout: post
 
 We concluded the last post with the construction of a choropleth map using R's most famous graphing library, ggplot2, in conjunction with some additional packages from the Urban Institute. It was a demonstration that, with just a few lines of code, we can create compelling visualizations from our data.
 
-In this post, we'll take data visualization to the next level, as we explore some of my favorite R and Python packages that provide interactivity (i.e., the user can directly manipulate the visualizations).
+In this post, we'll take data visualization to the next level, as we investigate some of my favorite R and Python packages that provide interactivity (i.e., the user can directly manipulate the visualizations).
 
 We'll consider three libraries from R (plotly, Highcharter, dygraphs) and three from Python (Pygal, bokeh, Altair) and, for each, we'll do the following:
 
@@ -326,4 +326,4 @@ One thing to consider is that many of these packages were first developed in Jav
 
 ## Coming Up
 
-Next time, we'll talk about databases, how to configure R to connect to them, and how to explore them using SQL commands.
+Next time, we'll talk about databases, how to configure R to connect to them, and how to explore their underlying data using SQL commands.
