@@ -85,7 +85,7 @@ Note that about half of the code is for styling the hover effect. The dirty work
 
 ## Highcharter
 
-The next library we'll look at is <a href = "https://jkunst.com/highcharter/">Highcharter</a>, which is a <a href = "https://en.wikipedia.org/wiki/Wrapper_function">wrapper</a> for <a href = "https://www.highcharts.com/">Highcharts.js</a>, a commonly-used JavaScript visualization library.  
+The next library we'll look at is <a href = "https://jkunst.com/highcharter/">Highcharter</a>, which is a wrapper for <a href = "https://www.highcharts.com/">Highcharts.js</a>, a commonly-used JavaScript visualization library.  
 
 The package can be used to create an assortment of line charts, scatterplots, bar charts, heatmaps, treemaps, etc., and it's really useful whenever you want to compare sub-groups of a dataset.
 
