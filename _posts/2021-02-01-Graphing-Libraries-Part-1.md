@@ -183,7 +183,7 @@ line_chart.render_in_browser()
 ```
 <iframe src="\interactive plots\pygal-example.html" width="700" height="540" frameBorder="0"></iframe>
 
-In the plot above, we see a normalized stacked bar chart of different browser usage over time (clearly not up-to-date, since <a href = "https://gs.statcounter.com/browser-market-share">Chrome has taken over</a> much of the market).
+In the plot above, we see a normalized stacked bar chart of different browser usage over time (clearly not <a href = "https://gs.statcounter.com/browser-market-share">up-to-date</a>, as Chrome and Safari now reign supreme in the browser department).
 
 It's probably a plot type you're familiar with, but perhaps you've never seen such a chart with Pygal's style. I'm particularly fond of the package's unique mouseover effect and default color scheme, so whenever it's appropriate to go for something not so conventional, Pygal is worth consideration, in my opinion.
 
