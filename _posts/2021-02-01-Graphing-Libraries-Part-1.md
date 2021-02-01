@@ -16,7 +16,7 @@ layout: post
 
 We concluded the last post with the construction of a choropleth map using R's most famous graphing library, ggplot2, in conjunction with some additional packages from the Urban Institute. It was a demonstration that, with just a few lines of code, we can create compelling visualizations from our data.
 
-In this post, we'll take data visualization to the next level, as we explore some of my favorite R and Python packages that provide interactive visualization, wherein the user can directly manipulate the visualization.
+In this post, we'll take data visualization to the next level, as we explore some of my favorite R and Python packages that provide interactivity (i.e., the user can directly manipulate the visualizations).
 
 We'll consider three libraries from R (plotly, Highcharter, dygraphs) and three from Python (Pygal, bokeh, Altair) and, for each, we'll do the following:
 
@@ -31,9 +31,9 @@ Let's start with the R packages, then we'll turn our attention to those of Pytho
 
 <a href = "https://plotly.com/r/">Plotly</a> is perhaps the most commonly used interactive data visualization library for R (and <a href = "https://plotly.com/python/">Python</a>!).
 
-The package provides tools for generating basic interactive plots (scatterplots, line plots, bar charts, etc.), statistical charts (histograms, box plots, violin plots, etc.), scientific plots (contour plots, heatmaps, network graphs, etc.), financial charts (time series, candlestick charts, etc.), maps (choropleth maps, scatter plots on maps, etc.), and 3-D charts, as well as providing subplots and animations.
+The package provides tools for generating basic interactive plots (scatterplots, line plots, bar charts, etc.), statistical charts (histograms, box plots, violin plots, etc.), scientific plots (contour plots, heatmaps, network graphs, etc.), financial charts (time series, candlestick charts, etc.), maps (choropleth maps, scatter plots on maps, etc.), and 3-D charts, as well as subplots and animations.
 
-Needless to say, it's a very powerful library, and deserves a place in any R programmer's toolkit.
+Needless to say, it's a very powerful library and it deserves a place in any R programmer's toolkit.
 
 ### Installation
 
@@ -75,19 +75,19 @@ fig
 
 <iframe src="\interactive plots\plotly-example.html" width="700" height="600" frameBorder="0"></iframe>
 
-In the above plot, we constructed a two-dimensional histogram contour for a dataset containing thousands of diamonds. The plot looks at two key variables (cut and clarity), and looks to depict their joint distribution over the entire dataset.
+In the above plot, we constructed a two-dimensional histogram contour for a dataset containing thousands of diamonds. The plot focuses on two key variables (cut and clarity), and looks to depict their joint distribution over the entire dataset.
 
-A quick glance at this map might remind you of a contour map of a mountain, with a peak of 4500 at the point (Ideal, VS2). If you have good spatial awareness, you should be able to visualize the entire three-dimensional mountain, which corresponds to the joint probability distribution.
+A quick glance at this map might remind you of a contour map of a mountain, with a peak of 4500 at the point (Ideal, VS2). If you have good spatial awareness, you should be able to visualize the entire three-dimensional mountain, which corresponds, in structure, to the joint probability distribution.
 
-We could represent this information with a table, but the contour plot, in my opinion, does a way better job of showing the structure of the distribution.
+We could represent this information with a table, but the contour plot, in my opinion, does a way better job of bringing the distribution to life.
 
 Note that about half of the code is for styling the hover effect. The dirty work is done with just a few lines.
 
 ## Highcharter
 
-<a href = "https://jkunst.com/highcharter/">Highcharter</a> is a <a href = "https://en.wikipedia.org/wiki/Wrapper_function">wrapper</a> for <a href = "https://www.highcharts.com/">Highcharts.js</a>, a commonly-used JavaScript visualization library.  
+The next library we'll look at is <a href = "https://jkunst.com/highcharter/">Highcharter</a>, which is a <a href = "https://en.wikipedia.org/wiki/Wrapper_function">wrapper</a> for <a href = "https://www.highcharts.com/">Highcharts.js</a>, a commonly-used JavaScript visualization library.  
 
-The package can be used to create an assortment of line charts, scatterplots, bar charts, heatmaps, treemaps, etc., and it's really useful whenever you want to compare subgroups of a dataset.
+The package can be used to create an assortment of line charts, scatterplots, bar charts, heatmaps, treemaps, etc., and it's really useful whenever you want to compare sub-groups of a dataset.
 
 ### Installation
 
@@ -134,6 +134,8 @@ We'll need a bonus package (<a href = "https://www.r-graph-gallery.com/38-rcolor
 install.packages("RColorBrewer")
 ```
 
+Now, our example:
+
 ```r
 library(dygraphs)
 hw <- HoltWinters(ldeaths)
@@ -150,11 +152,13 @@ In the above plot, we took a time-series of lung-related deaths in the UK from 1
 
 Give the plot a mouseover to see it in action. I'm rather fond of the particularly clean effect: all of the pertinent information that one might expect is displayed, with no bloat.
 
-## pygal
+## Pygal
 
-We'll now shift our attention to Python libraries, starting with <a href = "http://www.pygal.org/en/stable/index.html">pygal</a>.
+We'll now shift our attention to Python libraries, starting with <a href = "http://www.pygal.org/en/stable/index.html">Pygal</a>.
 
-The package provides a fairly nice collection of built-in plots, including (but not limited to) bar charts, line charts, pie charts, and radar charts. Its plots' base style is rather unique, with a cool mouseover effect and modern color scheme. With that said, the library allows for additional personalization, when it comes to styling your plots.
+The package provides a fairly nice collection of built-in plots, including (but not limited to) bar charts, line charts, pie charts, and radar charts.
+
+And when it comes to style, Pygal provides some customizability, offering a few options. This can't be said of a lot of other graphing libraries in R and Python, so it's good to have.
 
 ### Installation
 
@@ -179,17 +183,17 @@ line_chart.render_in_browser()
 ```
 <iframe src="\interactive plots\pygal-example.html" width="700" height="540" frameBorder="0"></iframe>
 
-In the plot above, we see a normalized stacked bar chart of different browser usage over time (clearly not up-to-date, since Chrome has taken over almost the entirety of the market).
+In the plot above, we see a normalized stacked bar chart of different browser usage over time (clearly not up-to-date, since <a href = "https://gs.statcounter.com/browser-market-share">Chrome has taken over</a> much of the market).
 
-It's probably a plot you're familiar with, but perhaps you've never seen such a chart with pygal's style. I'm particularly fond of the package's unique mouseover effect and default color scheme, so whenever it's appropriate to go for something not so conventional, pygal is worth consideration, in my opinion.
+It's probably a plot type you're familiar with, but perhaps you've never seen such a chart with Pygal's style. I'm particularly fond of the package's unique mouseover effect and default color scheme, so whenever it's appropriate to go for something not so conventional, Pygal is worth consideration, in my opinion.
 
 ## bokeh
 
 <a href = "https://docs.bokeh.org/en/latest/index.html">bokeh</a> is a very versatile and powerful graphing library for Python.
 
-One of the coolest things about bokeh is that it allows you to create dashboards, by utilizing widgets (e.g., slider, dropdown menu, etc.). This provides the user with an extensive depth of interactivity with the data.
+One of the coolest things about bokeh is that it allows one to create dashboards, by utilizing widgets (e.g., slider, dropdown menu, etc.). This provides the user with an extensive depth of data interactivity.
 
-But not every bokeh plot is dashboard; in addition to dashboards, we can create almost any of the aforementioned interactive plots from other packages using bokeh.
+But not every plot is dashboard; using bokeh, we can also create almost any of the aforementioned interactive plots from other packages.
 
 This one is a no-doubter to be included in any Python programmer's toolkit.
 
