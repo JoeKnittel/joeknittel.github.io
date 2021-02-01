@@ -318,7 +318,9 @@ But click and drag to select a rectangular region of the scatterplot and things 
 
 ## Summary
 
-Well, that was fun! We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
+Well, that was fun!
+
+We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
 
 These tools make it incredibly easy to produce compelling interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
 
