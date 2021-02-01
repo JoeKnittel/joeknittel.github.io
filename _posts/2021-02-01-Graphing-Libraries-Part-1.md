@@ -14,7 +14,7 @@ layout: post
 
 ![](\images\viz-1-top.png)
 
-We concluded the last post with the construction of a choropleth map using R's most famous graphing library, ggplot2, in conjunction with some additional packages from the Urban Institute. It was a demonstration that, with just a few lines of code, we can create compelling visualizations from our data.
+We concluded the last post with the construction of a choropleth map using R's most famous graphing library, ggplot2, in conjunction with some additional packages from the Urban Institute. It was a demonstration that, with just a few lines of code, we can create mesmerizing visualizations from our data.
 
 In this post, we'll take data visualization to the next level, as we investigate some of my favorite R and Python packages that provide interactivity (i.e., the user can directly manipulate the visualizations).
 
@@ -111,7 +111,7 @@ The above plot was generated with just one line of code (the first few lines wer
 
 Run your mouse over the plot to see it in action. Whenever you mouseover a point in a specific sub-group, only the points within its same group are highlighted, allowing us to observe each sub-group in further detail. There's even a very clean tooltip, displaying information for the individual point currently being highlighted.
 
-It can't be understated how useful it is to be able to generate such a captivating plot with so little code.  
+It can't be understated how useful it is to be able to generate such a compelling plot with so little code.  
 
 ## dygraphs
 
@@ -320,7 +320,7 @@ But click and drag to select a rectangular region of the scatterplot and things 
 
 Well, that was fun! We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
 
-These tools make it incredibly easy to produce gripping interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
+These tools make it incredibly easy to produce captivating interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
 
 One thing to consider is that many of these packages were first developed in JavaScript, as all major browsers have a built-in JavaScript engine. With that said, if we seek further customization beyond what is provided in the packages described in this post, we'll have to look into JavaScript libraries (e.g., <a href = "https://d3js.org/">D3.js</a>). This will certainly be a topic of future blog posts.
 
