@@ -304,7 +304,7 @@ bars = alt.Chart(source).mark_bar().encode(
 
 points & bars
 ```
-<iframe src="\interactive plots\altair-example.html" width="600" height="500" frameBorder="0"></iframe>
+<iframe src="\interactive plots\altair-example.html" width="600" height="484" frameBorder="0"></iframe>
 
 Upon first glance, the plot above is pretty cool, as it contains both a scatterplot and histogram of the dataset, broken up by a class.
 
