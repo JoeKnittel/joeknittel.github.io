@@ -115,7 +115,7 @@ It can't be understated how useful it is to be able to generate such a compellin
 
 ## dygraphs
 
-Just like the previous package, the <a href = "http://rstudio.github.io/dygraphs/index.html">dygraphs package</a> is a wrapper for its respective homonymous <a href = "https://dygraphs.com/">JavaScript library</a>.
+Just like the previous package, the <a href = "http://rstudio.github.io/dygraphs/index.html">dygraphs</a> package is a wrapper for its respective homonymous <a href = "https://dygraphs.com/">JavaScript library</a>.
 
 This package is not as versatile as the first two packages we've already discussed, but it's really useful for visualizing time series data.
 
