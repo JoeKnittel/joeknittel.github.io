@@ -310,9 +310,7 @@ points & bars
 ```
 <iframe src="\interactive plots\altair-example.html" width="600" height="484" frameBorder="0"></iframe>
 
-Upon first glance, the plot above is pretty cool, as it contains both a scatterplot and histogram of the dataset, broken up by a class.
-
-One can instantly see several patterns emerge, including the general distribution for each individual class, the overall trend of mpg vs. horsepower, and the percent of the market deriving from each class.
+Upon first glance, the plot above is pretty cool, as it contains both a scatterplot and histogram of the dataset, broken up by a class. One can instantly see several patterns emerge, including the general distribution for each individual class, the overall trend of mpg vs. horsepower, and the percent of the market deriving from each class.
 
 But click and drag to select a rectangular region of the scatterplot and things really come alive. We can now hone into a certain subset of the space to investigate patterns within just the region we care about. This is a rather powerful, and the plot has a top-notch user experience, to boot.
 
