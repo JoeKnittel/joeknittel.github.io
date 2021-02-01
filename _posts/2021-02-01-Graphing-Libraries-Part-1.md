@@ -324,4 +324,4 @@ One thing to consider is that many of these packages were first developed in Jav
 
 ## Coming Up
 
-Next time, we'll talk about databases, how to configure R to connect to them, and how to explore their underlying data using SQL commands.
+Next time, we'll talk about databases, how to configure R to connect to them, and how to work with their underlying data using SQL commands.
