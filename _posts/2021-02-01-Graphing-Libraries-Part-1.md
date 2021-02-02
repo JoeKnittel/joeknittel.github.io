@@ -77,7 +77,7 @@ fig
 
 In the above plot, we constructed a two-dimensional histogram contour for a dataset containing thousands of diamonds. The plot focuses on two key variables (cut and clarity), and looks to depict their joint distribution over the entire dataset.
 
-A quick glance at this map might remind you of a contour map of a mountain, with a peak of 4500 at the point (Ideal, VS2). If you have good spatial awareness, you should be able to visualize the entire three-dimensional mountain, which corresponds, in structure, to the joint probability distribution.
+A quick glance at this map might remind you of a contour map of a mountain, with a peak of 5071 at the point (Ideal, VS2). If you have good spatial awareness, you should be able to visualize the entire three-dimensional mountain, which corresponds, in structure, to the joint probability distribution.
 
 We could represent this information with a table, but the contour plot, in my opinion, does a way better job of bringing the distribution to life.
 
