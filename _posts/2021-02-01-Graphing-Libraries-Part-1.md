@@ -29,7 +29,7 @@ Let's start with the R packages, then we'll turn our attention to those of Pytho
 
 ## plotly
 
-<a href = "https://plotly.com/r/">Plotly</a> is perhaps the most commonly used interactive data visualization library for R (and Python)!.
+<a href = "https://plotly.com/r/">Plotly</a> is perhaps the most commonly used interactive data visualization library for R (and Python!).
 
 The package provides tools for generating basic interactive plots (scatterplots, line plots, bar charts, etc.), statistical charts (histograms, box plots, violin plots, etc.), scientific plots (contour plots, heatmaps, network graphs, etc.), financial charts (time series, candlestick charts, etc.), maps (choropleth maps, scatter plots on maps, etc.), and 3-D charts, as well as subplots and animations.
 
