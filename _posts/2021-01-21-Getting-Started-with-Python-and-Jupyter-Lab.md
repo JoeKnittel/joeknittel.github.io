@@ -61,7 +61,7 @@ Type "python" and press enter, which should result in (if it doesn't, either you
 
 ![](\images\python.png)
 
-Finally, just to be sure everything is function properly, let's type `2+2` and see if Python knows its basic arithmetic:
+Finally, just to be sure everything is functioning properly, let's type `2+2` and see if Python knows its basic arithmetic:
 
 ![](\images\2+2.png)
 
