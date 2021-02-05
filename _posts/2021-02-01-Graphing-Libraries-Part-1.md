@@ -318,7 +318,7 @@ But click and drag to select a rectangular region of the scatterplot and things 
 
 Well, that was fun! We've now installed and investigated example use cases for a number of really cool data visualization libraries in R and Python.
 
-These tools make it incredibly easy to produce captivating interactive plots, which elucidate essential patterns in the data that might not otherwise have been noticed.
+These tools make it incredibly easy to produce captivating interactive plots which elucidate essential patterns in the data that might not otherwise have been noticed.
 
 One thing to consider is that many of these packages were first developed in JavaScript, as all major browsers have a built-in JavaScript engine. With that said, if we seek further customization beyond what is provided in the packages described in this post, we'll have to look into JavaScript libraries (e.g., <a href = "https://d3js.org/">D3.js</a>). This will certainly be a topic of future blog posts.
 
