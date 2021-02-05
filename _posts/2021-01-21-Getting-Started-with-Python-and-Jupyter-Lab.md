@@ -127,7 +127,7 @@ After installing Node.js (which might take a few minutes), we'll be ready to giv
 
 ### Creating a Jupyter Lab Directory
 
-One last thing before we proceed: let's create a base working directory for our Jupyter Lab.
+One last thing before we proceed: Let's create a base working directory for our Jupyter Lab.
 
 Find a place on your computer's file system where you normaly keep data analysis stuff and create a new directory for Juypter Lab (e.g., C:\Code\Jupyter).
 
