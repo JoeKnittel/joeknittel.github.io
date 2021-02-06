@@ -404,6 +404,6 @@ The app, if you will, generates the most common definition (what we did above), 
 
 All of the code I developed can be found in <a class = "post" href = "https://github.com/JoeKnittel/VBA">this repository</a>, and I look forward to continuing this project.
 
-## Coming up
+## Coming Up
 
 We've talked a lot about Excel in the most recent posts, so let's flip the script and start to discuss coding in Python. More on what that entails next time.
