@@ -274,7 +274,7 @@ Who could possibly be buying so many scale models of cars?
 
 ``` r
 tbl(con, "customers") %>% filter(customerNumber == 141) %>%
-    select(customerNumber, customerName)
+select(customerNumber, customerName)
 ```
 
     ## # Source:   lazy query [?? x 2]
@@ -290,9 +290,9 @@ order, as the most Euro+ ever spent was around $60k:
 
 ``` r
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
-    left_join(tbl(con, "orderdetails")) %>% group_by(orderNumber) %>%
-    summarize(orderTotal = sum(quantityOrdered * priceEach)) %>%
-    arrange(desc(orderTotal))
+left_join(tbl(con, "orderdetails")) %>% group_by(orderNumber) %>%
+summarize(orderTotal = sum(quantityOrdered * priceEach)) %>%
+arrange(desc(orderTotal))
 ```
 
     ## # Source:     lazy query [?? x 2]
@@ -317,13 +317,13 @@ retailer:
 
 ``` r
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
-    left_join(tbl(con, "orderdetails")) %>%
-    left_join(tbl(con, "products"),by = "productCode") %>%
-    select(productName, quantityOrdered, priceEach) %>%
-    group_by(productName) %>%
-    summarize(numPurchased = sum(quantityOrdered),
-              totalPricePaid = sum(quantityOrdered *priceEach)) %>%
-    arrange(desc(totalPricePaid)) %>% head(5)
+left_join(tbl(con, "orderdetails")) %>%
+left_join(tbl(con, "products"),by = "productCode") %>%
+select(productName, quantityOrdered, priceEach) %>%
+group_by(productName) %>%
+summarize(numPurchased = sum(quantityOrdered),
+          totalPricePaid = sum(quantityOrdered *priceEach)) %>%
+arrange(desc(totalPricePaid)) %>% head(5)
 ```
 
     ## # Source:     lazy query [?? x 3]
