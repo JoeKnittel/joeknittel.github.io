@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis with MS Excel, Part 1 : Some Useful Functions"
+title: "Data Analysis with MS Excel, Part 1: Some Useful Functions"
 output:
   md_document:
     variant: gfm

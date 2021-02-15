@@ -1,5 +1,5 @@
 ---
-title: "Binder : Enabling Reproducible Data Analysis by Leveraging the Cloud"
+title: "Binder: Enabling Reproducible Data Analysis by Leveraging the Cloud"
 output:
   md_document:
     variant: gfm

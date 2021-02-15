@@ -1,5 +1,5 @@
 ---
-title: "Extending the Functionality of Excel : Working with VBA and Web APIs"
+title: "Extending the Functionality of Excel: Working with VBA and Web APIs"
 output:
   md_document:
     variant: gfm
