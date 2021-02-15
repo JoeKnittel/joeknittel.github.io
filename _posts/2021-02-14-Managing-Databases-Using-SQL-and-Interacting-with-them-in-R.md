@@ -1,5 +1,5 @@
 ---
-title: Managing Databases Using SQL and Interacting with them in R
+title: Managing Databases Using SQL and Interacting with Them in R
 output:
   md_document:
     variant: gfm
