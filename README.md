@@ -10,7 +10,7 @@
 
 <hr>
 
-### Live Link: <a href = "https://blog.joeknittel.com/">blog.joeknittel.com</a>
+### Live Link: <a href = "https://joeknittel.github.io/">joeknittel.github.io/</a>
 
 <hr>
 
