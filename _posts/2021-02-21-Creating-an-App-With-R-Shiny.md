@@ -12,6 +12,9 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
+![](/images/shiny.png)<!-- -->
+
+
 ## Will be published soon!
 
 <a href = "https://joe-knittel.shinyapps.io/life-expectancy-vs-gdp/">https://joe-knittel.shinyapps.io/life-expectancy-vs-gdp/</a>
