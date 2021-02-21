@@ -13,3 +13,5 @@ layout: post
 ---
 
 ## Will be published soon!
+
+https://joe-knittel.shinyapps.io/life-expectancy-vs-gdp/
