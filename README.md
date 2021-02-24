@@ -1,6 +1,6 @@
 # joeknittel.github.io
 
-## A Blog Documenting my Adventures in Actuarial Science (2021)
+## A Blog Documenting My Adventures in Actuarial Science (2021)
 
 *This project was developed as a means of personal and professional development.*
 
