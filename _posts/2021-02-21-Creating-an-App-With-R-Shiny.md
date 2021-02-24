@@ -552,7 +552,7 @@ Hopefully, your app will load and you'll be able to interact with it. That's not
 
 If this happens, you'll need to review the error messages within the R Studio logs and make the appropriate changes to the code, before proceeding.
 
-### View in Webpage
+### View App in Webpage
 
 When running your app in the previous step, you may have noticed the "Open in Browser" button at the top.
 
