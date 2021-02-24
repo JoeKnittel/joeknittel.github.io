@@ -42,7 +42,7 @@ Below, we describe the three files in this configuration.
 
 *Note: if using this configuration, the file names must be exactly as follows: ui.R, server.R, global.R*
 
-### ui.R
+#### ui.R
 
 This file describes the user interface of the Shiny app.
 
@@ -59,13 +59,13 @@ For many of the widgets, we will also be defining:
 
 However, these characteristics are frequently a function of user input; if this is the case, arguments defining the widgets' look and behavior will be the output of some server logic, and hence will be found in the server.R file.
 
-### server.R
+#### server.R
 
 This file describes the server logic defining how reactive plots (and, potentially, other widgets) are to be rendered on-screen based on the current widget states.
 
 The main idea here is that the user defines the values of variables by choosing widget states, and these variable values are then used to output certain reactive elements, which will change if ever the user adjusts the widgets to a different state.
 
-### global.R
+#### global.R
 
 This file is very simple. It's just a list of library calls to various R packages whose functions can be accessed anywhere within ui.R or server.R.
 
