@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Python and Jupyter Lab
+title: Getting Started With Python and Jupyter Lab
 output:
   md_document:
     variant: gfm

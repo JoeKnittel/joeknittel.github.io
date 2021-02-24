@@ -1,5 +1,5 @@
 ---
-title: Creating a Data-Driven App with Shiny and Deploying it Online
+title: Creating a Data-Driven App With Shiny and Deploying It Online
 output:
   md_document:
     variant: gfm
