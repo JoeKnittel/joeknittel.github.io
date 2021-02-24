@@ -22,7 +22,11 @@ layout: post
 
 ## What is Shiny
 
-[placeholder text]
+[Shiny](https://shiny.rstudio.com/) is an R package that allows users to quickly and seamlessly build data-driven web apps.
+
+Users interact with Shiny apps via [widgets](https://shiny.rstudio.com/gallery/widget-gallery.html), which adjust various output components in the app's reactive environment.
+
+The package has also been developed to allow for considerable customization, with support for CSS themes and various JavaScript actions.  
 
 ## Structure of a Shiny App
 
@@ -32,7 +36,7 @@ In this section, we'll describe the most common way these components are defined
 
 ### Most Common Structure
 
-The best way to structure a shiny app is to break each of the three main components into its own R script file. Doing so makes it easier to keep your code organized, which is especially important if your app has many widgets and/or complex logic defining the widgets' behavior.
+The best way to structure a shiny app (in my humble opinion) is to break each of the three main components into its own R script file. Doing so makes it easier to keep your code organized, which is especially important if your app has many widgets and/or complex logic defining the widgets' behavior.
 
 Below, we describe the three files in this configuration.
 
@@ -42,7 +46,7 @@ Below, we describe the three files in this configuration.
 
 This file describes the user interface of the Shiny app.
 
-Shiny apps are composed of [widgets](https://shiny.rstudio.com/gallery/widget-gallery.html) whose states can be modified by a user.
+Shiny apps are composed of widgets whose states can be modified by a user.
 
 Here we will define, at the very least, which widgets will be displayed within the app and their respective locations on the screen.
 
@@ -132,12 +136,12 @@ The app, as depicted in the sketch, can be described as follows:
   <ul>
     <li>A sidebar panel, which houses the following widgets:</li><br>
     <ul>
-      <li>An upload button to upload a dataset</li>
-      <li>A dropdown menu to select the continent</li>
-      <li>A slider for selecting a range of GDP per capita values to be displayed</li>
-      <li>A checkbox that determines whether to apply a log transformation to GDP per capita</li>
-      <li>A slider for selecting a range of populations to display</li>
-      <li>A slider to select the year</li>
+      <li>an upload button to upload a dataset</li>
+      <li>a dropdown menu to select the continent</li>
+      <li>a slider for selecting a range of GDP per capita values to be displayed</li>
+      <li>a checkbox that determines whether to apply a log transformation to GDP per capita</li>
+      <li>a slider for selecting a range of populations to display</li>
+      <li>a slider to select the year</li>
     </ul>
     <li>A main panel, which displays a reactive, interactive plot, rendered based on the states of the sidebar widgets</li>
   </ul>
