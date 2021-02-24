@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Joe, a 30-something who, after meandering hither and thither for a while upon graduating college, finds himself as an up-and-coming actuarial student.
+Hi, I'm <a href = "https://joeknittel.com/">Joe</a>, a 30-something who, after meandering hither and thither for a while upon graduating college, finds himself as an up-and-coming actuarial student.
 
 This blog will serve primarily as a tool to document what I've learned throughout my studies and exhibit various projects I've completed for work and for fun, and, in doing so, may prove to be useful to others who find themselves on a similar journey.
 
