@@ -170,7 +170,7 @@ To do so, click the aforemention dropdown menu which currently says "Code", and 
 
 Type `# My First Jupyter Notebook` (or something similar) into the highlighted cell (don't forget the #, and don't include the quotes).
 
-Then, press `Shift+Enter` or click the `Run` icon in the Cell Menu.
+Then, press *Shift+Enter* or click the *Run* icon in the Cell Menu.
 
 You should see cell's miniscule text miraculously transform into something rather majestic:
 
