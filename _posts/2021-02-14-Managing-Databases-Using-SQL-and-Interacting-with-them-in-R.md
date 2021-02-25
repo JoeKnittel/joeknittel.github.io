@@ -85,9 +85,9 @@ First, If you’re running Windows, head over <a href = "https://dev.mysql.com/d
 
 If you’re on a different OS, then start <a href = "https://dev.mysql.com/downloads/mysql/">here</a> by downloading MySQL Server for your particular OS. You may find other MySQL tools (e.g., an ODBC connector) useful in the future, but MySQL Server is all we’ll need.  
 
-*Note 1*: MySQL Server installation may take upwards of an hour to complete, will require several gigabytes of storage, and will likely download a number of dependencies (e.g., Visual Studio) along the way.
+*Note 1: MySQL Server installation may take upwards of an hour to complete, will require several gigabytes of storage, and will likely download a number of dependencies (e.g., Visual Studio) along the way.*
 
-*Note 2*: Towards the end of the installation process, you will be asked to provide a root password. Record this information somewhere safe, as it will be used whenever you want to interact with the DBMS.
+*Note 2: Towards the end of the installation process, you will be asked to provide a root password. Record this information somewhere safe, as it will be used whenever you want to interact with the DBMS.*
 
 ## SQL, the Language of Your Favorite DBMS
 
@@ -172,6 +172,7 @@ install.packages("rstudioapi")
 Now that we have the appropriate packages, let's set up a connection to our sample database from earlier:
 
 ``` r
+# setup a database connection
 library(DBI)
 con = dbConnect(RMySQL::MySQL(),
                 dbname = "classicmodels",
@@ -223,7 +224,7 @@ dbGetQuery(con, "SELECT * FROM customers LIMIT 5")
 
 Notice that we must specify the database connection in the first argument, then follow it with a SQL command.
 
-Oftentimes, it’s much more time-efficient to query our database using dplyr (recall this Tidyverse package from previous posts).
+Oftentimes, it’s much more time-efficient to query our database using **dplyr** (recall this Tidyverse package from previous posts).
 
 We can generate the same result as above (except, as a tibble, rather than a data frame) using the following code:
 
@@ -249,6 +250,7 @@ Let’s look deeper. What else can we learn from our database?
 How about a histogram of the company’s order amounts:
 
 ``` r
+# generate a tibble from the database's payments table, then create a histogram
 payments = tbl(con, "payments") %>% collect()
 ggplot(payments, aes(x = amount)) + geom_histogram()
 ```
@@ -259,6 +261,7 @@ Wow! There’s a $120k+ purchase in there. Could that be real? Seems like
 a whole lotta scale models of vintage cars… Let’s investigate:
 
 ``` r
+# get the entry from the payments table whose amount is greatest
 tbl(con, "payments") %>% arrange(desc(amount)) %>% head(1)
 ```
 
@@ -273,6 +276,7 @@ Apparently, customer \#141 made a $120,167 purchase in March of 2005.
 Who could possibly be buying so many scale models of cars?
 
 ``` r
+# get a subset of the customers table pertaining to customer #141  
 tbl(con, "customers") %>% filter(customerNumber == 141) %>%
 select(customerNumber, customerName)
 ```
@@ -286,7 +290,7 @@ select(customerNumber, customerName)
 That makes sense, a shopping channel made the big purchase.
 
 And, as it turns out, the payment didn’t even correspond to one specific
-order, as the most Euro+ ever spent was around $60k:
+order; the most Euro+ ever spent at one time was only around $60k:
 
 ``` r
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
@@ -313,7 +317,7 @@ arrange(desc(orderTotal))
     ## # ... with more rows
 
 Finally, let’s see Euro+’s top 5 favorite purchases from the
-retailer:
+business:
 
 ``` r
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
@@ -349,7 +353,7 @@ Even more important, we can access databases through R using the DBI package in 
 Finally, we can manipulate and analyze the data from our database using SQL commands or even dplyr with pipes, as we’ve done in previous posts.
 
 ## Coming Up
-In our next post, we will develop a basic data-driven app using the Shiny package in R.
+In our next post, we will develop a data-driven app using the Shiny package in R.
 
 We’ll talk about the core components of any Shiny app, build out a UI consisting of a bunch of widgets for interactivity, and define the functions that’ll be executed upon such interactions.
 
