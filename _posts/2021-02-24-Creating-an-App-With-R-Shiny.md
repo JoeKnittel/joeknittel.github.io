@@ -183,7 +183,7 @@ navbarPage(id = "nav", title = "Global Life Expectancy vs. GDP per Capita",
 
 #### Analysis Page
 
-Let's now define the **Analysis** page:
+Let's now define the *Analysis* page:
 
 ```r
     # the first page is the main page, where data is to be uploaded and the plot is
