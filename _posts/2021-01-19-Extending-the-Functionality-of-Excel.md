@@ -179,7 +179,7 @@ The only problem is, this is what that JSON object looks like:
 
 ![](\images\json.png)
 
-Don't get too scared--it's just a really long, structured string. We'll need some other tools in order to efficiently break down the JSON object into its parts and access our desired data (i.e., the word's most common definition). This process is called **parsing**.
+Don't get too scared--it's just a really long, structured string. We'll need some other tools in order to efficiently break down the JSON object into its parts and access our desired data (i.e., the word's most common definition). This process is called <b><a href = "https://en.wikipedia.org/wiki/Parsing">parsing</a></b>.
 
 ### Parsing JSON
 
