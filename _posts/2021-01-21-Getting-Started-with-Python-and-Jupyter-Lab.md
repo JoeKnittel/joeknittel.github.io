@@ -45,7 +45,7 @@ What do we have to lose? Let's get started with Python!
 
 ## Setting up Python
 
-You can download the latest stable version of Python at: <a href = "https://www.python.org/downloads/">https://www.python.org/downloads/</a>
+You can download the latest stable version of Python <a href = "https://www.python.org/downloads/">here</a>
 
 Find the link for your particular operating system, and follow all of the default prompts.
 
