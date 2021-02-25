@@ -18,7 +18,7 @@ Last time, we got an introductory taste of what it's like to do work with data i
 
 We ended, however, on kind of a downer, describing some challenges to reproducing our work with our current method of dissemination (sending our .ipynb files directly to other people).
 
-With that said, there was still hope: we introduced the concept of `Binder`, a seemingly miraculous solution to our problem that uses cloud computing to create a self-contained execution environment identical to our own.
+With that said, there was still hope: we introduced the concept of **Binder**, a seemingly miraculous solution to our problem that uses cloud computing to create a self-contained execution environment identical to our own.
 
 In this post, we'll do the following:
 
@@ -38,11 +38,11 @@ Here's the overall idea, from the perspective of a data science practitioner, as
 
 1. Write some code in a Jupyter notebook and create a $\text{requirements.txt}$ file saying which packages are needed to run the notebook, then place these files in a GitHub repository.
 
-2. Direct the `BinderHub` to your repository (and, specifically, the notebook), so a `container` (an immutable, ready-to-run software package) can be built and stored in a registry for future processing.
+2. Direct the **BinderHub** to your repository (and, specifically, the notebook), so a **container** (an immutable, ready-to-run software package) can be built and stored in a registry for future processing.
 
 3. BinderHub generates a link which can then be shared with whomever.
 
-4. When someone clicks the link you sent them, `JupyterHub` provides them with access to a temporary instance of the Jupyter notebook (with all dependencies installed), run not on their local machine, but by the pooled resources (compute and memory) of a collection of machines in the cloud (a `Kubernetes cluster`).
+4. When someone clicks the link you sent them, **JupyterHub** provides them with access to a temporary instance of the Jupyter notebook (with all dependencies installed), run not on their local machine, but by the pooled resources (compute and memory) of a collection of machines in the cloud (a **Kubernetes cluster**).
 
 Got all that? Well, it doesn't matter too much whether you have a well-defined conception of *everything* (e.g., what a BinderHub, JupyterHub or container are) that's going on behind the scenes. I've provided this overview moreso for the sake of completeness than out of necessity to we, the users of the Binder service.
 
@@ -69,7 +69,7 @@ Okay, that sounds much simpler. Let's get started!
 
 ### GitHub
 
-The first thing we need in order to build our Binder is to have a `GitHub` account.
+The first thing we need in order to build our Binder is to have a **GitHub** account.
 
 If you're unaware of what <a href = "https://en.wikipedia.org/wiki/GitHub">GitHub</a> is, it's a free software development tool that assists in collaborative version control (helping people keep track of past changes and further update software), among other features (e.g., this blog is hosted on GitHub Pages).
 
@@ -81,7 +81,7 @@ Setting up an account with GitHub shouldn't take more than a minute or two; just
 
 Alright, I'm assuming you now have a GitHub account. Let's now proceed to create a repository for our project.
 
-To be clear, a `repository` is just a fancy name for a directory: it's a place to store various files.
+To be clear, a **repository** is just a fancy name for a directory: it's a place to store various files.
 
 You can create a new repository by, first, clicking on the <i>Repositories</i> tab in your profile, then clicking the <i>New</i> button in the upper right-hand part of the screen. This can also be done directly by clicking <a href = "https://github.com/new">here</a> (assuming you're logged into your GitHub account).
 
