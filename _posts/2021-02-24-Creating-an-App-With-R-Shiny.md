@@ -14,13 +14,19 @@ layout: post
 
 ![](/images/shiny.png)<!-- -->
 
+Long gone are the days that only computer science geeks have the capability to develop software. Over the past few decades, technology has made huge strides, and the results can be seen not just in the way we live our everyday lives, but also in the way we solve problems.
 
-## Intro
+This post aims to demonstrate that, with the right set of tools, even building and deploying a data-driven web app is not nearly as challenging as one might expect. Our tools of choice will be R Studio and the Shiny package.
 
-[placeholder text]
+We'll accomplish the following objectives throughout the course of the post:
 
+- describe the structure of a Shiny app
+- conceptualize our own app for interacting with and visualizing the famous Gapminder dataset
+- develop code for the app's user interface and server logic
+- test our app on a local server
+- deploy the app online, with shinyapps.io
 
-## What is Shiny
+## What is Shiny?
 
 [Shiny](https://shiny.rstudio.com/) is an R package that allows users to quickly and seamlessly build data-driven web apps.
 
@@ -100,17 +106,21 @@ shinyApp(ui, server)
 ```
 Where **[global.R]**, **[ui.R]**, and **[server.R]** would be the code found within each respective file, given one were to have structured the app with the standard 3-file structure.
 
-## Conceptualizing the App
+## Conceptualizing Our App
 
 Alright, we now have an idea of what Shiny is and the file structure of a Shiny app.
 
-Let's now begin to conceptualize our app.
+Let's now begin to conceptualize our own app.
 
 ### Purpose
 
 We'll be building an app to visualize the relationship between a country's GDP per capita and its people's mean life expectancy, using data from R's [gapminder package](https://cran.r-project.org/web/packages/gapminder/index.html).
 
 We'd like our app to allow the user to look at specific subsets of the data (e.g., display only countries from a specific continent, and/or display only countries whose population is less than a specific number, and/or only display data from a specific year, etc.).
+
+Users should be able to modify their data selections by adjusting the states of an assortment of different widgets.
+
+Also, to maximize the app's immersiveness, we'd like to include an interactive plot, with a tooltip summarizing individual data points, and each point colored based on its continents, with a radius based on its population.
 
 ### Structure
 
@@ -628,12 +638,12 @@ Here's the app we just built, live on the web: <a href = "https://joe-knittel.sh
 
 ### Updating the App
 
-If, for whatever reason, you ever need to update your app, just do the following:
+If, for whatever reason, you need to update your app in the future, just do the following:
 
 - save your updated code in your ui.R, server.R, and/or global.R files
 - make sure your working directory is the app directory using `setwd`
-- load up the **rsconnect** package `library(rsconnect)`
-- run `deployApp()`
+- load up the **rsconnect** package with the code: `library(rsconnect)`
+- run: `deployApp()`
 - type `Y` in the prompt to update your already-published app on the server
 
 ## Other Shiny Apps
@@ -648,7 +658,7 @@ What about displaying $\LaTeX$ equations within the app?
 
 As an example, I've done all three of these in an app that fits a distribution to discrete random variable.
 
-Check out my other Shiny app [here](https://joe-knittel.shinyapps.io/fitting-a-discrete-distribution/).
+Check out [my other Shiny app](https://joe-knittel.shinyapps.io/fitting-a-discrete-distribution/).
 
 And there are countless other examples in the [Shiny Gallery](https://shiny.rstudio.com/gallery/).
 
@@ -664,11 +674,10 @@ Hopefully, you've learned:
 - how to develop the UI and server logic for a Shiny app
 - how to deploy a Shiny app online
 
-
 ## Coming Up
 
 The last several posts on this blog have been centered around building out a generalized data science toolkit which we can use to import, manipulate, visualize, and interact with data.
 
-With this firm technological foundation in place, we can now begin to use these tools, in conjunction with specialized knowledge regarding insurance and finance, to model various actuarial phenomena.
+With this firm technological foundation in place, we can now begin to use these tools, in conjunction with specialized knowledge regarding insurance and finance, to perform rigorous analyses of various actuarial phenomena.
 
 Specific details have yet to be defined, but stayed tuned for more posts in the not-too-distant future!
