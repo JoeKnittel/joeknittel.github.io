@@ -18,7 +18,7 @@ In previous posts, we’ve discussed accessing and interacting with data stored 
 
 We’ll do the following:
 
-1. Describe what databases are, consider why we might use a database rather than, say, a spreadsheet, and list some common database management systems  
+1. Describe what databases are; consider why we might use a database rather than, say, a spreadsheet; and list some common database management systems  
 2. Discuss database servers, how to set one up locally, and the credentials required for logging into the server
 3. Introduce some common SQL commands, try a few out, and load up a database from a .sql file
 4. Set up a DBI connection to a database in R
@@ -139,13 +139,13 @@ We’ve looked at some of the most common SQL commands, but there are <a href = 
 
 We’ll look at one more SQL command before we proceed to the next section: `SOURCE`. Since our database is rather simplistic, and as a good practice exercise, let’s load up an entire database from a .sql file into our server.
 
-Go to <a href = "https://www.mysqltutorial.org/mysql-sample-database.aspx">this page</a>; you’ll find a link to a sample database containing information from a business that sells scale models of classic cars. Download the .zip file and unzip the file (mysqlsampledatabase.sql) into an easily-accessible directory (I placed it in C:\temp).
+Go to <a href = "https://www.mysqltutorial.org/mysql-sample-database.aspx">this page</a>; you’ll find a link to a sample database containing information from a business that sells scale models of classic cars. Download the .zip file and unzip the file (**mysqlsampledatabase.sql**) into an easily-accessible directory (I placed it in C:\temp).
 
-Then, run the SQL command: `SOURCE [path-to-sample-database]` (Note: no semi-colon; see video).
+Then, run the SQL command: `SOURCE [path-to-sample-database]` (*Note: no semicolon; see video*).
 
 ![](\images\source.gif)
 
-If you did everything correctly, when you run the SQL command: `SHOW DATABASES;`, you should see a new entry called classicmodels. Feel free to examine the content of the database using the commands we’ve discussed already and/or those found in the link above; we’ll delve deeper into the database’s structure and query it within R in later sections.
+If you did everything correctly, when you run the SQL command: `SHOW DATABASES;`, you should see a new entry called **classicmodels**. Feel free to examine the content of the database using the commands we’ve discussed already and/or those found in the link above; we’ll delve deeper into the database’s structure and query it within R in later sections.
 
 ## Connecting to a Database in R
 
@@ -181,11 +181,11 @@ con = dbConnect(RMySQL::MySQL(),
                 password =  rstudioapi::askForPassword("Database Password"))
 ```
 
-*Note 1*: You will be prompted to input the DBMS root password when you run this code.
+*Note 1: You will be prompted to input the DBMS root password when you run this code.*
 
-*Note 2*: If accessing a different database via a remote server, you’ll need appropriate credentials, as described earlier.
+*Note 2: If accessing a different database via a remote server, you’ll need appropriate credentials, as described earlier.*
 
-*Note 3*: If you’re connecting to an entirely different DBMS, you’ll need a different driver (e.g., PosgreSQL requires the RPosgreSQL package and RMySQL::MySQL() would be replaced with RPostgres::Postgres() in the dbConnect call)
+<i>Note 3: If you’re connecting to an entirely different DBMS, you’ll need a different driver (e.g., PosgreSQL requires the RPosgreSQL package and `RMySQL::MySQL()` would be replaced with `RPostgres::Postgres()` in the dbConnect call)</i>
 
 ## Querying a Database in R
 
