@@ -40,7 +40,7 @@ Spreadsheets have served us well in the past; what makes a database a better opt
 
 **Updating** – many people can simultaneously manage a database
 
-**Data Integrity** – the database’s model ensures that all data maintain a pre-specified form, ensuring consistency and validity
+**Data Integrity** – the database’s model necessitates that all data maintain a pre-specified form, ensuring consistency and validity
 
 ### Database Models
 
