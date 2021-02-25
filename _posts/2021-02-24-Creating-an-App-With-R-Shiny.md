@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-02-21 9:01:01'
+date: '2021-02-24 9:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
@@ -546,7 +546,7 @@ First, make sure you have any of the ui.R, server.R, or global.R files open in R
 
 ![](/images/run-app-locally.gif)<!-- -->
 
-Doing so will run the app locally on port 5609.
+Doing so will run the app locally (mine ran on port 5609, but yours will likely be different).
 
 Hopefully, your app will load and you'll be able to interact with it. That's not to say everything has been coded properly: you may encounter an error or two along the way, which will probably present in red text within the app.
 
@@ -558,7 +558,7 @@ When running your app in the previous step, you may have noticed the "Open in Br
 
 It's a good idea to click this button to see how your app displays within a browser. After all, when you deploy your app, it'll be viewed within a standard web browser.
 
-Test out your app in different browsers by copying the address (e.g., http://127.0.0.1:5609/) into Google Chrome or Firefox or whichever browser you think might be used by your intended users to make sure everyone's experience will be as expected.
+Test out your app in different browsers by copying the address (e.g., http://127.0.0.1:5609) into Google Chrome or Firefox or whichever browser you think might be used by your intended users to make sure everyone's experience will be as expected.
 
 ## Publishing
 
