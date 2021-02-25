@@ -20,11 +20,11 @@ This post aims to demonstrate that, with the right set of tools, even building a
 
 We'll accomplish the following objectives throughout the course of the post:
 
-1. describe the structure of a Shiny app
-2. conceptualize our own app for interacting with and visualizing the famous Gapminder dataset
-3. develop code for the app's user interface and server logic
-4. test our app on a local server
-5. deploy the app online, with shinyapps.io
+1. Describe the structure of a Shiny app
+2. Conceptualize our own app for interacting with and visualizing the famous Gapminder dataset
+3. Develop code for the app's user interface and server logic
+4. Test our app on a local server
+5. Deploy the app online, with shinyapps.io
 
 ## What is Shiny?
 
