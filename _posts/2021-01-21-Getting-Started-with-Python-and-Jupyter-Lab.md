@@ -121,7 +121,7 @@ Installing our new IDE is a breeze: just type `pip install jupyterlab` from the 
 
 Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have <a class = "post" href = "https://nodejs.org/en/about/">Node.js</a> installed.
 
-If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, SQL features, LaTeX enhancements, and an improved suite of visualization libraries) in the future, download Node.js <a class = "post" href =  "https://nodejs.org/en/download/">here</a> (use the default options when installing).
+If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, SQL features, LaTeX enhancements, and an improved suite of visualization libraries) in the future, download Node.js from <a class = "post" href =  "https://nodejs.org/en/download/">here</a> (use the default options when installing).
 
 After installing Node.js (which might take a few minutes), we'll be ready to give Jupyter Lab a spin.
 
@@ -131,7 +131,7 @@ One last thing before we proceed: Let's create a base working directory for our 
 
 Find a place on your computer's file system where you normaly keep data analysis stuff and create a new directory for Juypter Lab (e.g., C:\Code\Jupyter).
 
-In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our `Juypter notebooks` (i.e., collections of code interspersed with markdown elements).
+In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our **Juypter notebooks** (i.e., collections of code interspersed with markdown elements).
 
 ## Loading Jupyter Lab
 
