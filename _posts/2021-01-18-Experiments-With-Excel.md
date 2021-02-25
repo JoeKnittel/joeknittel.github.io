@@ -39,7 +39,7 @@ How does this relate to Microsoft Excel? Well, it's the lifeblood of Excel! You 
 
 ![](\images\sum.gif)
 
-The video above demonstrates the usage of the *SUM* function. The values of cells <i><font color = "CornflowerBlue">B2</font></i> and <i><font color = "red">B3</font></i> were used as input (we call these inputs to a function **arguments**) to generate the value of cell *B4*. This is done by selecting the output cell (in this case, *B4*) and setting its value to `=SUM(B2,B3)`. The equal sign tells Excel that the selected cell is not just raw data--it depends on the values of other cells according to some function.
+The video above demonstrates the usage of the *SUM* function. The values of cells <i><font color = "CornflowerBlue">B2</font></i> and <i><font color = "red">B3</font></i> were used as input (we call these inputs to a function **arguments**) to generate the value of cell *B4*. This is done by selecting the output cell (in this case, *B4*) and setting its value to <code>=SUM(<font color = "CornflowerBlue">B2</font>,<font color = "red">B3</font>)</code>. The equal sign tells Excel that the selected cell is not just raw data--it depends on the values of other cells according to some function.
 
 Mathematically, *SUM* $(x_1, x_2, \dots, x_n) = \sum_{i=1}^n x_i$. Hence, *B4* = *SUM*(<font color = "CornflowerBlue"><i>B2</i></font>,<font color = "red"><i>B3</i></font>) = 3 + 7 = *10*.
 
