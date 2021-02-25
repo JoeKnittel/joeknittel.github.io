@@ -41,7 +41,7 @@ In almost all cases, this will be how we install new Python packages.
 
 #### Pandas Package
 
-The <a href = "https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html">pandas package</a> allows us to work with tabular data in what are called `dataframes`.
+The <a href = "https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html">pandas package</a> allows us to work with tabular data in what are called **DataFrames**.
 
 ![](\images\df.png)
 
@@ -75,9 +75,9 @@ Let's talk about what you're seeing on the screen.
 
 #### Launcher
 
-When you first load up Jupyter Lab, most of the screen will be comprised of the `Launcher`, where you'll be able to do any of the following (among other things):
+When you first load up Jupyter Lab, most of the screen will be comprised of the *Launcher*, where you'll be able to do any of the following (among other things):
 
-- **Create a Python notebook**: With this type of file, you'll be able to write blocks of code called `cells`, run the cells of code individually or all at once, and write comments, formatted in any style you can imagine.
+- **Create a Python notebook**: With this type of file, you'll be able to write blocks of code called *cells*, run the cells of code individually or all at once, and write comments, formatted in any style you can imagine.
 
 - **Open the Python Console**: This is just like when we ran the Python code `2+2` in the terminal; we can run one-off code statements from here.
 
@@ -85,9 +85,9 @@ When you first load up Jupyter Lab, most of the screen will be comprised of the 
 
 - **Create a Markdown File**: Markdown is a markup language used to quickly create formatted text (I'm using it right now to generate this blog post, and we'll discuss it in more detail in a later section).
 
-Once you choose an option within the Launcher, your choice file format will take the center stage in the `Main Work Area` and the Launcher will disappear.
+Once you choose an option within the Launcher, your choice file format will take the center stage in the *Main Work Area* and the *Launcher* will disappear.
 
-If ever you need to launch a new file, just click the blue "+" atop the file browser in the upper-left-hand corner of the screen, and it'll open the Launcher in a new window.
+If ever you need to launch a new file, just click the blue "+" atop the file browser in the upper-left-hand corner of the screen, and it'll open the *Launcher* in a new window.
 
 #### Main Work Area
 
@@ -95,7 +95,7 @@ This is just the center region of the UI. Most of the time, it will take up the 
 
 #### Left Sidebar
 
-On the far left side of the screen, you'll see a number of icons. They control the display of the `Left Sidebar`.
+On the far left side of the screen, you'll see a number of icons. They control the display of the *Left Sidebar*.
 
 Click the different icons to display the various fields.
 
@@ -103,9 +103,9 @@ If you click the currently selected icon and the Left Sidebar will collapse, let
 
 Options include:
 
-- **File Browser**: The default view is the `File Browser`, which is pretty self-explanatory. The File Browser contains all of the directories and files within your base Jupyter path. Navigate it just like you would any other file browser.
+- **File Browser**: The default view is the *File Browser*, which is pretty self-explanatory. The File Browser contains all of the directories and files within your base Jupyter path. Navigate it just like you would any other file browser.
 
-- **Terminals and Kernels**: Here, you can control the terminal, which we've already discussed. You can also control the `kernel` running within a Jupyter notebook, which is just the notebook's code interpreter.
+- **Terminals and Kernels**: Here, you can control the terminal, which we've already discussed. You can also control the *kernel* running within a Jupyter notebook, which is just the notebook's code interpreter.
 
 - **Table of Contents**: Get a quick overview of your file here. No surprises.
 
@@ -121,7 +121,7 @@ In any event, if we come across something we haven't discussed previously, it'll
 
 So, what *is* a Jupyter notebook and what can we do with this thing?
 
-In short, a Jupyter notebook is a virtual environment wherein `literate programming` resides.
+In short, a Jupyter notebook is a virtual environment wherein **literate programming** resides.
 
 The idea of literate programming harkens back to a <a href = "https://en.wikipedia.org/wiki/Turing_Award">Turing Award</a>-winning computer scientist named <a href = "https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>, who developed the typsetting system TeX, which we'll use in our future notebooks. Knuth saw programs as literary works, stating:
 
@@ -148,11 +148,11 @@ Since you only have one kernel at this point (the one for Python), you won't be 
 
 #### Name our Notebook
 
-You can save your notebook using the shortcut: `Ctrl+Shift+S` or by using the `Menu Bar` way up top: `File -> Save Notebook As...`. Go ahead and give your notebook a name, noticing the file extension, ".ipynb". All of our Jupyter notebooks will have this file extension.
+You can save your notebook using the shortcut: `Ctrl+Shift+S` or by using the *Menu Bar* way up top: $\text{File} \rightarrow \text{Save Notebook As...}$. Go ahead and give your notebook a name, noticing the file extension, ".ipynb". All of our Jupyter notebooks will have this file extension.
 
 #### Cells
 
-Notice the tab containing our notebook is named with its new name, but also notice just below the `Tab Menu` at the top of the notebook the `Cell Menu` shown here:
+Notice the tab containing our notebook is named with its new name, but also notice just below the *Tab Menu* at the top of the notebook the *Cell Menu* shown here:
 
 ![](\images\top-of-jupyter.png)
 
@@ -168,7 +168,7 @@ Let's give our notebook a title heading using a markdown cell.
 
 To do so, click the aforemention dropdown menu which currently says "Code", and change it to "Markdown".
 
-Type "# My First Jupyter Notebook" (or something similar) into the highlighted cell (don't forget the #, and don't include the quotes).
+Type `# My First Jupyter Notebook` (or something similar) into the highlighted cell (don't forget the #, and don't include the quotes).
 
 Then, press `Shift+Enter` or click the `Run` icon in the Cell Menu.
 
