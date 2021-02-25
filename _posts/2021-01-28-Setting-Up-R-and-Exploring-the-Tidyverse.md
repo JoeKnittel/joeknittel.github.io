@@ -138,6 +138,7 @@ pertaining to a collection of property insurance policies in Florida from
 2011-2012.
 
 ``` r
+# load data from a csv file into a tidyverse tibble
 data = read_csv("http://joeknittel.github.io/sample_data.csv")
 head(data)
 ```
@@ -157,7 +158,7 @@ head(data)
     ## #   point_longitude <dbl>, line <chr>, construction <chr>,
     ## #   point_granularity <dbl>
 
-By running the `head` function above, we can see the first few entries in the dataset. Notice that the data type of the dataset is a *tibble*; it's basically a specially-structured data frame (read more <a href = "https://tibble.tidyverse.org/index.html">here</a>).
+By running the `head` function above, we can see the first few entries in the dataset. Notice that the data type of the dataset is a **tibble**; it's basically a specially-structured data frame (read more <a href = "https://tibble.tidyverse.org/index.html">here</a>).
 
 Of particular interest are the $\text{tiv_2011}$ and $\text{tiv_2012}$ variables; they
 represent the <a href = "https://www.irmi.com/term/insurance-definitions/total-insurable-value">Total Insurable Value</a>, or $\text{TIV}$, of the policy from years 2011 and 2012, respectively.
@@ -230,6 +231,7 @@ from the <a href = "https://www.urban.org/aboutus">Urban Institute</a>,
 so head over to your R console and run the lines:
 
 ``` r
+# install packages from the urban institute
 install.packages("devtools")
 devtools::install_github("UrbanInstitute/urbnmapr")           
 install.packages("remotes")                                               
@@ -242,6 +244,7 @@ package-specific instructions to install them.
 Now, let's create our map:
 
 ``` r
+# create a choropleth map using ggplot and the urban institute's packages
 library(urbnmapr)
 library(urbnthemes)
 names(grouped_data) = c("county_name","tiv2011","tiv2012","change")
