@@ -2,7 +2,7 @@
 
 ## A Blog Documenting My Adventures in Actuarial Science (2021)
 
-*This project was developed as a means of personal and professional development.*
+*This project was conceived as a means of personal and professional development.*
 
 <img src = "https://github.com/JoeKnittel/joeknittel.github.io/blob/main/images/soa.jpg?raw=true" width = 500>
 
