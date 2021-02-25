@@ -74,7 +74,7 @@ For instance, say we want a cell in our worksheet to display the cell to its imm
 
 ![](\images\definition.png)
 
-We can set up a connection with a webpage that has the word's definition (e.g., <a class = "post" href = "https://www.merriam-webster.com/dictionary/test">https://www.merriam-webster.com/dictionary/test</a> has information for the word "test") and then do a bit of <a class = "post" href = "https://en.wikipedia.org/wiki/Data_wrangling">data wrangling</a> to display the definition. But that's just one page; we need this to work for all possible words! Seems like we're out of options.
+We can set up a connection with a web page that has the word's definition (e.g., <a class = "post" href = "https://www.merriam-webster.com/dictionary/test">https://www.merriam-webster.com/dictionary/test</a> has information for the word "test") and then do a bit of <a class = "post" href = "https://en.wikipedia.org/wiki/Data_wrangling">data wrangling</a> to display the definition. But that's just one page; we need this to work for all possible words! Seems like we're out of options.
 
 Well, not so fast... Let's consider the problem from a different perspective:
 
@@ -82,7 +82,7 @@ Well, not so fast... Let's consider the problem from a different perspective:
 - All of those data are contained in a database somewhere
 - If we can access that database, we can solve our problem
 
-The question that remains is: "Can we access the site's database?" It turns out the answer is yes, if the site provides us with a `Web API` (see diagram below):
+The question that remains is: "Can we access the site's database?" It turns out the answer is yes, if the site provides us with a **Web API** (see diagram below):
 
 <img src = "\images\web-api.png" width = "100%">
 
@@ -93,11 +93,11 @@ In the diagram, we see that the key link between the site's database and us is t
 3. The results of the query are collected into a nice little package and the web server directs it back to us
 4. We get our requested data in the form of an API response (most commonly with <a class = "post" href = "https://en.wikipedia.org/wiki/JSON">JSON</a> structure)     
 
-Since <a class = "post" href = "https://dictionaryapi.com/products/api-collegiate-dictionary">Merriam-Webster does provide a Web API</a>, we'll be able to proceed, and we'll do so using a programming language called `VBA`.
+Since Merriam-Webster <a class = "post" href = "https://dictionaryapi.com/products/api-collegiate-dictionary">does provide a Web API</a>, we'll be able to proceed, and we'll do so using a programming language called **VBA**.
 
 ## Interacting with a Web API Using VBA
 
-VBA (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (`UDFs`) and `sub-routines`, in order to extend the utility of our workbooks.
+<a href = "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications">VBA</a> (Visual Basic for Applications) is a programming language that allows us to create our own user-defined functions (**UDFs**) and **sub-routines**, in order to extend the utility of our workbooks.
 
 This is exactly what we need to set up a connection with a Web API, get our data, and interact with the data in all kinds of fancy ways.
 
@@ -215,13 +215,15 @@ It's not necessary to know exactly what's going on here, but here's the gist:
 
 1. We send an API request for a specified word using `getData(getURL(word))`  
 2. The resultant JSON object is stored in a variable called $\text{data}$
-3. We use a module called $\text{JsonConverter}$ to parse the data into a more readable format
+3. We use a module called *JsonConverter* to parse the data into a more readable format
 4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., $[\text{id}]$) or list (i.e., $(\text{id})$)
 5. We navigate to the appropriate element in the data structure to find our word's definition
 
 #### Using Open-Source Modules and Classes in VBA
 
-So, what's $\text{JsonConverter}$? It's an `open-source` (i.e., freely-available to the public) (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA `module` (i.e., collection of functions) that uses the $\text{VBA-Dictionary}$ (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) `class` (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable. Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
+So, what's *JsonConverter*? It's an **open-source** (i.e., freely-available to the public) (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA **module** (i.e., collection of functions) that uses the *VBA-Dictionary* (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) **class** (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable.
+
+Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
 
 To use the aforementioned module and class, we just download them and import them in their respective section of the Visual Basic editor:
 
