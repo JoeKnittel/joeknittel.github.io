@@ -27,7 +27,7 @@ Objectives for this post include:
 
 ## A Brief Introduction to R
 
-`R` is a freely available programming language that's been around since 1993 and has, for most of its existence, been data science practitioners' preferred tool for exploring, modeling, and displaying their data.
+[R](https://en.wikipedia.org/wiki/R_(programming_language)) is a freely available programming language that's been around since 1993 and has, for most of its existence, been data science practitioners' preferred tool for exploring, modeling, and displaying their data.
 
 The language was constructed specifically for statistical computing, with many useful statistical features built directly into it.
 
