@@ -20,10 +20,10 @@ In this post, we'll take data visualization to the next level, as we investigate
 
 We'll consider three libraries from R (plotly, Highcharter, dygraphs) and three from Python (Pygal, bokeh, Altair) and, for each, we'll do the following:
 
-- Describe some use cases for the library
-- Install the package
-- Produce an example plot
-- Discuss what the code does
+1. Describe some use cases for the library
+2. Install the package
+3. Produce an example plot
+4. Discuss what the code does
 
 Let's start with the R packages, then we'll turn our attention to those of Python.
 
