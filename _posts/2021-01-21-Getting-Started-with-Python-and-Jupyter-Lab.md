@@ -51,13 +51,13 @@ Find the link for your particular operating system, and follow all of the defaul
 
 ### A Quick Test
 
-Once you have everything installed, head over to your terminal (on Windows, press the `⊞ Win` key and type "cmd", then select "Command Prompt").
+Once you have everything installed, head over to your terminal (on Windows, press the `⊞ Win` key and type `cmd`, then select *Command Prompt*).
 
 You should see something like:
 
 ![](\images\cmd.png)
 
-Type "python" and press enter, which should result in (if it doesn't, either you didn't install Python at all, or the program has not been added to your PATH; a quick <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk02k37KuZe-GXFmpBlwWNXtuQXMgAQ%3A1611245768430&source=hp&ei=yKgJYPiFF4iL5wL4mKv4Dg&q=adding+python+to+path&oq=adding+python+&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQM6EQguELEDEMcBEKMCEMkDEJMCOg4ILhCxAxCDARDHARCjAjoFCAAQsQM6AgguOgsILhCxAxDJAxCTAjoFCC4QkwI6DQguELEDEMcBEKMCEAo6CwgAELEDEIMBEMkDUOANWK0dYOgkaABwAHgAgAFxiAGsCpIBBDExLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab">google search</a> should help here):
+Type `python` and press Enter, which should result in (if it doesn't, either you didn't install Python at all, or the program has not been added to your PATH; a quick <a class = "post" href = "https://www.google.com/search?sxsrf=ALeKk02k37KuZe-GXFmpBlwWNXtuQXMgAQ%3A1611245768430&source=hp&ei=yKgJYPiFF4iL5wL4mKv4Dg&q=adding+python+to+path&oq=adding+python+&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQM6EQguELEDEMcBEKMCEMkDEJMCOg4ILhCxAxCDARDHARCjAjoFCAAQsQM6AgguOgsILhCxAxDJAxCTAjoFCC4QkwI6DQguELEDEMcBEKMCEAo6CwgAELEDEIMBEMkDUOANWK0dYOgkaABwAHgAgAFxiAGsCpIBBDExLjOYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab">google search</a> should help here):
 
 ![](\images\python.png)
 
@@ -69,9 +69,9 @@ Finally, just to be sure everything is functioning properly, let's type `2+2` an
 
 ### Installing a Package
 
-When you installed Python (if you followed the default prompts, as suggested), you also downloaded the Package Installer for Python, or `pip`, for short.
+When you installed Python (if you followed the default prompts, as suggested), you also downloaded the Package Installer for Python, or **pip**, for short.
 
-pip will allow us to very easily extend the functionality of Python, by adding `packages`. Python packages most commonly contain a `library` of Python files called `modules`, and each one serves a different purpose (e.g., use the NumPy package to perform standard statistical calculations)
+pip will allow us to very easily extend the functionality of Python, by adding **packages**. Python packages most commonly contain a **library** of Python files called **modules**, and each one serves a different purpose (e.g., use the NumPy package to perform standard statistical calculations)
 
 Statistical calculations? That sounds useful. Let's install the NumPy package and see an example of what it can do.
 
@@ -99,11 +99,11 @@ We do so by typing: `np.random.normal(0,1,100)`. And, the result should be somet
 <br>
 It may not seem like much, but we're well on our way to doing some pretty cool stuff.
 
-At this point, we need to get set up with an `IDE` (integrated development environment), which is just a program that will make it easy for us to write more elaborate code, instead of just one-off statements in the terminal.
+At this point, we need to get set up with an **IDE** (integrated development environment), which is just a program that will make it easy for us to write more elaborate code, instead of just one-off statements in the terminal.
 
 Python comes with an IDE built in, called IDLE. It works (just search for "python" on your computer), but it's highly lacking compared to some of the more modern environments.
 
-Going forward, we'll be using Jupyter Lab as our IDE. Here's a peak at the `UI` (user interface):
+Going forward, we'll be using Jupyter Lab as our IDE. Here's a peak at the **UI** (user interface):
 
 ![](\images\jupyter-lab.png)
 
@@ -121,7 +121,7 @@ Installing our new IDE is a breeze: just type `pip install jupyterlab` from the 
 
 Jupyter Lab provides the ability to add extensions (just like you might add a browser extension to Google Chrome). These additional features are pretty useful in a lot of situations, but you can't use them unless you have <a class = "post" href = "https://nodejs.org/en/about/">Node.js</a> installed.
 
-If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, SQL features, LaTeX enhancements, and an improved suite of visualization libraries) in the future, download Node.js at: <a class = "post" href =  "https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> (use the default options when installing).
+If you want to work with Jupyter Lab extensions (including widgets, machine learning applications, SQL features, LaTeX enhancements, and an improved suite of visualization libraries) in the future, download Node.js <a class = "post" href =  "https://nodejs.org/en/download/">here</a> (use the default options when installing).
 
 After installing Node.js (which might take a few minutes), we'll be ready to give Jupyter Lab a spin.
 
