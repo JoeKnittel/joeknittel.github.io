@@ -29,21 +29,21 @@ When performing real-world analyses in Excel, we often won't be typing our funct
 - Other Excel worksheets within the same workbook
 
 - External sources:
-  - Data files
-  - Webpages
-  - Databases
+  - data files
+  - web pages
+  - databases
 
 ### Using Data in Other Worksheets
 
-We didn't talk about it last time, but the grid of cells in which we tested our functions is called a `worksheet`. When we open up a new MS Excel file, it contains just one worksheet, but we can add more very easily (see below):
+We didn't talk about it last time, but the grid of cells in which we tested our functions is called a **worksheet**. When we open up a new MS Excel file, it contains just one worksheet, but we can add more very easily (see below):
 
 ![](\images\sheet2.gif)
 
-The file that houses this collection of worksheets is called a `workbook`, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing $\text{[worksheet-name]![range]}$ instead of just $\text{[range]}$ (see example below):
+The file that houses this collection of worksheets is called a **workbook**, and it allows us to keep our data organized. We can even reference a range of cells (or just one cell) in other worksheets as our function arguments by typing `[worksheet-name]![range]` instead of just `[range]` (see example below):
 
 ![](\images\sheet1ref.gif)
 
-As you can see, we were able to use the *SUM* function on the worksheet named $\text{Sheet2}$ with arguments coming from cells $\text{B25:B26}$ on the worksheet named $\text{Sheet1}$ using by typing $\text{"=SUM(Sheet1!B25:B26)"}$.
+As you can see, we were able to use the *SUM* function on the worksheet named **Sheet2** with arguments coming from cells **B25:B26** on the worksheet named **Sheet1** using by typing `=SUM(Sheet1!B25:B26)`.
 
 ### Accessing Data from External Sources
 
@@ -57,18 +57,18 @@ Using this approach, we can import data from:
 
 - Excel files (.xls, .xlsx, .xlsm)
 - CSV (comma-separated value) files
-- Individual webpages
+- Individual web pages
 - Databases
 
-The process of importing data from other Excel files is simple and from CSV files and webpages is pretty easy, so we're going to skip over those.
+The process of importing data from other Excel files is simple and from CSV files and web pages is pretty easy, so we're going to skip over those.
 
 Connecting to and interacting directly with databases in Excel is more challenging, but important, so we're going to save that for its own future post.
 
 #### Using a Web API
 
-In some cases, the data we want to interact with are not so easily accessible.
-
 **Example: A Tool to Fetch a Word's Definition**
+
+In some cases, the data we want to interact with are not so easily accessible.
 
 For instance, say we want a cell in our worksheet to display the cell to its immediate left's most common definition.
 
