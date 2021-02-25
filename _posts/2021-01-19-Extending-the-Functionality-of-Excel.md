@@ -49,7 +49,7 @@ As you can see, we were able to use the *SUM* function on the worksheet named **
 
 #### Using the Query Tool
 
-If your desired data reside in a readily-accessible external source, Excel makes the process of setting up a connection and importing the data seamless by clicking: $\text{Data} \rightarrow \text{New Query}$:
+If your desired data reside in a readily-accessible external source, Excel makes the process of setting up a connection and importing the data seamless by clicking: **Data** $\rightarrow$ **New Query**:
 
 ![](\images\external_data.gif)
 
@@ -103,7 +103,7 @@ This is exactly what we need to set up a connection with a Web API, get our data
 
 ### Setup
 
-To get started, we first need to enable the $\text{Developer}$ tab within Excel. If yours is not already enabled, <a class = "post" href = "https://support.microsoft.com/en-us/office/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45#:~:text=The%20Developer%20tab%20isn't,select%20the%20Developer%20check%20box.">this guide</a> should help you out.
+To get started, we first need to enable the *Developer tab* within Excel. If yours is not already enabled, <a class = "post" href = "https://support.microsoft.com/en-us/office/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45#:~:text=The%20Developer%20tab%20isn't,select%20the%20Developer%20check%20box.">this guide</a> should help you out.
 
 Now, that that's set up, let's go to the Visual Basic editor:
 
@@ -214,9 +214,9 @@ End Function
 It's not necessary to know exactly what's going on here, but here's the gist:
 
 1. We send an API request for a specified word using `getData(getURL(word))`  
-2. The resultant JSON object is stored in a variable called $\text{data}$
+2. The resultant JSON object is stored in a variable called **data**
 3. We use a module called *JsonConverter* to parse the data into a more readable format
-4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., $[\text{id}]$) or list (i.e., $(\text{id})$)
+4. Once the data is parsed, we can access elements of it just like we would access elements of an array (i.e., **[id]**) or list (i.e., **(id)**)
 5. We navigate to the appropriate element in the data structure to find our word's definition
 
 #### Using Open-Source Modules and Classes in VBA
@@ -375,7 +375,7 @@ End Sub
 
 ### Completing the Objective
 
-The following subroutine completes our objective, as it prints the most common definition in the cell immediately to the right of a target cell (if the target cell happens to be in $\text{Column B}$):
+The following subroutine completes our objective, as it prints the most common definition in the cell immediately to the right of a target cell (if the target cell happens to be in **Column B**):
 
 {% highlight vb %}
 
