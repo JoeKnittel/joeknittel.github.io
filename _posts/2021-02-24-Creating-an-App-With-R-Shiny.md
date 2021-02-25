@@ -14,7 +14,7 @@ layout: post
 
 ![](/images/shiny.png)<!-- -->
 
-Long gone are the days that only computer science geeks have the capability to develop software. Over the past few decades, technology has made huge strides, and the results can be seen not just in the way we live our everyday lives, but also in the way we solve problems.
+Long gone are the days in which only computer science experts have the capability to develop software. Over the past few decades, technology has made huge strides, and the results can be seen not just in the way we live our everyday lives, but also in the way we solve problems.
 
 This post aims to demonstrate that, with the right set of tools, even building and deploying a data-driven web app is not nearly as challenging as one might expect. Our tools of choice will be R Studio and the Shiny package.
 
