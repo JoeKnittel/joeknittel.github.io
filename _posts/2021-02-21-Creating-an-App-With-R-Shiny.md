@@ -648,7 +648,7 @@ What about displaying $\LaTeX$ equations within the app?
 
 As an example, I've done all three of these in an app that fits a distribution to discrete random variable.
 
-Check out my other Shiny app [here](https://joe-knittel.shinyapps.io/shiny_app/).
+Check out my other Shiny app [here](https://joe-knittel.shinyapps.io/fitting-a-discrete-distribution/).
 
 And there are countless other examples in the [Shiny Gallery](https://shiny.rstudio.com/gallery/).
 
