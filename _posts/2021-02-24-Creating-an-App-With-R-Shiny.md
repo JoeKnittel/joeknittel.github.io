@@ -104,7 +104,7 @@ server <- function(input, output) {
 
 shinyApp(ui, server)
 ```
-Where **[global.R]**, **[ui.R]**, and **[server.R]** would be the code found within each respective file, given one were to have structured the app with the standard 3-file structure.
+Where *[global.R]*, *[ui.R]*, and *[server.R]* would be the code found within each respective file, given one were to have structured the app with the standard 3-file structure.
 
 ## Conceptualizing Our App
 
@@ -141,8 +141,8 @@ Here's approximately how I hope our finished app will look:
 The app, as depicted in the sketch, can be described as follows:
 
 <ol>
-  <li>At the top of the app, we have a navigation bar, with a title and two tabs: <b>Analysis</b> and <b>About</b></li>
-  <br><li>The following will be displayed on the <b>Analysis</b> page:</li><br>
+  <li>At the top of the app, we have a navigation bar, with a title and two tabs: <i>Analysis</i> and <i>About</i></li>
+  <br><li>The following will be displayed on the <i>Analysis</i> page:</li><br>
   <ul>
     <li>A sidebar panel, which houses the following widgets:</li><br>
     <ul>
@@ -155,7 +155,7 @@ The app, as depicted in the sketch, can be described as follows:
     </ul>
     <li>A main panel, which displays a reactive, interactive plot, rendered based on the states of the sidebar widgets</li>
   </ul>
-  <li>On the <b>About</b> page, we'll just dispay some markdown-formatted text, which describes the nature of the app</li>
+  <li>On the <i>About</i> page, we'll just dispay some markdown-formatted text, which describes the nature of the app</li>
 </ol>
 
 ## Building the App
@@ -269,7 +269,7 @@ mainPanel(
 
 #### About Page
 
-Here's the code for the **About** page. Not too much to say other than that we could have alternatively used a .html file with an *includeHTML* function call, or even hard-coded in the text and formatting of the page without an external file:
+Here's the code for the *About* page. Not too much to say other than that we could have alternatively used a .html file with an *includeHTML* function call, or even hard-coded in the text and formatting of the page without an external file:
 
 ```r
 # the second page of the navbar is an about page that describes the app
@@ -365,7 +365,7 @@ getData <- reactive({
 })
 
 ```
-<i>Note: we've used <b>magrittr</b> pipes and <b>dplyr</b> function calls, so we'll need to make sure we load up the <b>tidyverse</b> package in our global.R file.</i>
+<i>Note: we've used magrittr pipes and dplyr function calls, so we'll need to make sure we load up the tidyverse package in our global.R file.</i>
 
 #### Render Widgets
 
@@ -538,7 +538,7 @@ Nothing surprising here.
 
 ### about.md
 
-If you recall from above, there's one thing we still have not defined: the **About** page.
+If you recall from above, there's one thing we still have not defined: the *About* page.
 
 In our ui.R file, we stated that when the "About" tab was selected in the navigation bar, we would display the contents of a markdown file called "about.md".
 
@@ -604,13 +604,15 @@ Your working directory is probably already your app's directory, but if it's not
 
 ### Generate a Token
 
-On shinyapps.io, go to the Admin page and select **Account** $\rightarrow$ **Tokens** (or just click [here](https://www.shinyapps.io/admin/#/tokens)), and then select **Add Token**.
+1. On shinyapps.io, go to the Admin page and select *Account* $\rightarrow$ *Tokens* (or just click [here](https://www.shinyapps.io/admin/#/tokens))
 
-Click **Show**
+2. Then, select *Add Token*
 
-Click **Copy to clipboard**
+3. Click *Show*
 
-See the .gif below, which demonstrates this:
+4. Click *Copy to clipboard*
+
+See the .gif below, which demonstrates this process:
 
 ![](/images/token.gif)<!-- -->
 
