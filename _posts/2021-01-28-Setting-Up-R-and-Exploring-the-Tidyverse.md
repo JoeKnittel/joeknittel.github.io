@@ -31,7 +31,7 @@ Objectives for this post include:
 
 The language was constructed specifically for statistical computing, with many useful statistical features built directly into it.
 
-Just like in Python, we'll be able to work with tabular data in R by importing CSV files, Excel files, etc. into a data structure called a data frame; this can be done by utilizing nothing more than R's base package, whereas in Python we needed a supplementary package (pandas).
+Just like in Python, we'll be able to work with tabular data in R by importing CSV files, Excel files, etc. into a data structure called a **data frame**; this can be done by utilizing nothing more than R's base package, whereas in Python we needed a supplementary package (pandas).
 
 Due to its heritage as the de facto language for data science, R has a massive collection of packages with which we'll look to experiment in upcoming posts.
 
@@ -63,7 +63,7 @@ Just like in Python, once you've installed the base program, you'll have access 
 
 <img src = "\images\r-gui.png" width = 400>
 
-This is nice to have, but we'd really like a more complete development environment, so let's set up what most R users use for their IDE: `R Studio`.
+This is nice to have, but we'd really like a more complete development environment, so let's set up what most R users use for their IDE: **R Studio**.
 
 Installing R Studio is much more straightforward than the R language itself. Just click <a href = "https://rstudio.com/products/rstudio/download/#download">here</a> and find the version for your operating system.
 
@@ -75,9 +75,9 @@ R Studio provides all of the tools necessary for us to perform our analyses in R
 
 ### Packages
 
-Similar to how Python operates, we can extend the functionality of the program by installing `packages`, which are collections of functions, sample data, and documentation.
+Similar to how Python operates, we can extend the functionality of the program by installing **packages**, which are collections of functions, sample data, and documentation.
 
-Most packages are available on `CRAN` (the Comprehensive R Archive Network) and can be installed within R Studio by typing `install.packages("[package-name]")` or by using the GUI button in the bottom-right section of the IDE.
+Most packages are available on **CRAN** (the Comprehensive R Archive Network) and can be installed within R Studio by typing `install.packages("[package-name]")` or by using the GUI button in the bottom-right section of the IDE.
 
 Let's use the technique described above to install a collection of rather useful packages called the <a href = "https://www.tidyverse.org/packages/">Tidyverse</a>.
 
@@ -92,6 +92,7 @@ Let's get R configured to function within Jupyter Lab. To do so, follow the step
 For most people, the following lines of code should do the job, but do check out the installation page for additional details:
 
 ```r
+# install the r kernel for jupyter lab
 install.packages('IRkernel')
 IRkernel::installspec()
 ```
@@ -116,12 +117,14 @@ Let’s turn off warnings, since R in Jupyter Lab tends to spit out a lot
 of unnecessary information while running cells.
 
 ``` r
+# turn off warning messages
 options(warn=-1)
 ```
 
 Next, we’ll load up the Tidyverse collection of packages:
 
 ``` r
+# load the tidyverse package into the current r session
 library(tidyverse)
 ```
 
