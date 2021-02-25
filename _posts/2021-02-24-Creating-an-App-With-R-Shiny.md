@@ -641,11 +641,11 @@ Here's the app we just built, live on the web: <a href = "https://joe-knittel.sh
 
 If, for whatever reason, you need to update your app in the future, just do the following:
 
-- save your updated code in your ui.R, server.R, and/or global.R files
-- make sure your working directory is the app directory using `setwd`
-- load up the **rsconnect** package with the code: `library(rsconnect)`
-- run: `deployApp()`
-- type `Y` in the prompt to update your already-published app on the server
+- Save your updated code in your ui.R, server.R, and/or global.R files
+- Make sure your working directory is the app directory using `setwd`
+- Load up the **rsconnect** package with the code: `library(rsconnect)`
+- Initiate re-deployment of the app: `deployApp()`
+- Type `Y` in the prompt to update your already-published app on the server
 
 ## Other Shiny Apps
 
