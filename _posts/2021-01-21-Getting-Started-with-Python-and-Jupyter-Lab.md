@@ -149,10 +149,10 @@ You should see something similar to the UI pictured in the previous section.
 
 We have now:
 
-- Installed Python
-- Learned how to and practiced installing additional Python packages using pip
-- Installed an IDE called Jupyter Lab
-- Learned how to launch the Jupyter Lab environment
+- installed Python
+- learned how to and practiced installing additional Python packages using pip
+- installed an IDE called Jupyter Lab
+- learned how to launch the Jupyter Lab environment
 
 ## Coming Up
 
