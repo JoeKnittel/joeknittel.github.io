@@ -173,13 +173,13 @@ getData(getURL(word))
 
 {% endhighlight %}
 
-The function above, by way of composition of functions, takes a word (i.e., a string) as input, and output a $\text{JSON}$ object with our data. Pretty cool!
+The function above, by way of composition of functions, takes a word (i.e., a string) as input, and output a JSON object with our data. Pretty cool!
 
-The only problem is, this is what that $\text{JSON}$ object looks like:
+The only problem is, this is what that JSON object looks like:
 
 ![](\images\json.png)
 
-Don't get too scared--it's just a really long, structured string. We'll need some other tools in order to efficiently break down the $\text{JSON}$ object into its parts and access our desired data (i.e., the word's most common definition). This process is called `parsing`.
+Don't get too scared--it's just a really long, structured string. We'll need some other tools in order to efficiently break down the JSON object into its parts and access our desired data (i.e., the word's most common definition). This process is called **parsing**.
 
 ### Parsing JSON
 
@@ -221,7 +221,7 @@ It's not necessary to know exactly what's going on here, but here's the gist:
 
 #### Using Open-Source Modules and Classes in VBA
 
-So, what's *JsonConverter*? It's an **open-source** (i.e., freely-available to the public) (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA **module** (i.e., collection of functions) that uses the *VBA-Dictionary* (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) **class** (i.e., custom VBA object) to turn our messy $\text{JSON}$ object into something more navigable.
+So, what's *JsonConverter*? It's an **open-source** (i.e., freely-available to the public) (located <a class = "post" href = "https://github.com/VBA-tools/VBA-JSON">here</a>) VBA **module** (i.e., collection of functions) that uses the *VBA-Dictionary* (found <a class = "post" href = "https://github.com/VBA-tools/VBA-Dictionary">here</a>) **class** (i.e., custom VBA object) to turn our messy JSON object into something more navigable.
 
 Other people did the tough work to create this useful code and made it freely available to the public, so let's not re-invent the wheel!
 
