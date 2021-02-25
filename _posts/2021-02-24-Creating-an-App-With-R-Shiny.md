@@ -651,15 +651,7 @@ If, for whatever reason, you need to update your app in the future, just do the 
 
 You've now gotten a glimpse at what Shiny can do, but there's so much we haven't covered in this introductory tutorial of sorts.
 
-For instance, why not use Shiny to perform reactive statistical calculations based on widget states?
-
-Or, how about allowing a user to upload datasets with different file extensions (e.g., .csv, .tsv, etc.)?
-
-What about displaying $\LaTeX$ equations within the app?
-
-As an example, I've done all three of these in an app that fits a distribution to discrete random variable.
-
-Check out [my other Shiny app](https://joe-knittel.shinyapps.io/fitting-a-discrete-distribution/).
+For instance, why not use Shiny to perform reactive statistical calculations based on widget states? Or, how about allowing a user to upload datasets with different file extensions (e.g., .csv, .tsv, etc.)? What about displaying $\LaTeX$ equations within the app? As an example, I've done all three of these in an app that fits a distribution to discrete random variable. Check out [my other Shiny app](https://joe-knittel.shinyapps.io/fitting-a-discrete-distribution/).
 
 And there are countless other examples in the [Shiny Gallery](https://shiny.rstudio.com/gallery/).
 
