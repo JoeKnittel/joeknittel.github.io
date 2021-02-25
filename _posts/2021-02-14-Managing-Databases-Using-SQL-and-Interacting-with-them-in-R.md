@@ -198,7 +198,7 @@ In R, we can query the database using SQL with the *dbGetQuery* function from th
 For instance, we can get a data frame consisting of the first five entries in the **customers** table with the following code:
 
 ``` r
-# runs SQL command, and pipes the result to a data frame
+# runs SQL command, and outputs the result to a data frame
 dbGetQuery(con, "SELECT * FROM customers LIMIT 5")
 ```
 
