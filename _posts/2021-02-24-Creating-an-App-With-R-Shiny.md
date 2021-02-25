@@ -229,7 +229,7 @@ fileInput("file1", "Upload Data:",
 
 With this construction, the user will see the label "Upload Data:" on a browse button, which, when pressed will allow them to choose one local .rds file containing the dataset; we can then reference the inputted file in the server logic as **input$file1**.
 
-*Note: our app will be rather contrived in that many of its components will be defined in such a way to only handle data from a specific .rds file, which we'll link within the app*.
+*Note: our app will be rather contrived in that many of its components will be defined in such a way to only handle data from a specific .rds file, which we'll link to within the app*.
 
 We'd like the other widgets to be defined/displayed only once the data file is inputted, so in our ui.R, we'll just call them **uiOutput** and give them each an ID for reference in the server logic:
 
