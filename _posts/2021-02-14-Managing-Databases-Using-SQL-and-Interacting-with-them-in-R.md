@@ -293,6 +293,7 @@ And, as it turns out, the payment didn’t even correspond to one specific
 order; the most Euro+ ever spent at one time was only around $60k:
 
 ``` r
+# get customer #141's orders, arranged by orderTotal
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
 left_join(tbl(con, "orderdetails")) %>% group_by(orderNumber) %>%
 summarize(orderTotal = sum(quantityOrdered * priceEach)) %>%
@@ -320,6 +321,7 @@ Finally, let’s see Euro+’s top 5 favorite purchases from the
 business:
 
 ``` r
+# get the top 5 purchases by customer #141, based on totalPricePaid
 tbl(con, "orders") %>% filter(customerNumber == 141) %>%
 left_join(tbl(con, "orderdetails")) %>%
 left_join(tbl(con, "products"),by = "productCode") %>%
