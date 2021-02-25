@@ -75,7 +75,7 @@ If you're unaware of what <a href = "https://en.wikipedia.org/wiki/GitHub">GitHu
 
 #### Create Account
 
-Setting up an account with GitHub shouldn't take more than a minute or two; just head over to <a href = "https://github.com/join">https://github.com/join</a>, fill out the form, and you'll be ready to go.
+Setting up an account with GitHub shouldn't take more than a minute or two; just head over to <a href = "https://github.com/join">here</a>, fill out the form, and you'll be ready to go.
 
 #### Create Repository
 
