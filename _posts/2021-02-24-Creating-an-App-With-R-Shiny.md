@@ -621,7 +621,7 @@ Paste what you just copied from shinyapps.io into R Studio and run the code.
 It should look something like:
 
 ```r
-# configure the shinyapps.io account for publishing the app via r studio
+# configure the shinyapps.io account for publishing via r studio
 rsconnect::setAccountInfo(name='[your-shinyapps.io-account]',
                           token='[your-token]',
                           secret='[your-secret-code]')
