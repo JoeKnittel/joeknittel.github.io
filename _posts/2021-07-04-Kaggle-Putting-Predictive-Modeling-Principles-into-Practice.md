@@ -1,5 +1,5 @@
 ---
-title: "Predictive Analytics: Common Model Architectures and Strategies"
+title: "Kaggle: Putting Predictive Modeling Principles into Practice"
 output:
   md_document:
     variant: gfm
@@ -12,4 +12,4 @@ excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
 
-<h3><font color = "#A01A7D">To be published in July, hopefully!</font></h3>
+<h3><font color = "#A01A7D">To be published in early July, hopefully!</font></h3>
