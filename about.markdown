@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm <a href = "https://joeknittel.com/">Joe</a>, a thirty-something who, after meandering hither and thither for a while upon graduating college, finds himself as an up-and-coming actuarial science practitioner.
+Hi, I'm <a href = "https://joeknittel.com/">Joe</a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.
 
-This blog will serve primarily as a tool to document what I've learned throughout my studies and exhibit various projects I've completed for work and for fun, and, in doing so, may prove to be useful to others who find themselves on a similar journey.
+This blog will serve primarily as a tool to document what I've learned throughout my studies and exhibit various projects I've completed. I hope that, in doing so, it may prove to be useful to others who find themselves on a similar journey.
 
-Just as the field is evolving quickly to keep up with changes in the technological landscape, I, too, hope to keep this site relevant with fresh ideas spanning various fields.
+Just as the field is evolving quickly to keep up with changes in the technological landscape, I, too, endeavor to keep this site relevant with fresh ideas spanning various fields.
 
 <img src = "\images\squiggly.png" width = "100%">
 

@@ -1,5 +1,5 @@
 ---
-title: "Kaggle: Putting Predictive Modeling Principles into Practice"
+title: "Kaggle: Putting Predictive Modeling Principles Into Practice"
 output:
   md_document:
     variant: gfm
