@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Actuarial Investigations
-author: "By: Joe Knittel"
+author: "Author: Joe Knittel"
 email: joe.knittel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about actuarial science and data science. Look out for new posts... rarely.
