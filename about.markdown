@@ -10,7 +10,7 @@ This blog will serve primarily as a tool to document what I've learned throughou
 
 Just as the field is evolving quickly to keep up with changes in the technological landscape, I endeavor that this site remain relevant well into the future by incorporating state-of-the-art techniques from various fields.
 
-Read everything and thirsting for more? <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit?usp=sharing">Here</a>'s a taste of what's in store for the blog.
+Read everything and thirsting for more? <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit?usp=sharing">Here</a>'s a taste of what's in store.
 
 <img src = "\images\squiggly.png" width = "100%">
 
