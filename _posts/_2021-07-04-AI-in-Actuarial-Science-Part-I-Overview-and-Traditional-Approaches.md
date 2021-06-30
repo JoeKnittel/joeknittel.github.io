@@ -1,5 +1,5 @@
 ---
-title: "Concepts in Actuarial Modeling, Part II: Long-Term Phenomena"
+title: "AI in Actuarial Science, Part I: Overview and Traditional Approaches"
 output:
   md_document:
     variant: gfm
@@ -7,9 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 author: "Joe"
-date: '2021-06-19 10:01:03'
+date: '2021-06-27 10:01:01'
 excerpt: ".rmd to .md, Jekyll-style"
 layout: post
 ---
-
-<h3><font color = "#A01A7D">To be published in September, hopefully!</font></h3>
