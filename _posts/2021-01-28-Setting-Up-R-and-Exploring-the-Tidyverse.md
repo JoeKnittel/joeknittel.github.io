@@ -33,7 +33,7 @@ The language was constructed specifically for statistical computing, with many u
 
 Just like in Python, we'll be able to work with tabular data in R by importing CSV files, Excel files, etc. into a data structure called a **data frame**; this can be done by utilizing nothing more than R's base package, whereas in Python we needed a supplementary package (pandas).
 
-Due to its heritage as the de facto language for data science, R has a massive collection of packages with which we'll look to experiment in upcoming posts.
+Due to its heritage as the *de facto* language for data science, R has a massive collection of packages with which we'll look to experiment in upcoming posts.
 
 ## Installation
 

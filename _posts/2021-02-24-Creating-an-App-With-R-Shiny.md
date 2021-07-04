@@ -155,7 +155,7 @@ The app, as depicted in the sketch, can be described as follows:
     </ul>
     <li>A main panel, which displays a reactive, interactive plot, rendered based on the states of the sidebar widgets</li>
   </ul>
-  <li>On the <i>About</i> page, we'll just dispay some markdown-formatted text, which describes the nature of the app</li>
+  <li>On the <i>About</i> page, we'll just display some markdown-formatted text, which describes the nature of the app</li>
 </ol>
 
 ## Building the App

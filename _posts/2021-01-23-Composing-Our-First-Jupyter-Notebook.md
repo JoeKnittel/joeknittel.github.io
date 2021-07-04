@@ -65,7 +65,7 @@ Alright, those package should prove to be useful in the near future. Let's open 
 
 ### Loading Jupyter Lab
 
-Just a reminder, we need to change directory in our terminal to the base Juypter directory we constructed last time, then type `jupyter lab`
+Just a reminder, we need to change directory in our terminal to the base Jupyter directory we constructed last time, then type `jupyter lab`
 
 ### Describing the UI
 
@@ -123,7 +123,7 @@ So, what *is* a Jupyter notebook and what can we do with this thing?
 
 In short, a Jupyter notebook is a virtual environment wherein **literate programming** resides.
 
-The idea of literate programming harkens back to a <a href = "https://en.wikipedia.org/wiki/Turing_Award">Turing Award</a>-winning computer scientist named <a href = "https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>, who developed the typsetting system TeX, which we'll use in our future notebooks. Knuth saw programs as literary works, stating:
+The idea of literate programming hearkens back to a <a href = "https://en.wikipedia.org/wiki/Turing_Award">Turing Award</a>-winning computer scientist named <a href = "https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a>, who developed the typesetting system TeX, which we'll use in our future notebooks. Knuth saw programs as literary works, stating:
 
 >"Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."
 
@@ -166,13 +166,13 @@ Also, notice the one and only cell, highlighted in blue. This shows that the cel
 
 Let's give our notebook a title heading using a markdown cell.
 
-To do so, click the aforemention dropdown menu which currently says "Code", and change it to "Markdown".
+To do so, click the aforementioned dropdown menu which currently says "Code", and change it to "Markdown".
 
 Type `# My First Jupyter Notebook` (or something similar) into the highlighted cell (don't forget the #, and don't include the quotes).
 
 Then, press *Shift+Enter* or click the *Run* icon in the Cell Menu.
 
-You should see cell's miniscule text miraculously transform into something rather majestic:
+You should see cell's minuscule text miraculously transform into something rather majestic:
 
 ![](\images\heading.png)
 
@@ -208,7 +208,7 @@ df.columns = ['2005', '2006', '2007', '2008', '2009', '2010',
 yearly_totals = data.sum(axis=0)
 ```
 
-Here, we imported the numpy package, used it to select only the year columns of our dataset (which we renamed to $\text{df}$ for ease of usage), renamed the column names, then summed over the 0-axis (columns) to get our totals.
+Here, we imported the NumPy package, used it to select only the year columns of our dataset (which we renamed to $\text{df}$ for ease of usage), renamed the column names, then summed over the 0-axis (columns) to get our totals.
 
 If you type `yearly_totals` into a cell below it and run it, you can see the column sums.
 

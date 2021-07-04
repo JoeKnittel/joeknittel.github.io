@@ -129,13 +129,13 @@ After installing Node.js (which might take a few minutes), we'll be ready to giv
 
 One last thing before we proceed: Let's create a base working directory for our Jupyter Lab.
 
-Find a place on your computer's file system where you normaly keep data analysis stuff and create a new directory for Juypter Lab (e.g., C:\Code\Jupyter).
+Find a place on your computer's file system where you normally keep data analysis stuff and create a new directory for Jupyter Lab (e.g., C:\Code\Jupyter).
 
-In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our **Juypter notebooks** (i.e., collections of code interspersed with markdown elements).
+In the next step, we'll run Jupyter Lab from this directory and it'll provide the base environment for all of our **Jupyter notebooks** (i.e., collections of code interspersed with markdown elements).
 
 ## Loading Jupyter Lab
 
-Running Juypter Lab requires just two steps (don't forget to exit out of Python first, if you're still in it from before, then proceed):
+Running Jupyter Lab requires just two steps (don't forget to exit out of Python first, if you're still in it from before, then proceed):
 
 1. Open the terminal and change directory ("cd") to your new Jupyter directory from the previous step (e.g., `cd C:\Code\Jupyter`)
 
