@@ -298,15 +298,17 @@ With that said, neural network-based deep learning models (which we’ll talk mo
 
 For the reasons listed above, many have argued that the actuarial field has failed to keep up with AI’s pace of advancement, and that the modern actuarial toolkit pales in comparison to the state-of-the-art in predictive analytics.
 
-I wanted to test this hypothesis, so I put the SOA curriculum-based tools to the test versus the world of data science practitioners in a Kaggle competition.
+I wanted to test this hypothesis, so I put the SOA curriculum-based tools to the test versus the world of data science practitioners in a <a href = "https://www.kaggle.com/c/titanic" target = "_blank">Kaggle competition</a>.
 
-### Experiment: <a href = "https://www.kaggle.com/c/titanic" target = "_blank">Predicting Titanic Passenger Survival</a>
+### Experiment: Predicting Titanic Passenger Survival
 
 Kaggle is a platform that allows teams to compete against one another (often with prizes at stake) in their ability to make predictions. The nature of the competitions and the set of competitors vary widely, with submissions coming from amateur investigators to industry experts with access to vast computational resources and the latest tools of the trade.
 
 The competition I chose has already had over 50,000 submissions from all over the globe. It’s a classification task (objective: predict whether a passenger on the Titanic would survive, based on a number of passenger-specific predictors) that uses tabular data. Though it’s not an actuarial dataset, I figured the nature of the problem was sufficiently similar in order to get some insight into how well our models work, in practice.
 
-All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below: <br>
+All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below:
+
+<p class="" style="margin: 30px;"></p>
 
 <iframe src="/experiments/final-analysis.html" width = "100%" height = 500 frameborder = 0> </iframe> <br>
 
