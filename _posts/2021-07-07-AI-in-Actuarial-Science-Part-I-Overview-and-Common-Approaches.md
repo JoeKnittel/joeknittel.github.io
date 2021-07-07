@@ -114,7 +114,7 @@ In addition to making predictions about target variables (i.e., classification a
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Linear Model</u> (<a href = "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf" target = "_blank">1886</a>)
+<b>Linear Model</b> (<a href = "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf" target = "_blank">1886</a>)
 
 For this type of model, we can approximate the value of a target variable for a given observation as the sum of a linear combination of predictor variables, a bias term ($\beta_0$) representing the value of the target in the absence of all predictors, and a normally-distributed noise term ($\epsilon_i$) representing random fluctuations due to some unknown influences:    
 
@@ -132,7 +132,7 @@ $\bf{y} = \bf{X} \bf{\beta} + \bf{\epsilon}$
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Logistic Model</u> (<a href = "https://www.nuffield.ox.ac.uk/users/cox/cox48.pdf" target = "_blank">1958</a>)
+<b>Logistic Model</b> (<a href = "https://www.nuffield.ox.ac.uk/users/cox/cox48.pdf" target = "_blank">1958</a>)
 
 This model is frequently used for binary classification tasks. The linear combination of predictor variables, instead of being used directly, is now mapped to a probability by way of a logit link function:
 
@@ -148,7 +148,7 @@ The probability $p$ can then be used to classify the target as $\text{TRUE}$ or 
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Generalized Linear Models (GLMs)</u> (<a href = "https://docs.ufpr.br/~taconeli/CE225/Artigo.pdf" target = "_blank">1972</a>)
+<b>Generalized Linear Models (GLMs)</b> (<a href = "https://docs.ufpr.br/~taconeli/CE225/Artigo.pdf" target = "_blank">1972</a>)
 
 In the 1970s, linear models were generalized further to handle a wide variety of target distributions (i.e., not just the Gaussian distribution, as was the assumption with the vanilla linear model) and transformations via link functions (as seen in the logistic model).
 
@@ -168,7 +168,7 @@ $y_i \sim \text{Poisson}(\lambda_i)$
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Regularized Regression Models</u> (L1: <a href = "https://statweb.stanford.edu/~tibs/lasso/lasso.pdf" target = "_blank">1996</a>, L2: <a href = "https://www.math.arizona.edu/~hzhang/math574m/Read/RidgeRegressionBiasedEstimationForNonorthogonalProblems.pdf" target = "_blank">1970</a>, EN: <a href = "https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf" target = "_blank">2005</a>)
+<b>Regularized Regression Models</b> (L1: <a href = "https://statweb.stanford.edu/~tibs/lasso/lasso.pdf" target = "_blank">1996</a>, L2: <a href = "https://www.math.arizona.edu/~hzhang/math574m/Read/RidgeRegressionBiasedEstimationForNonorthogonalProblems.pdf" target = "_blank">1970</a>, EN: <a href = "https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf" target = "_blank">2005</a>)
 
 Regression models, whether they be simple linear regression of more complicated GLMs, are generally fit by finding the set of parameters (i.e., $\beta$'s) that minimize the sum of squared errors (SSE) between predictions and actual values of the target.
 
@@ -202,7 +202,7 @@ $\displaystyle \min_{\beta \in \mathbb{R}^p} \left\\{ \sum\limits_{i=1}^{n} \lef
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Survival Models</u> (<a href = "https://rss.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.2517-6161.1972.tb00899.x" target = "_blank">1972</a>)
+<b>Survival Models</b> (<a href = "https://rss.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.2517-6161.1972.tb00899.x" target = "_blank">1972</a>)
 
 Often, we seek to predict the duration of time until a given event will occur. Such models are used in a broad set of fields from economics to sociology, but they’re especially important in actuarial science.
 
@@ -220,9 +220,9 @@ $\lambda(t \\lvert \textbf{X}_i) = \lambda_0(t) \cdot \text{exp}\left( \textbf{X
 
 <p class="" style="margin: 14px;"></p>
 
-#### Non-parametric Models
+#### Algorithmic Models
 
-<u>Classification and Regression Tree (CART) Model</u> (<a href = "https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-richard-olshen-charles-stone" target = "_blank">1984</a>)
+<b>Classification and Regression Tree (CART) Model</b> (<a href = "https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-richard-olshen-charles-stone" target = "_blank">1984</a>)
 
 The CART model was one of the first algorithmic approaches to predictive analytics.
 
@@ -236,7 +236,7 @@ The algorithm splits the predictor space into an optimal set of non-overlapping 
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Random Forest Model</u> (<a href = "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf" target = "_blank">2001</a>)
+<b>Random Forest Model</b> (<a href = "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf" target = "_blank">2001</a>)
 
 This model is what is considered an ensemble model: it’s comprised of several component models. The idea is that by building numerous decision trees on different subsets of the training data, their predictions can be averaged to yield a more stable result.
 
@@ -252,7 +252,7 @@ Obviously, fitting multiple models is more computational expensive and introduce
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Boosted Trees Model</u> (<a href = "https://statweb.stanford.edu/~jhf/ftp/trebst.pdf" target = "_blank">1999</a>)
+<b>Boosted Trees Model</b> (<a href = "https://statweb.stanford.edu/~jhf/ftp/trebst.pdf" target = "_blank">1999</a>)
 
 Another ensemble model is called the boosted trees model. Rather than building a number of trees in parallel, then averaging to get a final prediction, this approach builds one tree, identifies its weaknesses, then iteratively builds new trees to better model the predictor space not well modeled by the preceding trees. This process limits the model’s bias, but can sometimes lead to overfitting to the training data.
 
@@ -264,7 +264,7 @@ Another ensemble model is called the boosted trees model. Rather than building a
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Neural Network (Deep Learning) Models</u> ($\alpha$: <a href = "http://www.cse.chalmers.se/~coquand/AUTOMATA/mcp.pdf" target = "_blank">1943</a>, DL: <a href = "https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf" target = "_blank">2009</a>)
+<b>Neural Network (Deep Learning) Models</b> ($\alpha$: <a href = "http://www.cse.chalmers.se/~coquand/AUTOMATA/mcp.pdf" target = "_blank">1943</a>, DL: <a href = "https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf" target = "_blank">2009</a>)
 
 We briefly touched on the idea that was introduced in the early years of AI, the concept of “artificial neurons.” Researchers thought that if they could construct a model whose structure mirrors that of the human brain, it could be as good at—if not better than—people at making predictions.
 
