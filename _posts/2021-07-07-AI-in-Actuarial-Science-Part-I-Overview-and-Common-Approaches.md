@@ -114,7 +114,7 @@ In addition to making predictions about target variables (i.e., classification a
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Linear Models</u> (<a href = "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf" target = "_blank">1886</a>)
+<u>Linear Model</u> (<a href = "https://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf" target = "_blank">1886</a>)
 
 For this type of model, we can approximate the value of a target variable for a given observation as the sum of a linear combination of predictor variables, a bias term ($\beta_0$) representing the value of the target in the absence of all predictors, and a normally-distributed noise term ($\epsilon_i$) representing random fluctuations due to some unknown influences:    
 
@@ -132,7 +132,7 @@ $\bf{y} = \bf{X} \bf{\beta} + \bf{\epsilon}$
 
 <p class="" style="margin: 14px;"></p>
 
-<u>Logistic Models</u> (<a href = "https://www.nuffield.ox.ac.uk/users/cox/cox48.pdf" target = "_blank">1958</a>)
+<u>Logistic Model</u> (<a href = "https://www.nuffield.ox.ac.uk/users/cox/cox48.pdf" target = "_blank">1958</a>)
 
 This model is frequently used for binary classification tasks. The linear combination of predictor variables, instead of being used directly, is now mapped to a probability by way of a logit link function:
 
@@ -222,7 +222,7 @@ $\lambda(t \\lvert \textbf{X}_i) = \lambda_0(t) \cdot \text{exp}\left( \textbf{X
 
 #### Non-parametric Models
 
-<u>Classification and Regression Trees (CART) Model</u> (<a href = "https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-richard-olshen-charles-stone" target = "_blank">1984</a>)
+<u>Classification and Regression Tree (CART) Model</u> (<a href = "https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-richard-olshen-charles-stone" target = "_blank">1984</a>)
 
 The CART model was one of the first algorithmic approaches to predictive analytics.
 
