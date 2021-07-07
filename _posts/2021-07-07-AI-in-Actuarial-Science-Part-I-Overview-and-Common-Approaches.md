@@ -136,11 +136,11 @@ $\bf{y} = \bf{X} \bf{\beta} + \bf{\epsilon}$
 
 <b>Logistic Model</b> (<a href = "https://www.nuffield.ox.ac.uk/users/cox/cox48.pdf" target = "_blank">1958</a>)
 
-This model is frequently used for binary classification tasks. The linear combination of predictor variables, instead of being used directly, is now mapped to a probability by way of a logit link function:
+This model is frequently used for binary classification tasks. The linear combination of predictor variables, instead of being applied directly, is now mapped to a probability by way of a logit link function:
 
 $\log\left(\frac{p}{1-p}\right) = \beta_0 + \sum\limits_{j=1}^{p} \beta_j x_{ij} + \epsilon_i$
 
-The probability $p$ can then be used to classify the target as $\text{TRUE}$ or $\text{FALSE}$ based on whether or not it is above the threshold value (e.g., $p = 0.8 \rightarrow \text{TRUE}$).
+The probability $p$ can then be utilized to classify the target as $\text{TRUE}$ or $\text{FALSE}$ based on whether or not it is above the threshold value (e.g., $p = 0.8 \rightarrow \text{TRUE}$).
 
 *Example*:
 
@@ -206,7 +206,7 @@ $\displaystyle \min_{\beta \in \mathbb{R}^p} \left\\{ \sum\limits_{i=1}^{n} \lef
 
 <b>Survival Models</b> (<a href = "https://rss.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.2517-6161.1972.tb00899.x" target = "_blank">1972</a>)
 
-Often, we seek to predict the duration of time until a given event will occur. Such models are used in a broad set of fields from economics to sociology, but they’re especially important in actuarial science.
+Often, we seek to predict the duration of time until a given event will occur. Such models are employed in a broad set of fields from economics to sociology, but they’re especially important in actuarial science.
 
 A particularly famous example is the Cox model, which models the multiplicative influence of a set of covariate predictors $\textbf{X}_i$ on the instantaneous death rate $\lambda(t \\lvert \textbf{X}_i)$ of a subject $i$ at time $t$:
 
