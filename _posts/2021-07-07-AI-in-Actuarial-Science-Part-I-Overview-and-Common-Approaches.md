@@ -92,7 +92,7 @@ Guided by expert knowledge and intuition about the nature of the phenomenon bein
 
 Breiman estimated that, at the time, 98% of statisticians employed such models.
 
-<font color = "red"><i>NB: As computers are not used to ascertain the underlying structure of the model, we cannot consider data models instances of AI.</i></font>
+<font color = "red"><i>NB: As computers are not used to ascertain the underlying structure of the data, we cannot consider data models instances of AI.</i></font>
 
 <p class="" style="margin: 16px;"></p>
 
