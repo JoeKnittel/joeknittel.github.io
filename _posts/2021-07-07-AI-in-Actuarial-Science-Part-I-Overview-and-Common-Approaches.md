@@ -138,9 +138,9 @@ $\bf{y} = \bf{X} \bf{\beta} + \bf{\epsilon}$
 
 This model is frequently used for binary classification tasks. The linear combination of predictor variables, instead of being applied directly, is now mapped to a probability by way of a logit link function:
 
-$\log\left(\frac{p}{1-p}\right) = \beta_0 + \sum\limits_{j=1}^{p} \beta_j x_{ij} + \epsilon_i$
+$\log\left(\frac{p_i}{1-p_i}\right) = \beta_0 + \sum\limits_{j=1}^{m} \beta_j x_{ij} + \epsilon_i$
 
-The probability $p$ can then be utilized to classify the target as $\text{TRUE}$ or $\text{FALSE}$ based on whether or not it is above the threshold value (e.g., $p = 0.8 \rightarrow \text{TRUE}$).
+The probability $p_i$ can then be utilized to classify the target as $\text{TRUE}$ or $\text{FALSE}$ based on whether or not it is above the threshold value (e.g., $p_i = 0.8 \rightarrow \text{TRUE}$).
 
 *Example*:
 
