@@ -306,7 +306,7 @@ Kaggle is a platform that allows teams to compete against one another (often wit
 
 The competition I chose has already had over 50,000 submissions from all over the globe. It’s a classification task (objective: predict whether a passenger on the Titanic would survive, based on a number of passenger-specific predictors) that uses tabular data. Though it’s not an actuarial dataset, I figured the nature of the problem was sufficiently similar in order to get some insight into how well our models work, in practice.
 
-All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below:
+All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below: <br>
 
 <iframe src="/experiments/final-analysis.html" width = "100%" height = 500 frameborder = 0> </iframe> <br>
 
