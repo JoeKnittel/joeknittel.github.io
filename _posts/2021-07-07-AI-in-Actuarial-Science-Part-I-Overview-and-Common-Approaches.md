@@ -88,7 +88,7 @@ In 2001, acclaimed statistician, Leo Breiman, <a href = "http://www2.math.uu.se/
 
 #### Data Models
 
-Guided by expert knowledge and intuition about the nature of the phenomenon being investigated, models take a parametric form: $y_i = f\left(x_{1i},x_{2i},…,x_{ni}\right)$
+Guided by expert knowledge and intuition about the nature of the phenomenon being investigated, these models take a parametric form: $y_i = f\left(x_{1i},x_{2i},…,x_{ni}\right)$
 
 Breiman estimated that, at the time, 98% of statisticians employed such models.
 
