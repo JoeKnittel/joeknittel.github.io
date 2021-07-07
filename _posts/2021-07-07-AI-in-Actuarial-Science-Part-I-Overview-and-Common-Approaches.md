@@ -92,13 +92,15 @@ Guided by expert knowledge and intuition about the nature of the phenomenon bein
 
 Breiman estimated that, at the time, 98% of statisticians employed such models.
 
-*NB: These models are not considered instances of AI, as computers are not used to ascertain the underlying structure of the model.*
+<font color = "red"><i>NB: As computers are not used to ascertain the underlying structure of the model, we cannot consider data models instances of AI.</i></font>
+
+<p class="" style="margin: 16px;"></p>
 
 #### Algorithmic Models
 
 These models have no pre-defined, human-biased form—their structures are determined based on algorithms which aim to maximize predictive performance.
 
-We're now stepping into the world of AI, into a subfield called machine learning (ML).
+For that reason, <font color = "#34a853">we consider algorithmic models instances of machine learning (ML), a subfield of AI</font>:
 
 <img src = "/images/ai-ml-dl.png">
 
@@ -308,9 +310,11 @@ The competition I chose has already had over 50,000 submissions from all over th
 
 All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below:
 
-<p class="" style="margin: 30px;"></p>
+<p class="" style="margin: 20px;"></p>
 
-<iframe src="/experiments/final-analysis.html" width = "100%" height = 500 frameborder = 0> </iframe> <br>
+<iframe src="/experiments/final-analysis.html" width = "100%" height = 500 frameborder = 0> </iframe>
+
+<p class="" style="margin: 20px;"></p>
 
 ### Results
 
