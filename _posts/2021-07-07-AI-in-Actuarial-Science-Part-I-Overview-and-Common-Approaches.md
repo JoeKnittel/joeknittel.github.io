@@ -306,7 +306,7 @@ I wanted to test this hypothesis, so I put the SOA curriculum-based tools to the
 
 Kaggle is a platform that allows teams to compete against one another (often with prizes at stake) in their ability to make predictions. The nature of the competitions and the set of competitors vary widely, with submissions coming from amateur investigators to industry experts with access to vast computational resources and the latest tools of the trade.
 
-The competition I chose has already had over 50,000 submissions from all over the globe. It’s a classification task (Objective: predict whether a passenger on the Titanic would survive, based on a number of passenger-specific predictors) that uses tabular data. Though it’s not an actuarial dataset, I figured the nature of the problem was sufficiently similar in order to get some insight into how well our models work, in practice.
+The competition I chose has already had over 50,000 submissions from all over the globe. It’s a classification task (objective: predict whether a passenger on the Titanic would survive, based on a number of passenger-specific predictors) that uses tabular data. Though it’s not an actuarial dataset, I figured the nature of the problem was sufficiently similar in order to get some insight into how well our models work, in practice.
 
 All <a href = "https://github.com/JoeKnittel/Kaggle-Competitions/tree/main/Titanic" target = "_blank">data, code, and plots for the analysis</a> can be found on my GitHub, and the report summarizing my findings is shown below:
 
