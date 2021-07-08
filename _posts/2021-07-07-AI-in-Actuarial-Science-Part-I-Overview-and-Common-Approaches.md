@@ -174,7 +174,7 @@ $y_i \sim \text{Poisson}(\lambda_i)$
 
 Regression models, whether they be simple linear regression of more complicated GLMs, are generally fit by finding the set of parameters (i.e., $\beta$'s) that minimize the sum of squared errors (SSE) between predictions and actual values of the target.
 
-Mathematically, the *standard regression* parameter optimization problem can be described as follows:
+Mathematically, the *ordinary least squares regression* parameter optimization problem can be described as follows:
 
 $\displaystyle \min_{\beta \in \mathbb{R}^p} \left\\{ \sum\limits_{i=1}^{n} \left( y_i - \sum\limits_{j=1}^{p} \beta_{j} x_{ij}  \right)^2 \right\\} $
 
